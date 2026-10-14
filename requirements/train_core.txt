@@ -1,0 +1,12 @@
+# 训练依赖基线。先独立安装兼容 CUDA 的 PyTorch；不要与 vLLM 的 torch 混用。
+transformers==4.52.3
+peft==0.21.0
+trl==0.18.0
+accelerate
+datasets
+safetensors
+numpy
+pandas
+tqdm
+sentencepiece
+scipy

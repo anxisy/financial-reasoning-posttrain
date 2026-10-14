@@ -1,0 +1,1951 @@
+{
+  "created_at_utc": "2026-10-14T05:48:30.212952+00:00",
+  "entry_count": 52,
+  "evidence": {
+    "evidence/analysis/conv_replay_dev.json": {
+      "bytes": 27352,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/analysis/replay_comparison.json",
+      "sha256": "b86db98d7d473e45c36e1a279e405cc7e80ffaee17f4793d8d249569d44778c4"
+    },
+    "evidence/analysis/conv_transfer_direct_dev.json": {
+      "bytes": 9469,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/paired_transfer_vs_direct_v1/paired_summary.json",
+      "sha256": "f92fa47c192f58e66247af926bf563120ac266c6f44bd5e63af700474c2871ca"
+    },
+    "evidence/analysis/finqa_retention_dev.json": {
+      "bytes": 5975,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/finqa_retention_v1/analysis/retention_summary.json",
+      "sha256": "d7546512e5faee86c6bcc15be1ff599f150f2e5fcb064ef03aadcf4b74c9553b"
+    },
+    "evidence/analysis/finqa_test_paired.json": {
+      "bytes": 3849,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/analysis/finqa_test_paired.json",
+      "sha256": "ea5cf9cd48f64b7d6d1d516072e9827c108dcf0ccf3d775e6f66cc66d3b10bdf"
+    },
+    "evidence/analysis/self_history_paired.json": {
+      "bytes": 5258,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/analysis/self_history_paired.json",
+      "sha256": "03fb70289bbbfe53aef1a52ebb9071166b2df8ded08190de2e78d0dc940f8ad3"
+    },
+    "evidence/conv_oracle_dev/direct/metrics.json": {
+      "bytes": 2421,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/02_qwen3_base/eval_dev/metrics.json",
+      "sha256": "e17bc550f52e238fcc24b1f39656da0d3758b794f2277c3c3fe93718c3907c54"
+    },
+    "evidence/conv_oracle_dev/direct/predictions.jsonl": {
+      "bytes": 1004375,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/02_qwen3_base/eval_dev/predictions.jsonl",
+      "sha256": "f589d0590383975069dd93c080b3f3fd86b07c7251ef0c44ccd188eb95218306"
+    },
+    "evidence/conv_oracle_dev/direct/run_config.json": {
+      "bytes": 649,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/02_qwen3_base/eval_dev/run_config.json",
+      "sha256": "64900d341d11f351f30992f249b26752d0966850111ec251f758dfcaeac093e1"
+    },
+    "evidence/conv_oracle_dev/replay/metrics.json": {
+      "bytes": 2409,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/eval_convfinqa_oracle/metrics.json",
+      "sha256": "0d04aab31464fdb7653d74aab77dd0a11e6a3fb63327c9902f189da73f62e88d"
+    },
+    "evidence/conv_oracle_dev/replay/predictions.jsonl": {
+      "bytes": 1009423,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/eval_convfinqa_oracle/predictions.jsonl",
+      "sha256": "44107cbb8e77b5747965a5338c28e07b8d2ce01a37ca62c1d72e491ccc947aeb"
+    },
+    "evidence/conv_oracle_dev/replay/run_config.json": {
+      "bytes": 657,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/eval_convfinqa_oracle/run_config.json",
+      "sha256": "1eb01933c55e5333d72ef21836e3f775780d04a92d3461c0a67b6898c87482a9"
+    },
+    "evidence/conv_oracle_dev/transfer/metrics.json": {
+      "bytes": 2409,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/01_finqa_sft_adapter/eval_dev/metrics.json",
+      "sha256": "4fc9204648d5d93a709bc27d704b9aa5800638828c944ab8b2a9b7bca506d66b"
+    },
+    "evidence/conv_oracle_dev/transfer/predictions.jsonl": {
+      "bytes": 1008375,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/01_finqa_sft_adapter/eval_dev/predictions.jsonl",
+      "sha256": "9ae7aab3b36dee4c43ac8db16c0282044aba267f93b5f9710347f4113802dadd"
+    },
+    "evidence/conv_oracle_dev/transfer/run_config.json": {
+      "bytes": 658,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/01_finqa_sft_adapter/eval_dev/run_config.json",
+      "sha256": "63285cf3738c9fd44f67cf25ddf03d7ecf6ab985a7e88a16d9c3d813d7b11600"
+    },
+    "evidence/data/replay_mix_manifest.json": {
+      "bytes": 1325,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/data/mix_manifest.json",
+      "sha256": "fac101b696d82e1e3edbb7f3ba1ad0137d15bd19493e5e2800bf10d9fb218c81"
+    },
+    "evidence/finqa_dev/direct/benchmark.json": {
+      "bytes": 1451,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/finqa_retention_v1/direct/full_dev/benchmark.json",
+      "sha256": "cb8758018c7c7e9e73125a63a8ee6ba4feeafe0ccab1466ad4bb97c414b57410"
+    },
+    "evidence/finqa_dev/direct/metrics.json": {
+      "bytes": 8196,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/finqa_retention_v1/direct/full_dev/metrics.json",
+      "sha256": "e422374223f25998d14ab6e0f04446aa5bdddbbcc763cae631892ddd3fc188c3"
+    },
+    "evidence/finqa_dev/direct/predictions.jsonl": {
+      "bytes": 670730,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/finqa_retention_v1/direct/full_dev/predictions.jsonl",
+      "sha256": "5f3315dab22acfc04ede6e9c7bcde589f2272205c649eba2220c4845845e1094"
+    },
+    "evidence/finqa_dev/original_sft/benchmark.json": {
+      "bytes": 1436,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/finqa_retention_v1/original_sft/full_dev/benchmark.json",
+      "sha256": "95cd5940ee63da1a08c3687958248d7ebe38e67bc8ef4d5b4d270eea20a2ddba"
+    },
+    "evidence/finqa_dev/original_sft/metrics.json": {
+      "bytes": 7711,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/finqa_retention_v1/original_sft/full_dev/metrics.json",
+      "sha256": "b419a0693bff1842d71302343553b30727e243f989c6b1aecbbd5750d0d32d6a"
+    },
+    "evidence/finqa_dev/original_sft/predictions.jsonl": {
+      "bytes": 684518,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/finqa_retention_v1/original_sft/full_dev/predictions.jsonl",
+      "sha256": "2fb410885064bd8ced812ecba6681d0f2d06cee1a5f2ed4124367e81b421988a"
+    },
+    "evidence/finqa_dev/replay/benchmark.json": {
+      "bytes": 1460,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/eval_finqa/full_dev/benchmark.json",
+      "sha256": "9e1795361836e6529f1f702ccd87a0120faa66a6e01181f8f40002df99d2175d"
+    },
+    "evidence/finqa_dev/replay/metrics.json": {
+      "bytes": 7776,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/eval_finqa/full_dev/metrics.json",
+      "sha256": "ece14cf75fe6e10aad973c96bd0f99b40e2833437f0cb228913b69c420f12b49"
+    },
+    "evidence/finqa_dev/replay/predictions.jsonl": {
+      "bytes": 684615,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/eval_finqa/full_dev/predictions.jsonl",
+      "sha256": "91f6318a3e9e64fc8d7fc22d63c9b0009bac37082f6eb2bd4a8197f3dc7318f1"
+    },
+    "evidence/finqa_dev/transfer/benchmark.json": {
+      "bytes": 1460,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/finqa_retention_v1/transfer/full_dev/benchmark.json",
+      "sha256": "7d269d6ec444299289916871a6bfc84b5f958f2c7c6236a687873276e17e3db6"
+    },
+    "evidence/finqa_dev/transfer/metrics.json": {
+      "bytes": 7798,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/finqa_retention_v1/transfer/full_dev/metrics.json",
+      "sha256": "9b6dfe71237b14b83500be08d3ba69e0946a5b433c307288e5514dc9273cd828"
+    },
+    "evidence/finqa_dev/transfer/predictions.jsonl": {
+      "bytes": 671241,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/finqa_retention_v1/transfer/full_dev/predictions.jsonl",
+      "sha256": "460b5eea1ab54d2d233e9341b493492e0b5ef4ee279fd555f89a6fca94e9a428"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/dev_manual_384/metrics.json": {
+      "bytes": 9077,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/dev_manual_384/metrics.json",
+      "sha256": "0c7f1af535736898903d830bb0cb178c56359c04861494e8b9e969803ba80b78"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/dev_manual_384/run_config.json": {
+      "bytes": 497,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/dev_manual_384/run_config.json",
+      "sha256": "527d5c66cd842c01bde6fafcd35ea7e042df082264f9bae5c0a4d79ef2c1a46d"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/dev_smoke/metrics.json": {
+      "bytes": 3003,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/dev_smoke/metrics.json",
+      "sha256": "ad373a50e2e17c03779189a9ba83469e282da5e3384099914cfcdf8550e04a83"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/dev_smoke/run_config.json": {
+      "bytes": 466,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/dev_smoke/run_config.json",
+      "sha256": "bae6e9a546653809a51b46b3cb3f4cc03dff81a44192b626dd2d69c77a1743de"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/dev_smoke_v1_1_1_chat_384/metrics.json": {
+      "bytes": 5610,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/dev_smoke_v1_1_1_chat_384/metrics.json",
+      "sha256": "29e3ada8dba9ec02010dc7f4f6ab47296b2ac3e4cc48a75569df14ea089cd64d"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/dev_smoke_v1_1_1_chat_384/run_config.json": {
+      "bytes": 501,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/dev_smoke_v1_1_1_chat_384/run_config.json",
+      "sha256": "16017d1d9752a5cbad6f770080f4924134c7dfe9c72f6edc0ea330f2a9a0ed64"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/dev_smoke_v1_1_1_manual_384/metrics.json": {
+      "bytes": 5646,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/dev_smoke_v1_1_1_manual_384/metrics.json",
+      "sha256": "79ba0f4895cbfb009aedfb154f977b14517acb7378a8a6dbf83a3439f4814a59"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/dev_smoke_v1_1_1_manual_384/run_config.json": {
+      "bytes": 496,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/dev_smoke_v1_1_1_manual_384/run_config.json",
+      "sha256": "c646ebc6132c966829ec9ff670c59a9ac2562c949f2c36b74d28be1529b51b8a"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/dev_smoke_v1_1_chat/metrics.json": {
+      "bytes": 5620,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/dev_smoke_v1_1_chat/metrics.json",
+      "sha256": "4c51f198a8dfa0c19025d1ddf53470f1cbf2290cabc4118c1af0cbfff3a83561"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/dev_smoke_v1_1_chat/run_config.json": {
+      "bytes": 501,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/dev_smoke_v1_1_chat/run_config.json",
+      "sha256": "03a5591b98f9d3aa8e32db7a0a40c27b78364f8c3f37231a37924f804cc63404"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/dev_smoke_v1_1_manual/metrics.json": {
+      "bytes": 5319,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/dev_smoke_v1_1_manual/metrics.json",
+      "sha256": "065cbe42f468870a8a87bc8e21e7e88daf9d7f05a2bfb99b9f179a1412cda5db"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/dev_smoke_v1_1_manual/run_config.json": {
+      "bytes": 496,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/dev_smoke_v1_1_manual/run_config.json",
+      "sha256": "0f5288493f1faf7ab3484ce84fe5b133d9d059b96aad66098257862b43d7d7d2"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/test_manual_384/metrics.json": {
+      "bytes": 9274,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/test_manual_384/metrics.json",
+      "sha256": "50a09e15ff0f2cec0b49b2461baf27f59a2f30866e6fa5320f906f33d5192cf3"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_0.6b/test_manual_384/run_config.json": {
+      "bytes": 499,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_0.6b/test_manual_384/run_config.json",
+      "sha256": "ea1ccab346bfb98de07a3cd7aea3b36d459f38b344c390afe65ccc7738ea2a02"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_1.7b/eval_dev_v1/metrics.json": {
+      "bytes": 9051,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_1.7b/eval_dev_v1/metrics.json",
+      "sha256": "35e18e2d2fb29ce99d0b2b2fac169b2404f0bed07473b06f1bd7f3db09741569"
+    },
+    "evidence/finqa_historical_runs/base_qwen3_1.7b/eval_dev_v1/run_config.json": {
+      "bytes": 548,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/base_qwen3_1.7b/eval_dev_v1/run_config.json",
+      "sha256": "d8ea8aa557fe294832011ae4a7c858db1e397b58f82b22edd684d5c3cd12e19c"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_daa_qwen3_0.6b/eval_dev_v1/metrics.json": {
+      "bytes": 7823,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/eval_dev_v1/metrics.json",
+      "sha256": "a8ef6b08d69072f33d209b62518f36d6f6200ebbd50a221d7726dd91270bc410"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_daa_qwen3_0.6b/eval_dev_v1/run_config.json": {
+      "bytes": 656,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/eval_dev_v1/run_config.json",
+      "sha256": "b0c918b3416a4f0600816f1a09c4e7b2c0121c7501ac21c2efb246f4d2bcefc9"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_daa_qwen3_0.6b/full_v1/checkpoint-6250/trainer_state.json": {
+      "bytes": 754981,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/checkpoint-6250/trainer_state.json",
+      "sha256": "45aae1d5705b4965b15fbf6800100948fcfccc6de354827049ff3fd84ec7d695"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_daa_qwen3_0.6b/full_v1/checkpoint-6251/trainer_state.json": {
+      "bytes": 754965,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/checkpoint-6251/trainer_state.json",
+      "sha256": "20c2d35c0006973f156317b5efa260f7cd7224441fac814f425b8a9e081a4742"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_daa_qwen3_0.6b/full_v1/diagnostics_summary.json": {
+      "bytes": 5185,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/diagnostics_summary.json",
+      "sha256": "2c3e688fb109055243931a72f258ec6fad61c01b8908009aafcdba7c04521f8c"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_daa_qwen3_0.6b/full_v1/dynamic_sampling_summary.json": {
+      "bytes": 3680,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/dynamic_sampling_summary.json",
+      "sha256": "e57d348c2f65b73c9345cbcef0bee905305a1c03ce0089646a2128a5ee00ebcd"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_daa_qwen3_0.6b/full_v1/run_config.json": {
+      "bytes": 3140,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/run_config.json",
+      "sha256": "7a285ca1fd67891dcce4ddaabb272adeed210c06363ac7d3cf83eaa2cc55ecd3"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/checkpoint-20/trainer_state.json": {
+      "bytes": 23974,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/checkpoint-20/trainer_state.json",
+      "sha256": "c38483e797bcc5689ef1c2973032a10d8743b007720c07ad864ba30da1e92a1d"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/diagnostics_summary.json": {
+      "bytes": 3868,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/diagnostics_summary.json",
+      "sha256": "8f24834f61d2d5d1c358b017a3da851fe2cc4696096264ca5d6297be5d1d004b"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/dynamic_sampling_summary.json": {
+      "bytes": 2828,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/dynamic_sampling_summary.json",
+      "sha256": "cb9ee472879459d50194d05c93ec4e1eb0bbf95d422ecabe69ba25532b5f1f29"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/run_config.json": {
+      "bytes": 3046,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/run_config.json",
+      "sha256": "f95900d4bbdcfa93db363c9285e8a9a0c2a8c51f9003b89b15040625c89ce3f4"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/eval_dev_evidence_prompt_control/metrics.json": {
+      "bytes": 8338,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/eval_dev_evidence_prompt_control/metrics.json",
+      "sha256": "7883f4b4ddd08ea5f5a673f979651e6bc55065346a005e68a829025ad69e86ca"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/eval_dev_evidence_prompt_control/run_config.json": {
+      "bytes": 656,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/eval_dev_evidence_prompt_control/run_config.json",
+      "sha256": "35e34f83eeaaf0dfe764b83fa9329bea6109df7b49e2623dd81fedbd8836a5ba"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/eval_dev_v1/metrics.json": {
+      "bytes": 7812,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/eval_dev_v1/metrics.json",
+      "sha256": "bcd9a4f87ef372de55c2d1f57f2c02bf98c68c60f7e7549ccd77c9d446f079fa"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/eval_dev_v1/run_config.json": {
+      "bytes": 652,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/eval_dev_v1/run_config.json",
+      "sha256": "7e0913289bcf7168ce290682ee35145bf77b11098ec998227ba2c1907e4f88ed"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/eval_test_v1/metrics.json": {
+      "bytes": 8054,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/eval_test_v1/metrics.json",
+      "sha256": "c121b9dee4b180a323f350e1dc235652a62fde479134f43adcc1f1550b193e97"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/eval_test_v1/run_config.json": {
+      "bytes": 654,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/eval_test_v1/run_config.json",
+      "sha256": "e3913631fa9de5fcb5cb60b38423c84a2b97568802019c64e5047dc64f781ecb"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/full_v1/checkpoint-6250/trainer_state.json": {
+      "bytes": 592461,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/checkpoint-6250/trainer_state.json",
+      "sha256": "b1d3ef7a44f54fcf638ee9fc07d544e2b0ebb63d331a82f7b2672b8d887a71f4"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/full_v1/checkpoint-6251/trainer_state.json": {
+      "bytes": 592445,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/checkpoint-6251/trainer_state.json",
+      "sha256": "3f1a101c6f39c593e5b2a212254e44297c2f634d337c76edd8e253e595d26049"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/full_v1/diagnostics_summary.json": {
+      "bytes": 5226,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/diagnostics_summary.json",
+      "sha256": "3e9ea4baa68ec76d16ea462985144e3a95ff8a01e0fc379145bf1a8560104e86"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/full_v1/dynamic_sampling_summary.json": {
+      "bytes": 3713,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/dynamic_sampling_summary.json",
+      "sha256": "a910961a1813ac9a6ce35b539ec4f99e8bf7bf293f65ec70379ba8caed7525eb"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/full_v1/run_config.json": {
+      "bytes": 2775,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/run_config.json",
+      "sha256": "d78d8faba7980d86a3c0763c6542c23fc707f8516db882f68ccf72a2f329342d"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/preflight_v1/checkpoint-12/trainer_state.json": {
+      "bytes": 11477,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/preflight_v1/checkpoint-12/trainer_state.json",
+      "sha256": "236067439d155344093a0d2959012060b0ac6919f85659fff96babb8391d7ee1"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/preflight_v1/diagnostics_summary.json": {
+      "bytes": 3422,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/preflight_v1/diagnostics_summary.json",
+      "sha256": "22c30274a508f3de129eec8074ecfb0e90853aac3089355ea682f501170919bb"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/preflight_v1/dynamic_sampling_summary.json": {
+      "bytes": 2608,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/preflight_v1/dynamic_sampling_summary.json",
+      "sha256": "ffb598f82b73d0cf6af5644411256988659776c7704cf0f09726e9cc5b86adae"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_0.6b/preflight_v1/run_config.json": {
+      "bytes": 2685,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/preflight_v1/run_config.json",
+      "sha256": "a0bfd038a86d5e0d1ab914f1c0c7fda6fbec25ca390559b80164753fbd9763de"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_1.7b/eval_dev_v1/metrics.json": {
+      "bytes": 7754,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/eval_dev_v1/metrics.json",
+      "sha256": "b6505fdba0e45d1692a98a2e7b86e85886ca1f236deb186a3cba43ea4c2b61ff"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_1.7b/eval_dev_v1/run_config.json": {
+      "bytes": 652,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/eval_dev_v1/run_config.json",
+      "sha256": "4bd1cae8ac4d50e3b257332ca6cec3450c5bf5c51c666ecb50b7b6e97855be4b"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_1.7b/eval_test_v1/metrics.json": {
+      "bytes": 8058,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/eval_test_v1/metrics.json",
+      "sha256": "55a9440a308688b15ece2c2465e588bab3b36b1196baf84fa9a93265a15e9bb3"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_1.7b/eval_test_v1/run_config.json": {
+      "bytes": 654,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/eval_test_v1/run_config.json",
+      "sha256": "5b59289cfdbfd251b9252b37c6302a6de15c7b31337f1e605cc29503d28466f7"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_1.7b/full_v1/checkpoint-6250/trainer_state.json": {
+      "bytes": 592056,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/checkpoint-6250/trainer_state.json",
+      "sha256": "24a22889de893ee623c9c0204670a4cfa79f5607be4ff092e6f4f931c44f520a"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_1.7b/full_v1/checkpoint-6251/trainer_state.json": {
+      "bytes": 592040,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/checkpoint-6251/trainer_state.json",
+      "sha256": "2a4dacd1e10df04e2c78f2213bfbaa6c3a7b27614746c40232e3575090217fc6"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_1.7b/full_v1/diagnostics_summary.json": {
+      "bytes": 5206,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/diagnostics_summary.json",
+      "sha256": "3877caf696def3857d4bcc74493dfbf457d68afe3182ebb5f93bbfd86d17c4cb"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_1.7b/full_v1/dynamic_sampling_summary.json": {
+      "bytes": 3701,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/dynamic_sampling_summary.json",
+      "sha256": "8f93224d783bba2d06d08aaf5b2f9557feeb69165b149b13417801778b662352"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_1.7b/full_v1/run_config.json": {
+      "bytes": 2825,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/run_config.json",
+      "sha256": "6e6165818701ca1761e59f01a83bc57d2ac1236b054e197c81f1d42c92dcb12e"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_1.7b/preflight_v1/checkpoint-12/trainer_state.json": {
+      "bytes": 11430,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/preflight_v1/checkpoint-12/trainer_state.json",
+      "sha256": "1a8be3e31304b626d8ad038707a7b4f31eb855d6beeb68ad8a9103ea84b9f7af"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_1.7b/preflight_v1/diagnostics_summary.json": {
+      "bytes": 3626,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/preflight_v1/diagnostics_summary.json",
+      "sha256": "c942636d615e6836b5448133073e6b94f76c69960cf60a485c54b49c0f41cc7c"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_1.7b/preflight_v1/dynamic_sampling_summary.json": {
+      "bytes": 2714,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/preflight_v1/dynamic_sampling_summary.json",
+      "sha256": "d28cc22c32a9b029441bfa0509294672896009a7f7097f9d40bd301a88cd8b31"
+    },
+    "evidence/finqa_historical_runs/grpo_dynamic_qwen3_1.7b/preflight_v1/run_config.json": {
+      "bytes": 2735,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/preflight_v1/run_config.json",
+      "sha256": "ce71f3a8f40936bed4f33dddd7aa66d6fd6ce3da1ab3bd2ba0930ff34e19e2ed"
+    },
+    "evidence/finqa_historical_runs/grpo_learnability_qwen3_0.6b/eval_dev_v1/metrics.json": {
+      "bytes": 7833,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/eval_dev_v1/metrics.json",
+      "sha256": "1f180b9cd34adedc6b2274c63f518ccc769fff229e4ffa3a422bfdfbbbd0100d"
+    },
+    "evidence/finqa_historical_runs/grpo_learnability_qwen3_0.6b/eval_dev_v1/run_config.json": {
+      "bytes": 657,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/eval_dev_v1/run_config.json",
+      "sha256": "b7ce7bde05364787665c4f674762bcc9f648108de14e1de457a81213ed796bd6"
+    },
+    "evidence/finqa_historical_runs/grpo_learnability_qwen3_0.6b/full_v1/checkpoint-6250/trainer_state.json": {
+      "bytes": 592807,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/full_v1/checkpoint-6250/trainer_state.json",
+      "sha256": "46c9a2372e69af5c708b730f1007f2a853a3c1937f0efd69625c5ad548dfe84a"
+    },
+    "evidence/finqa_historical_runs/grpo_learnability_qwen3_0.6b/full_v1/checkpoint-6251/trainer_state.json": {
+      "bytes": 592791,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/full_v1/checkpoint-6251/trainer_state.json",
+      "sha256": "6d15145bd2a0564438c50340f1a51faa31201625e06a2ab9d2aa04a544efe20f"
+    },
+    "evidence/finqa_historical_runs/grpo_learnability_qwen3_0.6b/full_v1/diagnostics_summary.json": {
+      "bytes": 5167,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/full_v1/diagnostics_summary.json",
+      "sha256": "e5a280d3334f63405565f76097fac751477675dda84fb61a5b2723fa5ca4856a"
+    },
+    "evidence/finqa_historical_runs/grpo_learnability_qwen3_0.6b/full_v1/run_config.json": {
+      "bytes": 3174,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/full_v1/run_config.json",
+      "sha256": "ffeb83e492d671515a5c319c34af9721f17f8bc5bd8c8a698c8a05d428006f51"
+    },
+    "evidence/finqa_historical_runs/grpo_learnability_qwen3_0.6b/preflight_v1/checkpoint-24/trainer_state.json": {
+      "bytes": 22398,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/preflight_v1/checkpoint-24/trainer_state.json",
+      "sha256": "fdc84cf43c1803879021f0739b9df34c493f2554e80431a4d83bda2f4588dc96"
+    },
+    "evidence/finqa_historical_runs/grpo_learnability_qwen3_0.6b/preflight_v1/diagnostics_summary.json": {
+      "bytes": 3745,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/preflight_v1/diagnostics_summary.json",
+      "sha256": "99d9588ac96d43e016e7a9f19c7468c8991b83b562fdb27911d63d1baddd1225"
+    },
+    "evidence/finqa_historical_runs/grpo_learnability_qwen3_0.6b/preflight_v1/run_config.json": {
+      "bytes": 3180,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/preflight_v1/run_config.json",
+      "sha256": "96df351d8b5e4dbfcc742834c0b85b93a6e72e69e7c73b183457bacf297a2877"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/eval_dev_v1/metrics.json": {
+      "bytes": 7830,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/eval_dev_v1/metrics.json",
+      "sha256": "22f5fe5c25ad89c3016806b4e97b923df80eda86df8542862ca7d1dcd6e0eb41"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/eval_dev_v1/run_config.json": {
+      "bytes": 644,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/eval_dev_v1/run_config.json",
+      "sha256": "6d011851ca04b762d299d7d7045101c3cfcf9a4d498743155b805401b57987e1"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/eval_test_v1/metrics.json": {
+      "bytes": 7994,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/eval_test_v1/metrics.json",
+      "sha256": "de0d5d76836a8073e244e8af5f36bd07a2b04a2f26bf6aee408af9c5f4eba912"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/eval_test_v1/run_config.json": {
+      "bytes": 646,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/eval_test_v1/run_config.json",
+      "sha256": "6b9cefe60d06a5d22a056bb237696daec2d425354831f8534d597e385490aba4"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/full_v1/checkpoint-6250/trainer_state.json": {
+      "bytes": 589074,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/full_v1/checkpoint-6250/trainer_state.json",
+      "sha256": "67c251edff31e2f63c00c30d56fb2b8c3500e400c02b56d531d9077458ef911a"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/full_v1/checkpoint-6251/trainer_state.json": {
+      "bytes": 589058,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/full_v1/checkpoint-6251/trainer_state.json",
+      "sha256": "faa079e120fe8020fbdc3b3b6e238d2762fb76e714373152389b4de0b6449eec"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/full_v1/diagnostics_summary.json": {
+      "bytes": 5110,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/full_v1/diagnostics_summary.json",
+      "sha256": "3a901bbac42087e0bda645a751636c6b97000cf5cde2bcfa342b8d1c19a1c6b4"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/full_v1/run_config.json": {
+      "bytes": 2689,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/full_v1/run_config.json",
+      "sha256": "7b28078f58afab08ee0b194fad5021ec3b4c83b31bac18916bdc05e8b863fbd0"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/preflight_kl_v1/checkpoint-8/trainer_state.json": {
+      "bytes": 751,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1/checkpoint-8/trainer_state.json",
+      "sha256": "241cf1b88a7342f1b914ee3252aaca3cb82297a01b7323caef15b3334ec1f0df"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/preflight_kl_v1/diagnostics_summary.json": {
+      "bytes": 2533,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1/diagnostics_summary.json",
+      "sha256": "26ffbaff2753e1433b46803459500911d106b8cdef016bbaf3a42503c5b634a7"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/preflight_kl_v1/run_config.json": {
+      "bytes": 2618,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1/run_config.json",
+      "sha256": "58d67af89cbef56ab38681cef5e7160ec6fe8794a68ced9c77ee98228dd8c135"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/preflight_kl_v1_patch1/checkpoint-8/trainer_state.json": {
+      "bytes": 7634,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1_patch1/checkpoint-8/trainer_state.json",
+      "sha256": "92af4585c8b3c4ad5b9a1b94198170f8e1f7eb68aa44b1ce8ef2620b014e702f"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/preflight_kl_v1_patch1/diagnostics_summary.json": {
+      "bytes": 2533,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1_patch1/diagnostics_summary.json",
+      "sha256": "26ffbaff2753e1433b46803459500911d106b8cdef016bbaf3a42503c5b634a7"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/preflight_kl_v1_patch1/run_config.json": {
+      "bytes": 2699,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1_patch1/run_config.json",
+      "sha256": "e775f038b6a49ff81188d59f9abe5403085404fe15640de0b13b587fa8f4555c"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/smoke_v1/checkpoint-10/trainer_state.json": {
+      "bytes": 9260,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/smoke_v1/checkpoint-10/trainer_state.json",
+      "sha256": "e8f0bb11ac3e2f5e0a4781ff73c13b3f117dbbf242d2b58677cb55afc88460b6"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/smoke_v1/diagnostics_summary.json": {
+      "bytes": 1127,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/smoke_v1/diagnostics_summary.json",
+      "sha256": "3005ae12291cf4f843d485df53c649234fe3dd2f0cf44820b7db7ae05190f5cf"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_0.6b/smoke_v1/run_config.json": {
+      "bytes": 1928,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/smoke_v1/run_config.json",
+      "sha256": "cc6bf66b60b5b2a8d9290b61310ad37bed2391bf2e82cd046514a6e679695582"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_1.7b/eval_dev_v1/metrics.json": {
+      "bytes": 7781,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/eval_dev_v1/metrics.json",
+      "sha256": "34c1f7ebdf61361c2d2dc2555d2c23f4bad8db4708188dc362db8a34fb083cdc"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_1.7b/eval_dev_v1/run_config.json": {
+      "bytes": 644,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/eval_dev_v1/run_config.json",
+      "sha256": "a860f5fc2cdcd6ac96b5ec6e295f133a6ccdc205883f4813ea7452db0994dfaa"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_1.7b/eval_test_v1/metrics.json": {
+      "bytes": 8062,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/eval_test_v1/metrics.json",
+      "sha256": "1bf186078832ed6c30569603a45a212e41f3867253e42b1f3f03d460042e3c8a"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_1.7b/eval_test_v1/run_config.json": {
+      "bytes": 646,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/eval_test_v1/run_config.json",
+      "sha256": "8522b82d6e8d1d27f789372b7e80e8495a035955b1b44918304f71f223b42b09"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_1.7b/full_v1/checkpoint-6250/trainer_state.json": {
+      "bytes": 587215,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/full_v1/checkpoint-6250/trainer_state.json",
+      "sha256": "914a19d0535f61f71cae391252941c5bcbbb068305affa893d7ed5d109e1ff2b"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_1.7b/full_v1/checkpoint-6251/trainer_state.json": {
+      "bytes": 587199,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/full_v1/checkpoint-6251/trainer_state.json",
+      "sha256": "2e8f55f8589beed3a3a960c297dc274a905b1f72ec9a6c3ec88f3573b4fdd6a7"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_1.7b/full_v1/diagnostics_summary.json": {
+      "bytes": 5121,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/full_v1/diagnostics_summary.json",
+      "sha256": "e223bccb261552b845bb02e229d7f86f5212e2f79971257e3b1f7075ef2f2c73"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_1.7b/full_v1/run_config.json": {
+      "bytes": 2689,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/full_v1/run_config.json",
+      "sha256": "6ae818215abd93c3ad255bc6bf5938092201be965ff7bad16b93806639789081"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_1.7b/preflight_kl_v1/checkpoint-8/trainer_state.json": {
+      "bytes": 7742,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/preflight_kl_v1/checkpoint-8/trainer_state.json",
+      "sha256": "14c7d8abd210cbe73348ad72b97af2d0a333bcf29de7cbba94f18837481f60ce"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_1.7b/preflight_kl_v1/diagnostics_summary.json": {
+      "bytes": 2565,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/preflight_kl_v1/diagnostics_summary.json",
+      "sha256": "40c7441aed4356e35759bfbf74ff95e779a4d2f530664b200fecc0103771594d"
+    },
+    "evidence/finqa_historical_runs/grpo_qwen3_1.7b/preflight_kl_v1/run_config.json": {
+      "bytes": 2692,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/preflight_kl_v1/run_config.json",
+      "sha256": "c1f782416b978abfc16da1ad64148b2bf544d4041a96394f9b347dfcfa79340e"
+    },
+    "evidence/finqa_historical_runs/grpo_reward_shaping_qwen3_0.6b/eval_dev_v1/metrics.json": {
+      "bytes": 7804,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/eval_dev_v1/metrics.json",
+      "sha256": "e60a4b2c0c0df09edcc86165060884431ba05c161c4d708ca0ea7437ecfbd20f"
+    },
+    "evidence/finqa_historical_runs/grpo_reward_shaping_qwen3_0.6b/eval_dev_v1/run_config.json": {
+      "bytes": 659,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/eval_dev_v1/run_config.json",
+      "sha256": "ae5e907e5e0c692716ac2b168d970e6b8d39d58a533c8febe85b60db7e85554a"
+    },
+    "evidence/finqa_historical_runs/grpo_reward_shaping_qwen3_0.6b/full_v1/checkpoint-6250/trainer_state.json": {
+      "bytes": 593299,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/full_v1/checkpoint-6250/trainer_state.json",
+      "sha256": "fcb8d6e6918667e87de90a56ded399fa4c4b71a46fc7c7aa219e9e8f3a56247d"
+    },
+    "evidence/finqa_historical_runs/grpo_reward_shaping_qwen3_0.6b/full_v1/checkpoint-6251/trainer_state.json": {
+      "bytes": 593283,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/full_v1/checkpoint-6251/trainer_state.json",
+      "sha256": "7f30d8217b68629dd128d59ac73ef47b87c8605a236dc8fded7aea0c16fce51c"
+    },
+    "evidence/finqa_historical_runs/grpo_reward_shaping_qwen3_0.6b/full_v1/diagnostics_summary.json": {
+      "bytes": 6235,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/full_v1/diagnostics_summary.json",
+      "sha256": "8b4bd9acd9650962fa6bbd3829b8ed1f8d0b5ad23430486f737be8169e829d6b"
+    },
+    "evidence/finqa_historical_runs/grpo_reward_shaping_qwen3_0.6b/full_v1/run_config.json": {
+      "bytes": 2821,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/full_v1/run_config.json",
+      "sha256": "bb08b323d3290c19666eb9c15df2ee174cddf01bc8be3e3c2e52da3fbfcbc0fb"
+    },
+    "evidence/finqa_historical_runs/grpo_reward_shaping_qwen3_0.6b/preflight_v1/checkpoint-12/trainer_state.json": {
+      "bytes": 11653,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/preflight_v1/checkpoint-12/trainer_state.json",
+      "sha256": "904d98878b83076d551e670c06b06dc7b52133220ef2f8271e334ecb000dd5b2"
+    },
+    "evidence/finqa_historical_runs/grpo_reward_shaping_qwen3_0.6b/preflight_v1/diagnostics_summary.json": {
+      "bytes": 4046,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/preflight_v1/diagnostics_summary.json",
+      "sha256": "63f3d15f8c7756fe5228185f2cc99e2927c682e316560b3e945f5c084a81687c"
+    },
+    "evidence/finqa_historical_runs/grpo_reward_shaping_qwen3_0.6b/preflight_v1/run_config.json": {
+      "bytes": 2724,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/preflight_v1/run_config.json",
+      "sha256": "f740a0924866918520fc92a701a66b39fea332c58a3f86bec596789c752cb2a6"
+    },
+    "evidence/finqa_historical_runs/sft_evidence_qwen3_0.6b/eval_dev_v1/metrics.json": {
+      "bytes": 7859,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/eval_dev_v1/metrics.json",
+      "sha256": "0aba2d58f5d01e30e4b26c73bbb2c7b687d55ea6d483351b4fdecfa3dc3dd3e3"
+    },
+    "evidence/finqa_historical_runs/sft_evidence_qwen3_0.6b/eval_dev_v1/run_config.json": {
+      "bytes": 656,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/eval_dev_v1/run_config.json",
+      "sha256": "03530277ed7f6a4b45aacb449fda7131fb6730442887f411b8add32e530fc99a"
+    },
+    "evidence/finqa_historical_runs/sft_evidence_qwen3_0.6b/full_v1/checkpoint-1544/trainer_state.json": {
+      "bytes": 27982,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/full_v1/checkpoint-1544/trainer_state.json",
+      "sha256": "2fadcb27c4eb77d462ebb91b9e431d8e4caa7f09b600f631d28086c4a8544634"
+    },
+    "evidence/finqa_historical_runs/sft_evidence_qwen3_0.6b/full_v1/checkpoint-772/trainer_state.json": {
+      "bytes": 14419,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/full_v1/checkpoint-772/trainer_state.json",
+      "sha256": "e34927746c190555b9b95af55174e33bc8872a80cbc23652e679e86677de6e2e"
+    },
+    "evidence/finqa_historical_runs/sft_evidence_qwen3_0.6b/full_v1/training_report.json": {
+      "bytes": 3068,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/full_v1/training_report.json",
+      "sha256": "64576e712ed5a52317e25ca09ef76b36e51acec4bb901c21e5b7756220918adc"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_0.6b/eval_dev_v1/metrics.json": {
+      "bytes": 8317,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/eval_dev_v1/metrics.json",
+      "sha256": "31d87f822ca359707995417cb2b830556676da4c13775a4c4fcf2de03cadc60a"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_0.6b/eval_dev_v1/run_config.json": {
+      "bytes": 643,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/eval_dev_v1/run_config.json",
+      "sha256": "90b3bfa47e66848c8d80d3fd54f7932e50a7480d89ef0b86e5012c5844713d7a"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_0.6b/eval_test_v1/metrics.json": {
+      "bytes": 8630,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/eval_test_v1/metrics.json",
+      "sha256": "a07f2b79c4540bfe288f873472b80b971c34d0fbfb6633c3670b3a5a5116dfe4"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_0.6b/eval_test_v1/run_config.json": {
+      "bytes": 645,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/eval_test_v1/run_config.json",
+      "sha256": "67d671757bf1d3626fbf74d35bc29647beab3bb6d5fc2dfacd6bd1a557afb9cc"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_0.6b/full_v1/checkpoint-1564/trainer_state.json": {
+      "bytes": 28351,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/full_v1/checkpoint-1564/trainer_state.json",
+      "sha256": "ea4765ed1f16cfdd31f1d49ac9e64f121f917150b6fb83b7e94a9acf912f679f"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_0.6b/full_v1/checkpoint-782/trainer_state.json": {
+      "bytes": 14606,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/full_v1/checkpoint-782/trainer_state.json",
+      "sha256": "8e7a03d4ed229959eaa0c78309c77dadfa9cb11fef43f09c4c94f543bbf33f19"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_0.6b/full_v1/training_report.json": {
+      "bytes": 3051,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/full_v1/training_report.json",
+      "sha256": "9894677599a1f78a850a62d6c2a0ed02411fc2939371a2d377f93f9116e6f4ac"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_0.6b/smoke_v1/checkpoint-10/trainer_state.json": {
+      "bytes": 2503,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/smoke_v1/checkpoint-10/trainer_state.json",
+      "sha256": "2a8fb6b455bf4840f12b32066de4078c67673e8a7d275c87a965e2edab547a35"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_0.6b/smoke_v1/checkpoint-20/trainer_state.json": {
+      "bytes": 4280,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/smoke_v1/checkpoint-20/trainer_state.json",
+      "sha256": "65abbd4aec2e452f45fbb7b6e29a81cc234a416536a6fc1e386dcaa12be9b42d"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_1.7b/eval_dev_v1/metrics.json": {
+      "bytes": 7811,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/eval_dev_v1/metrics.json",
+      "sha256": "8bb19c93de8cd8f0510cc31d0f5fedd26403bd6fad2d8f75c51ed176ad5c5696"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_1.7b/eval_dev_v1/run_config.json": {
+      "bytes": 643,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/eval_dev_v1/run_config.json",
+      "sha256": "ae9b4735b85597689ff3ed9795babaa4615c43c5399429128f984238031e7e53"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_1.7b/eval_test_v1/metrics.json": {
+      "bytes": 8018,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/eval_test_v1/metrics.json",
+      "sha256": "1b84d9b24a5fdec206a2fb17fe09debff14e17535e35347b2cfaca3da4bb6343"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_1.7b/eval_test_v1/run_config.json": {
+      "bytes": 645,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/eval_test_v1/run_config.json",
+      "sha256": "1ac774b0e1ef24db2821970f455eff34609cd6e3f39a48edfae2583d8e11a0ea"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_1.7b/full_v1/checkpoint-1564/trainer_state.json": {
+      "bytes": 28390,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/full_v1/checkpoint-1564/trainer_state.json",
+      "sha256": "c59372b1f77bc63276a130c9bc548557c274c5a3c6e63df0f494f8c19df2dc25"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_1.7b/full_v1/checkpoint-782/trainer_state.json": {
+      "bytes": 14621,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/full_v1/checkpoint-782/trainer_state.json",
+      "sha256": "b1e49e52ddf93d37e50785009f278ccafaadb2a7b2562abdbd15ada71a779ac1"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_1.7b/full_v1/training_report.json": {
+      "bytes": 3565,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/full_v1/training_report.json",
+      "sha256": "d92c14e309fbb9fcdced69d2b2489e491d4f48230dc62755f3744176cbf5791a"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_1.7b/preflight_v1/checkpoint-12/trainer_state.json": {
+      "bytes": 1223,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/preflight_v1/checkpoint-12/trainer_state.json",
+      "sha256": "73f7e41a974466e30a50e9ffd25ec02fbe9b721fb016da120cce8fe6ad80b60e"
+    },
+    "evidence/finqa_historical_runs/sft_qwen3_1.7b/preflight_v1/training_report.json": {
+      "bytes": 3511,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/preflight_v1/training_report.json",
+      "sha256": "215e520d1461e3d48df83cf93fc9653e340448872cb8f4d905adc486a1db33e3"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/compare_full_b2/comparison.json": {
+      "bytes": 1147,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/compare_full_b2/comparison.json",
+      "sha256": "f6f3a09de086d823fddda603dadcb41a5071a11ba23c4af463f01396415c02ab"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/compare_full_queue/comparison.json": {
+      "bytes": 1165,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/compare_full_queue/comparison.json",
+      "sha256": "2f5f691d25ffe1d785c125fc8f4ce99ff02fbc18b84d8f5b93f6bed80c2226ee"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/compare_smoke20/comparison.json": {
+      "bytes": 1116,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/compare_smoke20/comparison.json",
+      "sha256": "f39aa89f16b6cfaeca7fa3ed5d993fc27e3b9743f59ef4653dc2f23e62ed13f6"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/transformers_full_b16/benchmark.json": {
+      "bytes": 1361,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/transformers_full_b16/benchmark.json",
+      "sha256": "c467b1f0b43024a0d7e0c772740df5808f7dbdcf4e1012ed16cf550fc9c4ef41"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/transformers_full_b16/metrics.json": {
+      "bytes": 7632,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/transformers_full_b16/metrics.json",
+      "sha256": "bc7e5b5eaec9a966ac6d682b29754abe16d80c714e2f55f718c947fe3fc1281b"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/transformers_full_b2/benchmark.json": {
+      "bytes": 1359,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/transformers_full_b2/benchmark.json",
+      "sha256": "3bf53f71c8af72d5335c1d57119afad54067bbd8a7eb74c9cb78c858b48ee70f"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/transformers_full_b2/metrics.json": {
+      "bytes": 7633,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/transformers_full_b2/metrics.json",
+      "sha256": "c573ee80705b28c4a56eb58a9c752456392169e2a0e27515f994ae5fa03b2ce2"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/transformers_full_b32/benchmark.json": {
+      "bytes": 1361,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/transformers_full_b32/benchmark.json",
+      "sha256": "3ecbbe123f3cb7ce7a1a9411d770597f59b18b99e80c146bb221e78a52ef9c09"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/transformers_full_b32/metrics.json": {
+      "bytes": 7649,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/transformers_full_b32/metrics.json",
+      "sha256": "9febd5e065576419918e206cbe4cbbe170340eb19b23319092bc3386b424f25f"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/transformers_full_b8/benchmark.json": {
+      "bytes": 1361,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/transformers_full_b8/benchmark.json",
+      "sha256": "2110b28673f735f006a644fba624d528c0b5efbd27dfa032eb774de7608a6df4"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/transformers_full_b8/metrics.json": {
+      "bytes": 7613,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/transformers_full_b8/metrics.json",
+      "sha256": "8ec86f643fa049538288a23f78504095bf12b224564b8bb50fe38318e4927f77"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/transformers_smoke20/benchmark.json": {
+      "bytes": 1359,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/transformers_smoke20/benchmark.json",
+      "sha256": "f3704d55c4aaf0550fa83cf90284bc4db47b859f4e192818e524a18a8eab751e"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/transformers_smoke20/metrics.json": {
+      "bytes": 4801,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/transformers_smoke20/metrics.json",
+      "sha256": "34380e3c9ad54a095411f8d85e936c5eef0105e736dd6378f79225e98778907f"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/vllm_compiled_smoke20/benchmark.json": {
+      "bytes": 1441,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/vllm_compiled_smoke20/benchmark.json",
+      "sha256": "e6a2b68b42c7830106d3b87c0a40a12598fef7edb3d73980fb6f9d5997dba626"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/vllm_compiled_smoke20/metrics.json": {
+      "bytes": 4890,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/vllm_compiled_smoke20/metrics.json",
+      "sha256": "4b04d727365a5a808ad6d658b84030f226413200cdcb5b237929720bf3fb2627"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/vllm_full_b2/benchmark.json": {
+      "bytes": 1444,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/vllm_full_b2/benchmark.json",
+      "sha256": "8525d4f2e23ec0f260b1c69e705deddc058a0c159ff80ef451650703bf02845a"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/vllm_full_b2/metrics.json": {
+      "bytes": 7732,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/vllm_full_b2/metrics.json",
+      "sha256": "b01cffed617b809149e78976d17be8cb8daa7839458b94edacd21673ef183d15"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/vllm_full_queue/benchmark.json": {
+      "bytes": 1445,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/vllm_full_queue/benchmark.json",
+      "sha256": "0b4f13e001414ef1fa0f5b943d663cda3363dea2e5ca221d82c97ab74a045246"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/vllm_full_queue/metrics.json": {
+      "bytes": 7742,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/vllm_full_queue/metrics.json",
+      "sha256": "ff498d4f454ac41520d7f3aac39dc89109117104fdd49f8df67bc6939c81c105"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/vllm_smoke20/benchmark.json": {
+      "bytes": 1440,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/vllm_smoke20/benchmark.json",
+      "sha256": "42cced45b5fc8d46a8899cdc1c60580c3ae81408696d97a8b4bf3d87d22c7a6d"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/vllm_smoke20/metrics.json": {
+      "bytes": 4891,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/vllm_smoke20/metrics.json",
+      "sha256": "de99706b46904f060b3b946dc8f168d6fd14237f56dbd758719aed42490c6918"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/vllm_test_queue/benchmark.json": {
+      "bytes": 1448,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/vllm_test_queue/benchmark.json",
+      "sha256": "de23e92575b96e2198387d0b56fd156f669144b1c44ccc89b1603895bfd04f32"
+    },
+    "evidence/finqa_historical_runs/vllm_benchmark_1p7b/vllm_test_queue/metrics.json": {
+      "bytes": 8018,
+      "origin": "/root/autodl-tmp/project/finqa_posttrain/experiments/vllm_benchmark_1p7b/vllm_test_queue/metrics.json",
+      "sha256": "ea906da30ab05574afb2d7a5d15037b733f8c1724f17f92cece9d27daf796252"
+    },
+    "evidence/finqa_test/direct/benchmark.json": {
+      "bytes": 1457,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/finqa_test/direct/full_test/benchmark.json",
+      "sha256": "5f9aebaf395c6732d4fa3fa601fc1c58ee85a18b17f1e66e6303fe8f0849a169"
+    },
+    "evidence/finqa_test/direct/metrics.json": {
+      "bytes": 8058,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/finqa_test/direct/full_test/metrics.json",
+      "sha256": "0ca0bf9486d47a7a10499bb6cfb92ea775765e3941455ba912f27827a74fd7f0"
+    },
+    "evidence/finqa_test/direct/predictions.jsonl": {
+      "bytes": 872095,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/finqa_test/direct/full_test/predictions.jsonl",
+      "sha256": "04320426b5449710e5188898aeb0e0d43160f65a13c58b093ed61ec990c71001"
+    },
+    "evidence/finqa_test/original_sft/benchmark.json": {
+      "bytes": 1442,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/finqa_test/original_sft/full_test/benchmark.json",
+      "sha256": "666409903c3bb7ab1c9600f3e76b0008a4350c88f49962754726844097da236e"
+    },
+    "evidence/finqa_test/original_sft/metrics.json": {
+      "bytes": 7957,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/finqa_test/original_sft/full_test/metrics.json",
+      "sha256": "156bb6295e156ab79c266b04ba42e3e3a129d95beea9204f750b47b4e7fa4a09"
+    },
+    "evidence/finqa_test/original_sft/predictions.jsonl": {
+      "bytes": 887875,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/finqa_test/original_sft/full_test/predictions.jsonl",
+      "sha256": "649d4014f06fb6e22ff23c8939992bb75c322c889d953a219d0115fa9eb82134"
+    },
+    "evidence/finqa_test/replay/benchmark.json": {
+      "bytes": 1464,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/finqa_test/replay/full_test/benchmark.json",
+      "sha256": "d291a817d90cd6a3cf310a4e32c95189f01bbf921a37db293d47e51635bdced3"
+    },
+    "evidence/finqa_test/replay/metrics.json": {
+      "bytes": 8086,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/finqa_test/replay/full_test/metrics.json",
+      "sha256": "5404e8e774366649b8326b84c7afddc55e7c86b7536d114ceadadc4209b5f222"
+    },
+    "evidence/finqa_test/replay/predictions.jsonl": {
+      "bytes": 891712,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/finqa_test/replay/full_test/predictions.jsonl",
+      "sha256": "0d177498a6597926c9ba8deeb15b1edf6321e37a9e4dfe4953fe62efa0952aa8"
+    },
+    "evidence/finqa_test/transfer/benchmark.json": {
+      "bytes": 1462,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/finqa_test/transfer/full_test/benchmark.json",
+      "sha256": "7ea2f24ed7e75134f315fc25580b189a69f41ea7119e1ce3b879dcb1fdc7d5a8"
+    },
+    "evidence/finqa_test/transfer/metrics.json": {
+      "bytes": 8101,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/finqa_test/transfer/full_test/metrics.json",
+      "sha256": "e07e953c4a0ee901b0c080aa58a6f6574f0667d08ad3f216e1c85096ded8ccd0"
+    },
+    "evidence/finqa_test/transfer/predictions.jsonl": {
+      "bytes": 872674,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/finqa_test/transfer/full_test/predictions.jsonl",
+      "sha256": "1016bebc0f71ab1ac76fc2625df299572605abea8cd297a2f55495b913b20bc3"
+    },
+    "evidence/original_conv_baselines/finqa_dynamic/metrics.json": {
+      "bytes": 2439,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/oracle_baselines_v1/full_dev/finqa_dynamic/metrics.json",
+      "sha256": "e162ee233c7a5a0382eeb0d50562802169069fee71d2a2d78fd78db411010bf4"
+    },
+    "evidence/original_conv_baselines/finqa_dynamic/predictions.jsonl": {
+      "bytes": 1085465,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/oracle_baselines_v1/full_dev/finqa_dynamic/predictions.jsonl",
+      "sha256": "a7756287d52e0641ea9fd83809ecc25f0f84955c161c66684f4e1af1ed8da057"
+    },
+    "evidence/original_conv_baselines/finqa_sft/metrics.json": {
+      "bytes": 2407,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/oracle_baselines_v1/full_dev/finqa_sft/metrics.json",
+      "sha256": "822182c39052f9978ca0e83bc67db3b7919fab70d8d21b28189beb84821c64a0"
+    },
+    "evidence/original_conv_baselines/finqa_sft/predictions.jsonl": {
+      "bytes": 1049054,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/oracle_baselines_v1/full_dev/finqa_sft/predictions.jsonl",
+      "sha256": "44724d0c0b065e6d6573e9a93bf91620c773ad0d7efbdc6f5f54893b4d7fdccc"
+    },
+    "evidence/original_conv_baselines/qwen3_base/metrics.json": {
+      "bytes": 2420,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/oracle_baselines_v1/full_dev/qwen3_base/metrics.json",
+      "sha256": "a3b32080aebe42a9bf5c4dff871e7782ce239fa8d94e146fe326bace121d2d90"
+    },
+    "evidence/original_conv_baselines/qwen3_base/predictions.jsonl": {
+      "bytes": 1429289,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/oracle_baselines_v1/full_dev/qwen3_base/predictions.jsonl",
+      "sha256": "97b8c6ef6920ab0155c1769e5485a878feea5691f6908abdc6a528c728a4d238"
+    },
+    "evidence/preflight.json": {
+      "bytes": 2610,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/preflight.json",
+      "sha256": "14abc4cb7b07cc5610c67a634a16727751496778bbdbaaa103db95bb138240ca"
+    },
+    "evidence/self_history_dev/direct/matched_oracle/metrics.json": {
+      "bytes": 2424,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/self_history_v1/direct/matched_oracle/metrics.json",
+      "sha256": "8868c1a3d64f456e2364ec7a8b9b76d0ffce9b929ece178df33d37b06562a8d8"
+    },
+    "evidence/self_history_dev/direct/matched_oracle/predictions.jsonl": {
+      "bytes": 996250,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/self_history_v1/direct/matched_oracle/predictions.jsonl",
+      "sha256": "ebc336637c327f6eca10aeca396044dac5d7b0df6458d259c0249fda9cff53dd"
+    },
+    "evidence/self_history_dev/direct/model_answer_history/metrics.json": {
+      "bytes": 2437,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/self_history_v1/direct/model_answer_history/metrics.json",
+      "sha256": "d7523e092535cfa79ccee1f20755cae6959cdc6ff81192a09542ae367df82cd9"
+    },
+    "evidence/self_history_dev/direct/model_answer_history/predictions.jsonl": {
+      "bytes": 1005523,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/self_history_v1/direct/model_answer_history/predictions.jsonl",
+      "sha256": "0b2d9a1182a37d08b55a68ef5f2036fcb91dbcacbb13ae48c5c73d4bf9dddb09"
+    },
+    "evidence/self_history_dev/replay/matched_oracle/metrics.json": {
+      "bytes": 2421,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/eval_self_history/replay/matched_oracle/metrics.json",
+      "sha256": "dd03ce94ab9a8d339b9bb2fb68b96788825a3f054033ff1723aec18ced7b38de"
+    },
+    "evidence/self_history_dev/replay/matched_oracle/predictions.jsonl": {
+      "bytes": 998633,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/eval_self_history/replay/matched_oracle/predictions.jsonl",
+      "sha256": "a8cb3a19b8094f3c786d5f3073cd76974a2fed2e5bd3a94007c45922e58013f1"
+    },
+    "evidence/self_history_dev/replay/model_answer_history/metrics.json": {
+      "bytes": 2439,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/eval_self_history/replay/model_answer_history/metrics.json",
+      "sha256": "a4458d58efcb413444e60947eabc994e1a894ac767941017a64e5c01f173f803"
+    },
+    "evidence/self_history_dev/replay/model_answer_history/predictions.jsonl": {
+      "bytes": 1008568,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/eval_self_history/replay/model_answer_history/predictions.jsonl",
+      "sha256": "598245c71f0833abf15b0a251eefb0709c3927d8cfbcc80c444b30880f4c1136"
+    },
+    "evidence/self_history_dev/transfer/matched_oracle/metrics.json": {
+      "bytes": 2424,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/self_history_v1/transfer/matched_oracle/metrics.json",
+      "sha256": "4a86a497953f1f2e4a7839e0f9bc9d29ee75ef986cd6ae23f5bc99e86cd989dd"
+    },
+    "evidence/self_history_dev/transfer/matched_oracle/predictions.jsonl": {
+      "bytes": 1000538,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/self_history_v1/transfer/matched_oracle/predictions.jsonl",
+      "sha256": "68270706fa0f00d2b427782a9e0e79839aeee1122e3d50d18cf7ef7f76713142"
+    },
+    "evidence/self_history_dev/transfer/model_answer_history/metrics.json": {
+      "bytes": 2438,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/self_history_v1/transfer/model_answer_history/metrics.json",
+      "sha256": "9d0587d99f72923125682e3212cefbb3b0786b75afc2bdcbe26867d87b032d06"
+    },
+    "evidence/self_history_dev/transfer/model_answer_history/predictions.jsonl": {
+      "bytes": 1010398,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/self_history_v1/transfer/model_answer_history/predictions.jsonl",
+      "sha256": "1ca15462235a2335dacde11cc59f5424304b5f2b5065962f53886476cff48b3f"
+    },
+    "evidence/training/direct_training_report.json": {
+      "bytes": 1856,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/02_qwen3_base/full/training_report.json",
+      "sha256": "e4d8343207762620eeae6ab61eecfb6748f1bb01ae234073a3b36c252ee533d0"
+    },
+    "evidence/training/replay_mix_data.jsonl": {
+      "bytes": 58878152,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/data/replay_train.jsonl",
+      "sha256": "60c2a708cfcd36b990fc4e1abb895bab01baa62eed875a56c4400dc33496bc3b"
+    },
+    "evidence/training/replay_training_report.json": {
+      "bytes": 2008,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/full/training_report.json",
+      "sha256": "6e9191f510a7c29ec2bce4914bc35f0291de06a968e2e99350d83590cd59f5bb"
+    },
+    "evidence/training/transfer_training_report.json": {
+      "bytes": 1959,
+      "origin": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/01_finqa_sft_adapter/full/training_report.json",
+      "sha256": "5654fee74a83bae61ff64c07f4ba26dcfa0e95807dc250c9065bbc9be48d367e"
+    }
+  },
+  "freeze_version": 1,
+  "historical_finqa_report_count": 153,
+  "missing_optional_evidence": [],
+  "notes": [
+    "Frozen only after the final one-time FinQA Test evaluation.",
+    "Source weights and datasets are NOT copied; their hashes are recorded.",
+    "Self-History uses generated FINAL ANSWERS, not full generated explanations.",
+    "FinQA Test has been inspected earlier in the overall project; do not call it blind.",
+    "CIs on analyzed Dev sets are exploratory."
+  ],
+  "project": "Qwen3-1.7B FinQA + ConvFinQA Post-training",
+  "snapshot_summary": {
+    "RESULTS.md": "ce4b6348a0fec6dbe26eeb3b82c04881a4e90ee2f5c2204074b8cb1ceb015d9d"
+  },
+  "source_references": {
+    "/root/autodl-tmp/ConvFinQA/00_common/answer_normalizer.py": {
+      "bytes": 4949,
+      "sha256": "2e1bde876237411e5f72d18cafc903c4c2c5e2519034dcd0dd792f2e7afcb760"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/check_data.py": {
+      "bytes": 1401,
+      "sha256": "c306a9163778da01cd0fe0c60e5533bd56db307a8ab90cace7dfc045b39dfbdb"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/check_env.py": {
+      "bytes": 1213,
+      "sha256": "6e9c23c0ba910122076ba02d8de72e8a46868881f2e92321f0846c8a77f04477"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/compare_sft.py": {
+      "bytes": 2897,
+      "sha256": "d1957baf803752a1a0028de2914f9fbe2597ca73dd02ba6eeaf21b2c9db69511"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/convfinqa_paired_analysis_v1.py": {
+      "bytes": 13863,
+      "sha256": "e6968bd135f9bf14f1a448fd80920ce10537c46b86513724a790992499eee943"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/eval_self_history_v1.py": {
+      "bytes": 13035,
+      "sha256": "bd2a819721d87cdd125b27a0968be3e5167c9a68f9bb56cd7a7f2b5eb4dfb4b6"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/eval_sft_vllm.py": {
+      "bytes": 5381,
+      "sha256": "2b9f83db92d2210b7bc9aba11d1fdb7e30ed05467e1814cc4661dccae0bb1873"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/finqa_retention/compare.py": {
+      "bytes": 8154,
+      "sha256": "2e5838640b49ccb759b280da685f46a216fea7ce639e5c5e7b1451a6bb97e330"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/finqa_retention/preflight.py": {
+      "bytes": 2328,
+      "sha256": "7d18fb0bb332d16df3b291ef4cb48d88c9df195288e6b41d7e33037f57cf5e73"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/finqa_retention/run_all.sh": {
+      "bytes": 469,
+      "sha256": "aab61cbac18a19d37c33f4b9bd8037760234209717b7c0e4630e2b91910636f6"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/finqa_retention/run_eval.sh": {
+      "bytes": 1542,
+      "sha256": "c9a61395f6053b8ef31d1027ed9f76609b96f80c31e2458a18b3b26ff73f13e1"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/finqa_retention/run_original_sft.sh": {
+      "bytes": 224,
+      "sha256": "06b23b81878cc1c1e232547b1e19129e3aadaef8e779947136396303aa69ef70"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/finqa_retention/self_test.py": {
+      "bytes": 1629,
+      "sha256": "6ec464a3b17b167dd0ee2de663441f2b735d33487f4a4d30e7a15e02ab3ae105"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/frozen_baseline.py": {
+      "bytes": 14675,
+      "sha256": "6636affefa750db49a451626d54858635a93c3ce91a98fc97ac784514c86fb54"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/frozen_paired.py": {
+      "bytes": 4408,
+      "sha256": "4fe8f387f5754b673b36eed124fb3f2e1990f631fcf27984ef92eaea14ae6c1b"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/self_test.py": {
+      "bytes": 1430,
+      "sha256": "e14f1ea306426dc5ae24ef0f34fe559334ee90813b388c6b34a3ef751ab8bdb2"
+    },
+    "/root/autodl-tmp/ConvFinQA/00_common/train_sft.py": {
+      "bytes": 15264,
+      "sha256": "4d8bfcaec29d1925cb01976483f4e6fbd921f1feedef697baf732635be23397f"
+    },
+    "/root/autodl-tmp/ConvFinQA/01_finqa_sft_adapter/01_smoke/run.sh": {
+      "bytes": 413,
+      "sha256": "4ffa4d337f13ad847c113eaf5bcb9f16d5418d181fe730388b0da689238b14d1"
+    },
+    "/root/autodl-tmp/ConvFinQA/01_finqa_sft_adapter/02_full/run.sh": {
+      "bytes": 395,
+      "sha256": "65f753700fde0fabce9bae1571aa6e7bd01cbcb305ebc321a43b785455225635"
+    },
+    "/root/autodl-tmp/ConvFinQA/01_finqa_sft_adapter/03_eval/run.sh": {
+      "bytes": 477,
+      "sha256": "51f1ff0247e1954fda5fee7e7db8f93469ed156cf0f99c54cd82877f15748a3b"
+    },
+    "/root/autodl-tmp/ConvFinQA/01_finqa_sft_adapter/04_self_history/run.sh": {
+      "bytes": 134,
+      "sha256": "4059fa360768fda6ad442c4de11e72c14af53ba65a04989e31cce0732098ee6d"
+    },
+    "/root/autodl-tmp/ConvFinQA/01_finqa_sft_adapter/05_finqa_retention/run.sh": {
+      "bytes": 244,
+      "sha256": "37121c7464301e5e692e441224e8445ec19c296e684720fdf6a21ec748d19e4d"
+    },
+    "/root/autodl-tmp/ConvFinQA/02_qwen3_base/01_smoke/run.sh": {
+      "bytes": 404,
+      "sha256": "07e0a8739aa600da2757b8d94b51816bd7f4c2f43c77efa4abb3924e0c64f181"
+    },
+    "/root/autodl-tmp/ConvFinQA/02_qwen3_base/02_full/run.sh": {
+      "bytes": 386,
+      "sha256": "f299775da56cf95727cdeac244b7d7a74e71745aaf9c00167d8ca999717b78e2"
+    },
+    "/root/autodl-tmp/ConvFinQA/02_qwen3_base/03_eval/run.sh": {
+      "bytes": 461,
+      "sha256": "11190ad59be6bcb264d9b67266d0a9c8aba4b69ffa4a0e2626be7807e56959b5"
+    },
+    "/root/autodl-tmp/ConvFinQA/02_qwen3_base/04_self_history/run.sh": {
+      "bytes": 132,
+      "sha256": "ca5bd2129fa730e4e7789f91395ec7e35cfd99b86cc0666fd1ea702bfb212b42"
+    },
+    "/root/autodl-tmp/ConvFinQA/02_qwen3_base/05_finqa_retention/run.sh": {
+      "bytes": 235,
+      "sha256": "bcf2218ede8a06a2db69b5f1df4c5bfd96f9e5d95c0a5a179c767cc9f6def5dc"
+    },
+    "/root/autodl-tmp/ConvFinQA/03_finqa_sft_replay/01_data/build_replay.py": {
+      "bytes": 6581,
+      "sha256": "46b3542300732c2388b64ce0eb94d0d95c245ae8755f6f9b2c8e13d87cc2af04"
+    },
+    "/root/autodl-tmp/ConvFinQA/03_finqa_sft_replay/01_data/verify_replay.py": {
+      "bytes": 2609,
+      "sha256": "0dcb5ee2c6893155abcf10d543e13bb622e0109e48bc477a802fcf043b2fea61"
+    },
+    "/root/autodl-tmp/ConvFinQA/03_finqa_sft_replay/02_smoke/run.sh": {
+      "bytes": 463,
+      "sha256": "4034dd23f4a7f0878d466f33d09bc91d8277fc7b89549c3cd5907589e5f0be5b"
+    },
+    "/root/autodl-tmp/ConvFinQA/03_finqa_sft_replay/03_full/run.sh": {
+      "bytes": 456,
+      "sha256": "982af7e397b2150211809983a7fa97be2c87bf5be0eda5cc531d9b362bb85bdf"
+    },
+    "/root/autodl-tmp/ConvFinQA/03_finqa_sft_replay/04_convfinqa_oracle/run.sh": {
+      "bytes": 1072,
+      "sha256": "198e0bb1a4943c3c7cd4cf4d074c588b7121787c62516e938e7786b0bce570f5"
+    },
+    "/root/autodl-tmp/ConvFinQA/03_finqa_sft_replay/05_finqa_retention/run.sh": {
+      "bytes": 1265,
+      "sha256": "787874eeb8e6bfafcf3b9fc3c07d9cd6e2b0668bdc57be383240e53a118974a8"
+    },
+    "/root/autodl-tmp/ConvFinQA/03_finqa_sft_replay/06_self_history/run.sh": {
+      "bytes": 241,
+      "sha256": "1cafacdcf60e448708deff3f93ba9683a170f02775525fd87276908919de15a7"
+    },
+    "/root/autodl-tmp/ConvFinQA/03_finqa_sft_replay/06_self_history/run_replay.py": {
+      "bytes": 1308,
+      "sha256": "1621870d995762f423df85b6d38b00ac62935c3a7faa7c72f4800d9e2695e1c9"
+    },
+    "/root/autodl-tmp/ConvFinQA/03_finqa_sft_replay/07_analysis/compare_replay.py": {
+      "bytes": 6345,
+      "sha256": "7611e6754299ac3b9820007d4c4489defc6978ccef72d3da7f96d3867edc1ddd"
+    },
+    "/root/autodl-tmp/ConvFinQA/03_finqa_sft_replay/self_test.py": {
+      "bytes": 2189,
+      "sha256": "67b0b03a39e5c9b5c8f7beff4e9719861c80b853e2ac49380cde0db9bed11f54"
+    },
+    "/root/autodl-tmp/ConvFinQA/03_finqa_sft_replay/train_replay.py": {
+      "bytes": 17199,
+      "sha256": "13dfaa674f8deedfef8576eaa00a829f1bc45cb86a545ad285182a198c758c8c"
+    },
+    "/root/autodl-tmp/ConvFinQA/04_final_evaluation/00_preflight.py": {
+      "bytes": 4465,
+      "sha256": "fb8b72f4cc71834eebf93a867a770a924f9961a4d2fb521efb74580b8d970caa"
+    },
+    "/root/autodl-tmp/ConvFinQA/04_final_evaluation/01_run_finqa_test.sh": {
+      "bytes": 2804,
+      "sha256": "fe77f1be39ca5c11fc010b4b55e13684af45da5f4639ec9eeaa0dc45d3f15d4d"
+    },
+    "/root/autodl-tmp/ConvFinQA/04_final_evaluation/02_compare_finqa_test.py": {
+      "bytes": 2840,
+      "sha256": "12b3f840052ee096d5ea69996ed66af5d230f8989aea970018d8ece8a6bc3a10"
+    },
+    "/root/autodl-tmp/ConvFinQA/04_final_evaluation/03_compare_self_history.py": {
+      "bytes": 4662,
+      "sha256": "65bb6ea67ea437c01359fe3e8546721b4eb00603cb554dff4d5f35ce677e3492"
+    },
+    "/root/autodl-tmp/ConvFinQA/04_final_evaluation/04_freeze_results.py": {
+      "bytes": 10494,
+      "sha256": "b079c54d11cb40ad17ef5fc739f1c10ec0c562be4e8ab541ae0852e9d7612f3e"
+    },
+    "/root/autodl-tmp/ConvFinQA/04_final_evaluation/05_verify_frozen.py": {
+      "bytes": 1667,
+      "sha256": "1da1faed5f5674f572b128ba4403276cb0ca2663e9dd53e07bf8367d86e9cc92"
+    },
+    "/root/autodl-tmp/ConvFinQA/04_final_evaluation/common.py": {
+      "bytes": 8510,
+      "sha256": "c384d2ebc4a93643bc8be073a84b8b9bd3fc240557ea815917f1a71654f64482"
+    },
+    "/root/autodl-tmp/ConvFinQA/04_final_evaluation/recover_finqa_test.py": {
+      "bytes": 1644,
+      "sha256": "d9469ecc7ca16030af66c55c480f2fa6c5f28553cba026699e2b5de0904e2ee8"
+    },
+    "/root/autodl-tmp/ConvFinQA/04_final_evaluation/run_all.sh": {
+      "bytes": 498,
+      "sha256": "a0f37cb2b22ae257bec5b948e95ed96cfb13f65df7b27fa79c919c15e3c764bb"
+    },
+    "/root/autodl-tmp/ConvFinQA/04_final_evaluation/self_test.py": {
+      "bytes": 1569,
+      "sha256": "366dfda726f3f4695c4068faa720ca12097180a10c6de2d8b6303f76b608c391"
+    },
+    "/root/autodl-tmp/ConvFinQA/04_final_evaluation/verify_one_test.py": {
+      "bytes": 1740,
+      "sha256": "df1257fe105b10637153fe5b87c6394eb946778500deb09d5dc4c3c79ffb062e"
+    },
+    "/root/autodl-tmp/ConvFinQA/setup_links.sh": {
+      "bytes": 707,
+      "sha256": "c75b98505829cfedefbd3e385a78181fb6c1db5b4628c620e190b1e0dbb734e7"
+    },
+    "/root/autodl-tmp/models/Qwen3-1.7B-Base/config.json": {
+      "bytes": 727,
+      "sha256": "1bb33a92c3548fbc68b889b490e810440435253598835bd71dff0396060c12db"
+    },
+    "/root/autodl-tmp/open-r1/20_finqa_vllm_benchmark_v2/answer_normalizer.py": {
+      "bytes": 4949,
+      "sha256": "2e1bde876237411e5f72d18cafc903c4c2c5e2519034dcd0dd792f2e7afcb760"
+    },
+    "/root/autodl-tmp/open-r1/20_finqa_vllm_benchmark_v2/bench_vllm.py": {
+      "bytes": 5604,
+      "sha256": "60cddab85f20dd882b97be27544bd506a8dfccedcc9f703ec3386c5a17fd5c13"
+    },
+    "/root/autodl-tmp/open-r1/20_finqa_vllm_benchmark_v2/common.py": {
+      "bytes": 6018,
+      "sha256": "1d24c5b81e3aaeee2b4ab19ee3d604b5859e7a6d27ea0b0c4d6752d06199fd4b"
+    },
+    "/root/autodl-tmp/open-r1/20_finqa_vllm_benchmark_v2/metrics.py": {
+      "bytes": 2166,
+      "sha256": "6d8e1381ce62a55e6764de063d10c79367150129f5865655218d2bc021c377cc"
+    },
+    "/root/autodl-tmp/project/convfinqa_posttrain/data/processed_v2/eval/dev.jsonl": {
+      "bytes": 7416759,
+      "sha256": "66343e85fc0bfe2ab38c2b7d5d8209bc10e645423272d125c5a942117918fde2"
+    },
+    "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/01_finqa_sft_adapter/full/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "e2210aadf2d452e1a9a8dc7311d7fd5847fe040f5832fd1bd2a796a921240151"
+    },
+    "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/01_finqa_sft_adapter/full/final_adapter/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "cc4a22f54b7eff42edcbc093c11baad4ddd7b0dc71e3c80068ad7850cbe58dd5"
+    },
+    "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/02_qwen3_base/full/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "68f34d7fe4f60b60a69a69801f7ce76ccde888b610e3c394549e1acd710525ae"
+    },
+    "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/02_qwen3_base/full/final_adapter/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "073f439c789e50a7e828bd760d7185e033d9bcd76a16b7b3d65275958142db32"
+    },
+    "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/full/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "4360ecab13b6202cc1005e1dcd460fc22c30737a0c96ec35946b3167933e529c"
+    },
+    "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/full/final_adapter/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "05f63ab67312576bda0b9cc5b52fda0a7c5968a7524144f60b8abd7901c2de82"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/data/processed_v1_1_1/eval/finqa_eval_dev.jsonl": {
+      "bytes": 4247168,
+      "sha256": "5cc5a286d0c4c0aa898c0eff7dda229774b93894f56e85b3c89caed323a5d050"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/data/processed_v1_1_1/eval/finqa_eval_test.jsonl": {
+      "bytes": 5461594,
+      "sha256": "2449d1e91d9a19c7ce2a292bc1e1b26356bd3be1d9037b9dc64556c1a1573dfc"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/checkpoint-6250/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "c1d87b8ceb4cb3979505726389c3d2705e236f8f61550191a46b41b260503bdd"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/checkpoint-6250/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "57266f9e355ae7c4bf8964a665c1d4430698604dd7666e37b14528b18c2fde29"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/checkpoint-6250/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "3479a00b8b65ca6a26d19a721ce5a1dab32eecf514ea3e6638e128c675d2b670"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/checkpoint-6251/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "c1d87b8ceb4cb3979505726389c3d2705e236f8f61550191a46b41b260503bdd"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/checkpoint-6251/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "50bdbcf83b3c75e4cfccf0068dc372f95a0d5e362ac8ca5faf0702f451385fdc"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/checkpoint-6251/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "3479a00b8b65ca6a26d19a721ce5a1dab32eecf514ea3e6638e128c675d2b670"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "c1d87b8ceb4cb3979505726389c3d2705e236f8f61550191a46b41b260503bdd"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "50bdbcf83b3c75e4cfccf0068dc372f95a0d5e362ac8ca5faf0702f451385fdc"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/full_v1/final_adapter/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "3479a00b8b65ca6a26d19a721ce5a1dab32eecf514ea3e6638e128c675d2b670"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/checkpoint-20/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "c8a6d5b7a9b1c8123b91db2548084785ed1e2109117efae84ea54f653a78cd5f"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/checkpoint-20/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "a37cc55aa57c1ced13eb29e75b0d21b82c45e811e5b5259a430417bd015cdcc6"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/checkpoint-20/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "ea094671e2da6ac344e35dd8dcbfe6090cf5318f6047454465d72a9ef3a98ea1"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "c8a6d5b7a9b1c8123b91db2548084785ed1e2109117efae84ea54f653a78cd5f"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "a37cc55aa57c1ced13eb29e75b0d21b82c45e811e5b5259a430417bd015cdcc6"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_daa_qwen3_0.6b/preflight_v1/final_adapter/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "ea094671e2da6ac344e35dd8dcbfe6090cf5318f6047454465d72a9ef3a98ea1"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/checkpoint-6250/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "4471c3952e59c6412270791dbb79273f3f5ce0dc74a674a243a433ae27547c1d"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/checkpoint-6250/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "09ba3893672475ee1ebf9e8d3676f995c7e6896c203d240c4924a4e37419b205"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/checkpoint-6250/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "2e639f2a236dcbced716d42897fe628fbc7b001fa0511cf71a22fd96cb9b17c6"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/checkpoint-6251/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "4471c3952e59c6412270791dbb79273f3f5ce0dc74a674a243a433ae27547c1d"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/checkpoint-6251/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "bf782cfe8c00c7aa595af2c48131da8ab05b72d326c59176262887e3aa6496bf"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/checkpoint-6251/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "2e639f2a236dcbced716d42897fe628fbc7b001fa0511cf71a22fd96cb9b17c6"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "4471c3952e59c6412270791dbb79273f3f5ce0dc74a674a243a433ae27547c1d"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "bf782cfe8c00c7aa595af2c48131da8ab05b72d326c59176262887e3aa6496bf"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/full_v1/final_adapter/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "2e639f2a236dcbced716d42897fe628fbc7b001fa0511cf71a22fd96cb9b17c6"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/preflight_v1/checkpoint-12/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "747728de681a63e25838d24a1b9a6f4b8f284194da4580941954a625e2b88f5f"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/preflight_v1/checkpoint-12/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "691e0767c017ce770f2b5e58b0970a9975c3c9e5aae98f855ac5a3f20d8d96eb"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/preflight_v1/checkpoint-12/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "153cba23304b0a8fbb1e782635ada300ea340dcc74cd288cde576750607147ed"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/preflight_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "747728de681a63e25838d24a1b9a6f4b8f284194da4580941954a625e2b88f5f"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/preflight_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "691e0767c017ce770f2b5e58b0970a9975c3c9e5aae98f855ac5a3f20d8d96eb"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_0.6b/preflight_v1/final_adapter/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "153cba23304b0a8fbb1e782635ada300ea340dcc74cd288cde576750607147ed"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/checkpoint-6250/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "0b5ccec821d57749a93d379c07402628a57d9eadbce309705df9267aab788e87"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/checkpoint-6250/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "dca7d3051022399c9e3c0a9703ac5ffb234b637c0c19d25efd7d3d5b49ce3c00"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/checkpoint-6250/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "e9f19218578b87c8e4822b3d69cdc14273e8a12d150e81cab3ff86fb2c817ffc"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/checkpoint-6251/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "0b5ccec821d57749a93d379c07402628a57d9eadbce309705df9267aab788e87"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/checkpoint-6251/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "430caad65df3c695e9b9aff4898441965ffd6d4eb08d69f0f48caf1a62e543b0"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/checkpoint-6251/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "e9f19218578b87c8e4822b3d69cdc14273e8a12d150e81cab3ff86fb2c817ffc"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "0b5ccec821d57749a93d379c07402628a57d9eadbce309705df9267aab788e87"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "430caad65df3c695e9b9aff4898441965ffd6d4eb08d69f0f48caf1a62e543b0"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/full_v1/final_adapter/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "e9f19218578b87c8e4822b3d69cdc14273e8a12d150e81cab3ff86fb2c817ffc"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/preflight_v1/checkpoint-12/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "62170f2856b7b1805695a59ea762c8e02b24708e28c2f9840b734fcb72ec020f"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/preflight_v1/checkpoint-12/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "73af484c33d7affc3bd18bb0537193cad4f49b764ecc5f477d2016d675883cde"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/preflight_v1/checkpoint-12/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "f81c04d370f2744ba2bd589dd81eea623bbcd80ec0b552d640a9a659fad8cfa9"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/preflight_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "62170f2856b7b1805695a59ea762c8e02b24708e28c2f9840b734fcb72ec020f"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/preflight_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "73af484c33d7affc3bd18bb0537193cad4f49b764ecc5f477d2016d675883cde"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_dynamic_qwen3_1.7b/preflight_v1/final_adapter/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "f81c04d370f2744ba2bd589dd81eea623bbcd80ec0b552d640a9a659fad8cfa9"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/full_v1/checkpoint-6250/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "f53bdc9b2b4cb55b75aeff96d4aeeb6118d52ebe022599f4edb8924dc3489eda"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/full_v1/checkpoint-6250/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "72c033736e99a5a8595ef4004bd5898bbe81756997ac575c75cb857ac79fe3bd"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/full_v1/checkpoint-6250/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "dbef47236bb132dd399b8f268885dde0a08bc071f78bc2e14a32db0084b8ab10"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/full_v1/checkpoint-6251/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "f53bdc9b2b4cb55b75aeff96d4aeeb6118d52ebe022599f4edb8924dc3489eda"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/full_v1/checkpoint-6251/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "e01ca054023739dd77bc61a6329260ca01cbc3ed0617fabe8bbf00264fbccb88"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/full_v1/checkpoint-6251/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "dbef47236bb132dd399b8f268885dde0a08bc071f78bc2e14a32db0084b8ab10"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/full_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "f53bdc9b2b4cb55b75aeff96d4aeeb6118d52ebe022599f4edb8924dc3489eda"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/full_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "e01ca054023739dd77bc61a6329260ca01cbc3ed0617fabe8bbf00264fbccb88"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/full_v1/final_adapter/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "dbef47236bb132dd399b8f268885dde0a08bc071f78bc2e14a32db0084b8ab10"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/preflight_v1/checkpoint-24/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "16c3766dd3050f61631218c18397dab032623a0bb2b26b8da46c0e9f636b5a25"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/preflight_v1/checkpoint-24/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "1cf34565f36a874f548912ca2dfd7401074eec3ff2473d653a024460e65d0fd4"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/preflight_v1/checkpoint-24/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "0436c566bf5769574ea44e3e66363483700280acd913db4064087e9350bfc129"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/preflight_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "16c3766dd3050f61631218c18397dab032623a0bb2b26b8da46c0e9f636b5a25"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/preflight_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "1cf34565f36a874f548912ca2dfd7401074eec3ff2473d653a024460e65d0fd4"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_learnability_qwen3_0.6b/preflight_v1/final_adapter/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "0436c566bf5769574ea44e3e66363483700280acd913db4064087e9350bfc129"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/full_v1/checkpoint-6250/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "21039fb22f5e33fe1413e6f43e9d407fbe0eeb226d3a52b6beb6c1282de95f0d"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/full_v1/checkpoint-6250/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "578861a360c145a7041f99238980ec91ad0a75609af312ad8a53106eb95152a6"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/full_v1/checkpoint-6250/training_args.bin": {
+      "bytes": 6520,
+      "sha256": "252f018570fced30b798bc149c89925bdf1cf2ca169ecbea534889bc0da83d08"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/full_v1/checkpoint-6251/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "21039fb22f5e33fe1413e6f43e9d407fbe0eeb226d3a52b6beb6c1282de95f0d"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/full_v1/checkpoint-6251/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "f6bf8902e5d231f89bd8ef4e196ea1b5085b4148e4a02be3e4390afefb77ab59"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/full_v1/checkpoint-6251/training_args.bin": {
+      "bytes": 6520,
+      "sha256": "252f018570fced30b798bc149c89925bdf1cf2ca169ecbea534889bc0da83d08"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/full_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "21039fb22f5e33fe1413e6f43e9d407fbe0eeb226d3a52b6beb6c1282de95f0d"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/full_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "f6bf8902e5d231f89bd8ef4e196ea1b5085b4148e4a02be3e4390afefb77ab59"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/full_v1/final_adapter/training_args.bin": {
+      "bytes": 6520,
+      "sha256": "252f018570fced30b798bc149c89925bdf1cf2ca169ecbea534889bc0da83d08"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1/checkpoint-8/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "da9af75fbb5e09fcc03abd53ee3ae41df6375fb8ad852a53ed4f36095515c072"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1/checkpoint-8/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "91a0b5a37773db606ad635f66a0d6f31bb6dd1f7dd74c91f2497211c0937a8a8"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1/checkpoint-8/training_args.bin": {
+      "bytes": 6520,
+      "sha256": "2895cf2b30018cfb26cd89c8a505302f32bdbb0a91b4d2f761fc325753471011"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "da9af75fbb5e09fcc03abd53ee3ae41df6375fb8ad852a53ed4f36095515c072"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "91a0b5a37773db606ad635f66a0d6f31bb6dd1f7dd74c91f2497211c0937a8a8"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1/final_adapter/training_args.bin": {
+      "bytes": 6520,
+      "sha256": "2895cf2b30018cfb26cd89c8a505302f32bdbb0a91b4d2f761fc325753471011"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1_patch1/checkpoint-8/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "8da29cc193cce0b790eb1b034b3eacb2e28a14252d5b548d33efe84f400df0eb"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1_patch1/checkpoint-8/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "5f5d3cdb8cd218b2aaf3abf138d082c1c878e36e55ef706e8b22b3d5f56b0130"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1_patch1/checkpoint-8/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "694a03dec9392fa97f04f1e913785e884d9768aa6a64262bbfb947b15c4e7874"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1_patch1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "8da29cc193cce0b790eb1b034b3eacb2e28a14252d5b548d33efe84f400df0eb"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1_patch1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "5f5d3cdb8cd218b2aaf3abf138d082c1c878e36e55ef706e8b22b3d5f56b0130"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/preflight_kl_v1_patch1/final_adapter/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "694a03dec9392fa97f04f1e913785e884d9768aa6a64262bbfb947b15c4e7874"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/smoke_v1/checkpoint-10/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "0dda0e5b5f6e390bd580e6f2493885c2b4955be9870388073c3474330b06b25d"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/smoke_v1/checkpoint-10/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "b38b877ebaa0aa28d7f5103d261982ba568b558fb1bba6d9b3e596ef5f45b531"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/smoke_v1/checkpoint-10/training_args.bin": {
+      "bytes": 6520,
+      "sha256": "40a83f6ce61484b1dd534a68aff2cd82a83282035266544bc32016a43cf90d95"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/smoke_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "0dda0e5b5f6e390bd580e6f2493885c2b4955be9870388073c3474330b06b25d"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/smoke_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "b38b877ebaa0aa28d7f5103d261982ba568b558fb1bba6d9b3e596ef5f45b531"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_0.6b/smoke_v1/final_adapter/training_args.bin": {
+      "bytes": 6520,
+      "sha256": "40a83f6ce61484b1dd534a68aff2cd82a83282035266544bc32016a43cf90d95"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/full_v1/checkpoint-6250/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "143b94cb74849f6d8b79534a92b80c748a56669785c03cc67318927da06341d1"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/full_v1/checkpoint-6250/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "d690e9a36b99ea510e2b82884be60e90456f03d26f0e7eb0a110487df868af04"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/full_v1/checkpoint-6250/training_args.bin": {
+      "bytes": 6520,
+      "sha256": "dfa7d1bdd9fc5ebc2210e23d173c9739a11dfd6b11406369a584a0097467881e"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/full_v1/checkpoint-6251/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "143b94cb74849f6d8b79534a92b80c748a56669785c03cc67318927da06341d1"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/full_v1/checkpoint-6251/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "cd54afaa7b2e5679adac911caf2cee1dc26c4ccd9b04ed200697c779f0df01a6"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/full_v1/checkpoint-6251/training_args.bin": {
+      "bytes": 6520,
+      "sha256": "dfa7d1bdd9fc5ebc2210e23d173c9739a11dfd6b11406369a584a0097467881e"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/full_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "143b94cb74849f6d8b79534a92b80c748a56669785c03cc67318927da06341d1"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/full_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "cd54afaa7b2e5679adac911caf2cee1dc26c4ccd9b04ed200697c779f0df01a6"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/full_v1/final_adapter/training_args.bin": {
+      "bytes": 6520,
+      "sha256": "dfa7d1bdd9fc5ebc2210e23d173c9739a11dfd6b11406369a584a0097467881e"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/preflight_kl_v1/checkpoint-8/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "59f30adb5ba1a3d628a144562063b5ca1456803f51748b4c1e4460b4b6ed2ae2"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/preflight_kl_v1/checkpoint-8/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "bb2a0e22c3c04af7d7fc8a30a23905158e42440afc3d29a3ade4fdbbd43c49a1"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/preflight_kl_v1/checkpoint-8/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "6fe8dcb923cec8a6428ee4c11ecc4e454a57e4e08a8fecc9500a01bec7e3500f"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/preflight_kl_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "59f30adb5ba1a3d628a144562063b5ca1456803f51748b4c1e4460b4b6ed2ae2"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/preflight_kl_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "bb2a0e22c3c04af7d7fc8a30a23905158e42440afc3d29a3ade4fdbbd43c49a1"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_qwen3_1.7b/preflight_kl_v1/final_adapter/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "6fe8dcb923cec8a6428ee4c11ecc4e454a57e4e08a8fecc9500a01bec7e3500f"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/full_v1/checkpoint-6250/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "86dd5b1fedfb47e15f76d39fb626022667894e682bd7cc1e7b46b77b14d50494"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/full_v1/checkpoint-6250/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "e63f20a034251f88f5bd6bf9e67235007fd9ad8ea11409a11e759f4a83e8b042"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/full_v1/checkpoint-6250/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "6b481b2944b08de2e15fd1486f1c160da549264c6398cd596c2cc9abf9f2eef6"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/full_v1/checkpoint-6251/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "86dd5b1fedfb47e15f76d39fb626022667894e682bd7cc1e7b46b77b14d50494"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/full_v1/checkpoint-6251/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "1be7b448260fe765f7caa65c2e137381d3946c7d311095b1fa4ced20fe80446d"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/full_v1/checkpoint-6251/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "6b481b2944b08de2e15fd1486f1c160da549264c6398cd596c2cc9abf9f2eef6"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/full_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "86dd5b1fedfb47e15f76d39fb626022667894e682bd7cc1e7b46b77b14d50494"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/full_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "1be7b448260fe765f7caa65c2e137381d3946c7d311095b1fa4ced20fe80446d"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/full_v1/final_adapter/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "6b481b2944b08de2e15fd1486f1c160da549264c6398cd596c2cc9abf9f2eef6"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/preflight_v1/checkpoint-12/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "d7339de1872d192195708aa0d622bb5ab4df3133252a298f250d5680026786e0"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/preflight_v1/checkpoint-12/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "cade308dbcf1ed90c3c020707d3df894c1e9bd8121caaf4fd41fe746e6e4d911"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/preflight_v1/checkpoint-12/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "78e328aace52e0d59669991361f213c8aee97a029ccda1cfcabcee4ecb2dcac2"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/preflight_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "d7339de1872d192195708aa0d622bb5ab4df3133252a298f250d5680026786e0"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/preflight_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "cade308dbcf1ed90c3c020707d3df894c1e9bd8121caaf4fd41fe746e6e4d911"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/grpo_reward_shaping_qwen3_0.6b/preflight_v1/final_adapter/training_args.bin": {
+      "bytes": 6584,
+      "sha256": "78e328aace52e0d59669991361f213c8aee97a029ccda1cfcabcee4ecb2dcac2"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/full_v1/checkpoint-1544/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "857d68cda4186270591eb3a48785eb1c95f82e7bb4358abb2bc3f876270eea6c"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/full_v1/checkpoint-1544/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "3bdd2906ab02f168aee31399b4528ffd8470ab035e4cf666e0f7df9eb236169c"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/full_v1/checkpoint-1544/training_args.bin": {
+      "bytes": 5560,
+      "sha256": "8e8954a1cb5725e30fa8b04cb98ae92b5382adfba7db1590786207809a726620"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/full_v1/checkpoint-772/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "857d68cda4186270591eb3a48785eb1c95f82e7bb4358abb2bc3f876270eea6c"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/full_v1/checkpoint-772/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "fd93a18d1605ec609c2ac74e71a36fdc8b7bdc78f07aa7a819e51bf000ba9bba"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/full_v1/checkpoint-772/training_args.bin": {
+      "bytes": 5560,
+      "sha256": "8e8954a1cb5725e30fa8b04cb98ae92b5382adfba7db1590786207809a726620"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/full_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "857d68cda4186270591eb3a48785eb1c95f82e7bb4358abb2bc3f876270eea6c"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/full_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "3bdd2906ab02f168aee31399b4528ffd8470ab035e4cf666e0f7df9eb236169c"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_evidence_qwen3_0.6b/full_v1/final_adapter/training_args.bin": {
+      "bytes": 5560,
+      "sha256": "8e8954a1cb5725e30fa8b04cb98ae92b5382adfba7db1590786207809a726620"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/full_v1/checkpoint-1564/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "83137e7e82175250d3d21579cf08da95ea23f13eb4c82ecce4c3f2fb74f5f0fd"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/full_v1/checkpoint-1564/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "0de43e6b860d31a6fd10e8647a4d34eb789fd0990c76ac5caddc1f6405c1c5d3"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/full_v1/checkpoint-1564/training_args.bin": {
+      "bytes": 5496,
+      "sha256": "c8babd3291921cec83fb34565a71d07e120ac2947af70cada467ae80e8f20ad0"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/full_v1/checkpoint-782/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "83137e7e82175250d3d21579cf08da95ea23f13eb4c82ecce4c3f2fb74f5f0fd"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/full_v1/checkpoint-782/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "0b779fd69a9e1fd556e9a38afdc882334800cfc1e55656a591d4f823a4b11f1f"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/full_v1/checkpoint-782/training_args.bin": {
+      "bytes": 5496,
+      "sha256": "c8babd3291921cec83fb34565a71d07e120ac2947af70cada467ae80e8f20ad0"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/full_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "83137e7e82175250d3d21579cf08da95ea23f13eb4c82ecce4c3f2fb74f5f0fd"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/full_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "0de43e6b860d31a6fd10e8647a4d34eb789fd0990c76ac5caddc1f6405c1c5d3"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/full_v1/final_adapter/training_args.bin": {
+      "bytes": 5496,
+      "sha256": "c8babd3291921cec83fb34565a71d07e120ac2947af70cada467ae80e8f20ad0"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/smoke_v1/checkpoint-10/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "7287b8b73929bbb66ff54d5eaa98fa33c38617f7bb516147216a3c049aff14ec"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/smoke_v1/checkpoint-10/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "7840dfb6cd6810cc7832d1bad85f6190a658dae2af38edd245ed101aa2fb1517"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/smoke_v1/checkpoint-10/training_args.bin": {
+      "bytes": 5432,
+      "sha256": "5b823c3f420ba53e6a517675453cf77d45d07e9c396d7a467e5b5f1bb8c029d7"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/smoke_v1/checkpoint-20/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "7287b8b73929bbb66ff54d5eaa98fa33c38617f7bb516147216a3c049aff14ec"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/smoke_v1/checkpoint-20/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "98fb2cc8ecf4fb2ef6c25ea952ff7e476355e18e33f955af540fc3435b459b7c"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/smoke_v1/checkpoint-20/training_args.bin": {
+      "bytes": 5432,
+      "sha256": "5b823c3f420ba53e6a517675453cf77d45d07e9c396d7a467e5b5f1bb8c029d7"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/smoke_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "7287b8b73929bbb66ff54d5eaa98fa33c38617f7bb516147216a3c049aff14ec"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/smoke_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 20236472,
+      "sha256": "98fb2cc8ecf4fb2ef6c25ea952ff7e476355e18e33f955af540fc3435b459b7c"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_0.6b/smoke_v1/final_adapter/training_args.bin": {
+      "bytes": 5432,
+      "sha256": "5b823c3f420ba53e6a517675453cf77d45d07e9c396d7a467e5b5f1bb8c029d7"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/full_v1/checkpoint-1564/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "e4f3fd06630f84da8082deab94ff66a86917f30ac7a31ac7925294f75bf22b53"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/full_v1/checkpoint-1564/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "3fa5139c135ab6bfc10ca8f9a9608700cfc7f77fbfd7243fc3ec5ccecaaf6f83"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/full_v1/checkpoint-1564/training_args.bin": {
+      "bytes": 5496,
+      "sha256": "494ea3a56698cc25fffb65f820395507ee97f978e5f798731eb9ac2c5e730ad6"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/full_v1/checkpoint-782/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "e4f3fd06630f84da8082deab94ff66a86917f30ac7a31ac7925294f75bf22b53"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/full_v1/checkpoint-782/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "26fe2f2af62363dfc84e60d39765b52c6396f4b6f18495780d037c8dbaa4ff9d"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/full_v1/checkpoint-782/training_args.bin": {
+      "bytes": 5496,
+      "sha256": "494ea3a56698cc25fffb65f820395507ee97f978e5f798731eb9ac2c5e730ad6"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/full_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "e4f3fd06630f84da8082deab94ff66a86917f30ac7a31ac7925294f75bf22b53"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/full_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "3fa5139c135ab6bfc10ca8f9a9608700cfc7f77fbfd7243fc3ec5ccecaaf6f83"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/preflight_v1/checkpoint-12/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "6c6e3f6c539781992996e1f899acf49b03047d35368db8723876419ce6371d2c"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/preflight_v1/checkpoint-12/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "b6957803c1c8a8b96888f3043217365dbc766c0019b46b1ed9096c2f11025d49"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/preflight_v1/checkpoint-12/training_args.bin": {
+      "bytes": 5496,
+      "sha256": "e163f3169337e79df5eb494dadd95fbe1fabf92d4dc39035e36627ee4213b07c"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/preflight_v1/final_adapter/adapter_config.json": {
+      "bytes": 1194,
+      "sha256": "6c6e3f6c539781992996e1f899acf49b03047d35368db8723876419ce6371d2c"
+    },
+    "/root/autodl-tmp/project/finqa_posttrain/experiments/sft_qwen3_1.7b/preflight_v1/final_adapter/adapter_model.safetensors": {
+      "bytes": 34916720,
+      "sha256": "b6957803c1c8a8b96888f3043217365dbc766c0019b46b1ed9096c2f11025d49"
+    }
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "comparison": "Base→ConvFinQA SFT (direct) vs FinQA SFT→ConvFinQA SFT (transfer)",
+  "delta_direction": "transfer_minus_direct",
+  "setting": "ConvFinQA Dev, oracle_gold_answers, frozen scoring",
+  "n": 1490,
+  "conversations": 421,
+  "input_fingerprint": "4fb737022d435bb472c316bb1b5de7776b8238a623bbc1efe900767eab09952f",
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 42,
+  "overall": {
+    "n": 1490,
+    "conversations_represented": 421,
+    "direct_correct": 1200,
+    "transfer_correct": 1214,
+    "direct_accuracy_pct": 80.53691275167785,
+    "transfer_accuracy_pct": 81.47651006711409,
+    "delta_transfer_minus_direct_pp": 0.9395973154362416,
+    "direct_wrong_transfer_right": 83,
+    "direct_right_transfer_wrong": 69,
+    "both_correct": 1131,
+    "both_wrong": 207,
+    "cluster_bootstrap_95pct_ci_pp": [
+      -0.8135593220338984,
+      2.6823586170199976
+    ]
+  },
+  "conversation_exact_match": {
+    "n": 421,
+    "conversations_represented": 421,
+    "direct_correct": 240,
+    "transfer_correct": 248,
+    "direct_accuracy_pct": 57.00712589073634,
+    "transfer_accuracy_pct": 58.90736342042755,
+    "delta_transfer_minus_direct_pp": 1.9002375296912113,
+    "direct_wrong_transfer_right": 36,
+    "direct_right_transfer_wrong": 28,
+    "both_correct": 212,
+    "both_wrong": 145,
+    "cluster_bootstrap_95pct_ci_pp": [
+      -1.9002375296912113,
+      5.7007125890736345
+    ]
+  },
+  "by_type": {
+    "number_turn": {
+      "n": 487,
+      "conversations_represented": 257,
+      "direct_correct": 421,
+      "transfer_correct": 420,
+      "direct_accuracy_pct": 86.44763860369609,
+      "transfer_accuracy_pct": 86.24229979466119,
+      "delta_transfer_minus_direct_pp": -0.2053388090349076,
+      "direct_wrong_transfer_right": 14,
+      "direct_right_transfer_wrong": 15,
+      "both_correct": 406,
+      "both_wrong": 52,
+      "cluster_bootstrap_95pct_ci_pp": [
+        -2.3169396858717244,
+        1.8000450450450445
+      ]
+    },
+    "program_turn": {
+      "n": 1003,
+      "conversations_represented": 421,
+      "direct_correct": 779,
+      "transfer_correct": 794,
+      "direct_accuracy_pct": 77.66699900299103,
+      "transfer_accuracy_pct": 79.16251246261217,
+      "delta_transfer_minus_direct_pp": 1.4955134596211366,
+      "direct_wrong_transfer_right": 69,
+      "direct_right_transfer_wrong": 54,
+      "both_correct": 725,
+      "both_wrong": 155,
+      "cluster_bootstrap_95pct_ci_pp": [
+        -0.7828172364836344,
+        3.8306451612903225
+      ]
+    }
+  },
+  "by_turn": {
+    "0": {
+      "n": 421,
+      "conversations_represented": 421,
+      "direct_correct": 308,
+      "transfer_correct": 322,
+      "direct_accuracy_pct": 73.15914489311164,
+      "transfer_accuracy_pct": 76.48456057007125,
+      "delta_transfer_minus_direct_pp": 3.32541567695962,
+      "direct_wrong_transfer_right": 27,
+      "direct_right_transfer_wrong": 13,
+      "both_correct": 295,
+      "both_wrong": 86,
+      "cluster_bootstrap_95pct_ci_pp": [
+        0.4750593824228028,
+        6.4133016627078385
+      ]
+    },
+    "1": {
+      "n": 421,
+      "conversations_represented": 421,
+      "direct_correct": 354,
+      "transfer_correct": 355,
+      "direct_accuracy_pct": 84.08551068883611,
+      "transfer_accuracy_pct": 84.3230403800475,
+      "delta_transfer_minus_direct_pp": 0.2375296912114014,
+      "direct_wrong_transfer_right": 20,
+      "direct_right_transfer_wrong": 19,
+      "both_correct": 335,
+      "both_wrong": 47,
+      "cluster_bootstrap_95pct_ci_pp": [
+        -2.6128266033254155,
+        3.32541567695962
+      ]
+    },
+    "2": {
+      "n": 305,
+      "conversations_represented": 305,
+      "direct_correct": 261,
+      "transfer_correct": 260,
+      "direct_accuracy_pct": 85.57377049180327,
+      "transfer_accuracy_pct": 85.24590163934427,
+      "delta_transfer_minus_direct_pp": -0.32786885245901637,
+      "direct_wrong_transfer_right": 16,
+      "direct_right_transfer_wrong": 17,
+      "both_correct": 244,
+      "both_wrong": 28,
+      "cluster_bootstrap_95pct_ci_pp": [
+        -4.040404040404041,
+        3.2897450929303416
+      ]
+    },
+    "3": {
+      "n": 211,
+      "conversations_represented": 211,
+      "direct_correct": 174,
+      "transfer_correct": 171,
+      "direct_accuracy_pct": 82.46445497630332,
+      "transfer_accuracy_pct": 81.04265402843602,
+      "delta_transfer_minus_direct_pp": -1.4218009478672986,
+      "direct_wrong_transfer_right": 12,
+      "direct_right_transfer_wrong": 15,
+      "both_correct": 159,
+      "both_wrong": 25,
+      "cluster_bootstrap_95pct_ci_pp": [
+        -6.220843301435407,
+        3.2863849765258215
+      ]
+    },
+    "4": {
+      "n": 108,
+      "conversations_represented": 108,
+      "direct_correct": 87,
+      "transfer_correct": 89,
+      "direct_accuracy_pct": 80.55555555555556,
+      "transfer_accuracy_pct": 82.4074074074074,
+      "delta_transfer_minus_direct_pp": 1.8518518518518519,
+      "direct_wrong_transfer_right": 7,
+      "direct_right_transfer_wrong": 5,
+      "both_correct": 82,
+      "both_wrong": 14,
+      "cluster_bootstrap_95pct_ci_pp": [
+        -4.424778761061947,
+        8.036841630591615
+      ]
+    },
+    "5": {
+      "n": 20,
+      "conversations_represented": 20,
+      "direct_correct": 14,
+      "transfer_correct": 15,
+      "direct_accuracy_pct": 70.0,
+      "transfer_accuracy_pct": 75.0,
+      "delta_transfer_minus_direct_pp": 5.0,
+      "direct_wrong_transfer_right": 1,
+      "direct_right_transfer_wrong": 0,
+      "both_correct": 14,
+      "both_wrong": 5,
+      "cluster_bootstrap_95pct_ci_pp": null
+    },
+    "6": {
+      "n": 3,
+      "conversations_represented": 3,
+      "direct_correct": 2,
+      "transfer_correct": 2,
+      "direct_accuracy_pct": 66.66666666666667,
+      "transfer_accuracy_pct": 66.66666666666667,
+      "delta_transfer_minus_direct_pp": 0.0,
+      "direct_wrong_transfer_right": 0,
+      "direct_right_transfer_wrong": 0,
+      "both_correct": 2,
+      "both_wrong": 1,
+      "cluster_bootstrap_95pct_ci_pp": null
+    },
+    "7": {
+      "n": 1,
+      "conversations_represented": 1,
+      "direct_correct": 0,
+      "transfer_correct": 0,
+      "direct_accuracy_pct": 0.0,
+      "transfer_accuracy_pct": 0.0,
+      "delta_transfer_minus_direct_pp": 0.0,
+      "direct_wrong_transfer_right": 0,
+      "direct_right_transfer_wrong": 0,
+      "both_correct": 0,
+      "both_wrong": 1,
+      "cluster_bootstrap_95pct_ci_pp": null
+    }
+  },
+  "by_operator": {
+    "add": {
+      "n": 170,
+      "conversations_represented": 79,
+      "direct_correct": 129,
+      "transfer_correct": 133,
+      "direct_accuracy_pct": 75.88235294117646,
+      "transfer_accuracy_pct": 78.23529411764706,
+      "delta_transfer_minus_direct_pp": 2.3529411764705883,
+      "direct_wrong_transfer_right": 15,
+      "direct_right_transfer_wrong": 11,
+      "both_correct": 118,
+      "both_wrong": 26,
+      "cluster_bootstrap_95pct_ci_pp": [
+        -3.8838103643928883,
+        8.284105397365066
+      ]
+    },
+    "divide": {
+      "n": 523,
+      "conversations_represented": 384,
+      "direct_correct": 409,
+      "transfer_correct": 421,
+      "direct_accuracy_pct": 78.20267686424474,
+      "transfer_accuracy_pct": 80.49713193116635,
+      "delta_transfer_minus_direct_pp": 2.294455066921606,
+      "direct_wrong_transfer_right": 41,
+      "direct_right_transfer_wrong": 29,
+      "both_correct": 380,
+      "both_wrong": 73,
+      "cluster_bootstrap_95pct_ci_pp": [
+        -0.7633952680513187,
+        5.303030303030303
+      ]
+    },
+    "greater": {
+      "n": 4,
+      "conversations_represented": 4,
+      "direct_correct": 3,
+      "transfer_correct": 4,
+      "direct_accuracy_pct": 75.0,
+      "transfer_accuracy_pct": 100.0,
+      "delta_transfer_minus_direct_pp": 25.0,
+      "direct_wrong_transfer_right": 1,
+      "direct_right_transfer_wrong": 0,
+      "both_correct": 3,
+      "both_wrong": 0,
+      "cluster_bootstrap_95pct_ci_pp": null
+    },
+    "multiply": {
+      "n": 93,
+      "conversations_represented": 54,
+      "direct_correct": 50,
+      "transfer_correct": 58,
+      "direct_accuracy_pct": 53.763440860215056,
+      "transfer_accuracy_pct": 62.365591397849464,
+      "delta_transfer_minus_direct_pp": 8.602150537634408,
+      "direct_wrong_transfer_right": 16,
+      "direct_right_transfer_wrong": 8,
+      "both_correct": 42,
+      "both_wrong": 27,
+      "cluster_bootstrap_95pct_ci_pp": [
+        -2.6315789473684212,
+        20.0
+      ]
+    },
+    "subtract": {
+      "n": 627,
+      "conversations_represented": 290,
+      "direct_correct": 528,
+      "transfer_correct": 530,
+      "direct_accuracy_pct": 84.21052631578948,
+      "transfer_accuracy_pct": 84.52950558213716,
+      "delta_transfer_minus_direct_pp": 0.3189792663476874,
+      "direct_wrong_transfer_right": 25,
+      "direct_right_transfer_wrong": 23,
+      "both_correct": 505,
+      "both_wrong": 74,
+      "cluster_bootstrap_95pct_ci_pp": [
+        -2.02024129318064,
+        2.680100026948623
+      ]
+    }
+  },
+  "limitations": [
+    "Cluster bootstrap resamples conversations; turns within a conversation are dependent.",
+    "Exploratory percentile CIs are not a substitute for independent runs across training seeds.",
+    "Oracle-history performance is not free-running end-to-end dialogue success.",
+    "ConvFinQA Dev was used in model development; do not call this blind test generalization.",
+    "Operator subsets overlap; their counts must not be summed."
+  ]
+}

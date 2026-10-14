@@ -1,0 +1,168 @@
+{
+  "bootstrap": 5000,
+  "caveats": [
+    "Dev is not unseen Test.",
+    "Self generated histories differ by model, so Self prompts do not have matching fingerprints.",
+    "Bootstrap resamples whole conversations; no claim that CIs including 0 establish equivalence."
+  ],
+  "comparisons": {
+    "direct_oracle_vs_self": {
+      "bootstrap_replicates": 5000,
+      "candidate_acc": 0.736241610738255,
+      "candidate_correct": 1097,
+      "candidate_losses": 121,
+      "candidate_wins": 11,
+      "cluster_bootstrap_ci95_pp": [
+        -9.233817667214415,
+        -5.540716450763179
+      ],
+      "cluster_count": 421,
+      "delta_pp": -7.382550335570469,
+      "n": 1490,
+      "reference_acc": 0.8100671140939597,
+      "reference_correct": 1207,
+      "seed": 42
+    },
+    "direct_vs_replay_self": {
+      "bootstrap_replicates": 5000,
+      "candidate_acc": 0.7194630872483222,
+      "candidate_correct": 1072,
+      "candidate_losses": 112,
+      "candidate_wins": 87,
+      "cluster_bootstrap_ci95_pp": [
+        -4.32762159045671,
+        0.9364705197602
+      ],
+      "cluster_count": 421,
+      "delta_pp": -1.6778523489932886,
+      "n": 1490,
+      "reference_acc": 0.736241610738255,
+      "reference_correct": 1097,
+      "seed": 42
+    },
+    "direct_vs_transfer_self": {
+      "bootstrap_replicates": 5000,
+      "candidate_acc": 0.7342281879194631,
+      "candidate_correct": 1094,
+      "candidate_losses": 90,
+      "candidate_wins": 87,
+      "cluster_bootstrap_ci95_pp": [
+        -2.7171212934734,
+        2.3777578011852327
+      ],
+      "cluster_count": 421,
+      "delta_pp": -0.20134228187919462,
+      "n": 1490,
+      "reference_acc": 0.736241610738255,
+      "reference_correct": 1097,
+      "seed": 42
+    },
+    "replay_oracle_vs_self": {
+      "bootstrap_replicates": 5000,
+      "candidate_acc": 0.7194630872483222,
+      "candidate_correct": 1072,
+      "candidate_losses": 141,
+      "candidate_wins": 12,
+      "cluster_bootstrap_ci95_pp": [
+        -10.607173306941588,
+        -6.629730474292789
+      ],
+      "cluster_count": 421,
+      "delta_pp": -8.657718120805368,
+      "n": 1490,
+      "reference_acc": 0.8060402684563759,
+      "reference_correct": 1201,
+      "seed": 42
+    },
+    "transfer_oracle_vs_self": {
+      "bootstrap_replicates": 5000,
+      "candidate_acc": 0.7342281879194631,
+      "candidate_correct": 1094,
+      "candidate_losses": 144,
+      "candidate_wins": 15,
+      "cluster_bootstrap_ci95_pp": [
+        -10.794345451597033,
+        -6.5401591032347275
+      ],
+      "cluster_count": 421,
+      "delta_pp": -8.657718120805368,
+      "n": 1490,
+      "reference_acc": 0.8208053691275168,
+      "reference_correct": 1223,
+      "seed": 42
+    },
+    "transfer_vs_replay_self": {
+      "bootstrap_replicates": 5000,
+      "candidate_acc": 0.7194630872483222,
+      "candidate_correct": 1072,
+      "candidate_losses": 65,
+      "candidate_wins": 43,
+      "cluster_bootstrap_ci95_pp": [
+        -3.2754010695187166,
+        0.202572681963423
+      ],
+      "cluster_count": 421,
+      "delta_pp": -1.476510067114094,
+      "n": 1490,
+      "reference_acc": 0.7342281879194631,
+      "reference_correct": 1094,
+      "seed": 42
+    }
+  },
+  "dataset": "ConvFinQA Dev",
+  "history": "previous MODEL final answers only, not full generated reasoning or transcript",
+  "matched_oracle_prompt_fingerprint": "e570d7bfe4e917f132433f8bbae294555cfc51812f27a4fd62e1d0e25737c708",
+  "models": {
+    "direct": {
+      "matched_oracle": {
+        "accuracy": 0.8100671140939597,
+        "conversation_exact_match": 0.5771971496437055,
+        "conversations": 421,
+        "correct": 1207,
+        "fingerprint": "e570d7bfe4e917f132433f8bbae294555cfc51812f27a4fd62e1d0e25737c708"
+      },
+      "model_answer_history": {
+        "accuracy": 0.736241610738255,
+        "conversation_exact_match": 0.5748218527315915,
+        "conversations": 421,
+        "correct": 1097,
+        "fingerprint": "cf3391a8a4b0a2ead0dd567abaa3798fbf629b6070ecbf5ebf2bb2d1af797568"
+      }
+    },
+    "replay": {
+      "matched_oracle": {
+        "accuracy": 0.8060402684563759,
+        "conversation_exact_match": 0.5676959619952494,
+        "conversations": 421,
+        "correct": 1201,
+        "fingerprint": "e570d7bfe4e917f132433f8bbae294555cfc51812f27a4fd62e1d0e25737c708"
+      },
+      "model_answer_history": {
+        "accuracy": 0.7194630872483222,
+        "conversation_exact_match": 0.5605700712589073,
+        "conversations": 421,
+        "correct": 1072,
+        "fingerprint": "7fde05556c77eb6bcda43bce3690b70bbe127fa2eff7011bdd7c00d97295e2dc"
+      }
+    },
+    "transfer": {
+      "matched_oracle": {
+        "accuracy": 0.8208053691275168,
+        "conversation_exact_match": 0.6009501187648456,
+        "conversations": 421,
+        "correct": 1223,
+        "fingerprint": "e570d7bfe4e917f132433f8bbae294555cfc51812f27a4fd62e1d0e25737c708"
+      },
+      "model_answer_history": {
+        "accuracy": 0.7342281879194631,
+        "conversation_exact_match": 0.5795724465558195,
+        "conversations": 421,
+        "correct": 1094,
+        "fingerprint": "219e6d428315243905b2baa0119b3fd39876e89475fa78b7941b1ad98061a844"
+      }
+    }
+  },
+  "n": 1490,
+  "n_conversations": 421,
+  "seed": 42
+}

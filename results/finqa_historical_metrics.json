@@ -1,0 +1,29 @@
+{
+  "project": "FinQA Qwen3-1.7B-Base post-training",
+  "record_type": "historical_metrics_summary",
+  "provenance_note": "Compiled from previously reported experiment results; not a fresh evaluation. Verify against original logs before public release.",
+  "accuracy_unit": "fraction",
+  "models": [
+    {"name": "base", "dev_accuracy": 0.3567, "test_accuracy": null},
+    {"name": "lora_sft", "dev_accuracy": 0.5549, "test_accuracy": 0.5362},
+    {"name": "vanilla_grpo", "dev_accuracy": 0.5878, "test_accuracy": 0.5658},
+    {"name": "dynamic_sampling_grpo", "dev_accuracy": 0.6014, "test_accuracy": 0.5745}
+  ],
+  "separate_uniform_vllm_test": {
+    "date": "2026-10-14",
+    "n": 1147,
+    "original_sft": 0.5414123801220575,
+    "transfer": 0.3775,
+    "direct": 0.1988,
+    "replay": 0.5283,
+    "note": "Rounded fractions except original_sft exact metric; use finqa_test_paired.json for exact paired statistics."
+  },
+  "vllm_benchmark": {
+    "dataset": "FinQA Dev",
+    "n": 883,
+    "hardware": "RTX 4090",
+    "transformers_samples_per_second": 3.088,
+    "vllm_samples_per_second": 23.681,
+    "speedup_x_approx": 7.67
+  }
+}

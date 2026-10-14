@@ -1,0 +1,136 @@
+{
+  "bootstrap_replicates": 5000,
+  "caveats": [
+    "One-time final Test use only; do not select models or retune on Test.",
+    "Earlier project phases already inspected FinQA Test results; not a never-observed blind benchmark.",
+    "Same numerical evaluator / vLLM settings; no claim of zero forgetting without equivalence testing.",
+    "Document clustering partially falls back to per-item clusters if PDF IDs cannot be parsed."
+  ],
+  "cluster_method": "document_clustered",
+  "models": {
+    "direct": {
+      "accuracy": 0.1987794245858762,
+      "correct": 228
+    },
+    "original_sft": {
+      "accuracy": 0.5414123801220575,
+      "correct": 621
+    },
+    "replay": {
+      "accuracy": 0.5283347863993025,
+      "correct": 606
+    },
+    "transfer": {
+      "accuracy": 0.37750653879686136,
+      "correct": 433
+    }
+  },
+  "pairs": {
+    "direct_vs_replay": {
+      "bootstrap_replicates": 5000,
+      "candidate_acc": 0.5283347863993025,
+      "candidate_correct": 606,
+      "candidate_losses": 51,
+      "candidate_wins": 429,
+      "cluster_bootstrap_ci95_pp": [
+        29.54914096368,
+        36.3954582973948
+      ],
+      "cluster_count": 380,
+      "delta_pp": 32.95553618134263,
+      "n": 1147,
+      "reference_acc": 0.1987794245858762,
+      "reference_correct": 228,
+      "seed": 42
+    },
+    "original_sft_vs_direct": {
+      "bootstrap_replicates": 5000,
+      "candidate_acc": 0.1987794245858762,
+      "candidate_correct": 228,
+      "candidate_losses": 448,
+      "candidate_wins": 55,
+      "cluster_bootstrap_ci95_pp": [
+        -37.77787406123628,
+        -30.817596099064982
+      ],
+      "cluster_count": 380,
+      "delta_pp": -34.263295553618136,
+      "n": 1147,
+      "reference_acc": 0.5414123801220575,
+      "reference_correct": 621,
+      "seed": 42
+    },
+    "original_sft_vs_replay": {
+      "bootstrap_replicates": 5000,
+      "candidate_acc": 0.5283347863993025,
+      "candidate_correct": 606,
+      "candidate_losses": 55,
+      "candidate_wins": 40,
+      "cluster_bootstrap_ci95_pp": [
+        -2.9361394884460683,
+        0.25471246354098587
+      ],
+      "cluster_count": 380,
+      "delta_pp": -1.3077593722755012,
+      "n": 1147,
+      "reference_acc": 0.5414123801220575,
+      "reference_correct": 621,
+      "seed": 42
+    },
+    "original_sft_vs_transfer": {
+      "bootstrap_replicates": 5000,
+      "candidate_acc": 0.37750653879686136,
+      "candidate_correct": 433,
+      "candidate_losses": 266,
+      "candidate_wins": 78,
+      "cluster_bootstrap_ci95_pp": [
+        -19.70489299733506,
+        -13.105605127897698
+      ],
+      "cluster_count": 380,
+      "delta_pp": -16.390584132519617,
+      "n": 1147,
+      "reference_acc": 0.5414123801220575,
+      "reference_correct": 621,
+      "seed": 42
+    },
+    "transfer_vs_direct": {
+      "bootstrap_replicates": 5000,
+      "candidate_acc": 0.1987794245858762,
+      "candidate_correct": 228,
+      "candidate_losses": 233,
+      "candidate_wins": 28,
+      "cluster_bootstrap_ci95_pp": [
+        -20.604012649416735,
+        -15.19091696846649
+      ],
+      "cluster_count": 380,
+      "delta_pp": -17.87271142109852,
+      "n": 1147,
+      "reference_acc": 0.37750653879686136,
+      "reference_correct": 433,
+      "seed": 42
+    },
+    "transfer_vs_replay": {
+      "bootstrap_replicates": 5000,
+      "candidate_acc": 0.5283347863993025,
+      "candidate_correct": 606,
+      "candidate_losses": 74,
+      "candidate_wins": 247,
+      "cluster_bootstrap_ci95_pp": [
+        11.811584025164121,
+        18.34786616788182
+      ],
+      "cluster_count": 380,
+      "delta_pp": 15.082824760244115,
+      "n": 1147,
+      "reference_acc": 0.37750653879686136,
+      "reference_correct": 433,
+      "seed": 42
+    }
+  },
+  "pdf_identified_rows": 1147,
+  "sample_count": 1147,
+  "seed": 42,
+  "split": "FinQA Test"
+}

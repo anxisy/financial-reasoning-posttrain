@@ -1,0 +1,2 @@
+# 在单独的 uv 环境安装；vLLM 会解析自己的 PyTorch/CUDA 依赖。
+vllm==0.31.0

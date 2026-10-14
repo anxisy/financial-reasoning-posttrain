@@ -1,0 +1,894 @@
+{
+  "note": "FinQA Dev and ConvFinQA oracle Dev are different tasks; compare within dataset, not raw percentage across datasets",
+  "bootstrap_replicates": 5000,
+  "seed": 42,
+  "finqa": {
+    "original_sft_vs_replay": {
+      "n": 883,
+      "clusters": 299,
+      "reference_correct": 493,
+      "replay_correct": 476,
+      "reference_accuracy": 0.5583238958097395,
+      "replay_accuracy": 0.5390713476783692,
+      "delta_pp": -1.9252548131370328,
+      "replay_wins": 35,
+      "replay_losses": 52,
+      "cluster_bootstrap_95pct_ci_pp": [
+        -3.9548022598870056,
+        0.11507479861910241
+      ],
+      "examples_preview": [
+        {
+          "id": "AAPL/2014/page_38.pdf-3",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "12027",
+          "replay_answer": "28987",
+          "gold_answer": "28987"
+        },
+        {
+          "id": "ABMD/2007/page_52.pdf-4",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "45.6%",
+          "replay_answer": "45.5%",
+          "gold_answer": "45.6%"
+        },
+        {
+          "id": "ABMD/2009/page_56.pdf-3",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "21.7%",
+          "replay_answer": "21.8%",
+          "gold_answer": "21.6%"
+        },
+        {
+          "id": "ADI/2011/page_50.pdf-3",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "2.34",
+          "replay_answer": "1.81",
+          "gold_answer": "$ 2.33 million"
+        },
+        {
+          "id": "ADI/2011/page_81.pdf-3",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "203%",
+          "replay_answer": "204%",
+          "gold_answer": "204%"
+        },
+        {
+          "id": "AES/2017/page_157.pdf-2",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "2980.32",
+          "replay_answer": "29.8",
+          "gold_answer": "2981.5"
+        },
+        {
+          "id": "ALXN/2007/page_104.pdf-2",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "1.3%",
+          "replay_answer": "1.2%",
+          "gold_answer": "1.3%"
+        },
+        {
+          "id": "AMT/2004/page_81.pdf-1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "4.2%",
+          "replay_answer": "2%",
+          "gold_answer": "2.0%"
+        },
+        {
+          "id": "AMT/2005/page_105.pdf-3",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "23.7%",
+          "replay_answer": "37.7%",
+          "gold_answer": "23.7%"
+        },
+        {
+          "id": "AMT/2005/page_54.pdf-2",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "104.6%",
+          "replay_answer": "105.1%",
+          "gold_answer": "105.0%"
+        },
+        {
+          "id": "AMT/2008/page_32.pdf-3",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "33.0%",
+          "replay_answer": "33.1%",
+          "gold_answer": "33.1%"
+        },
+        {
+          "id": "AMT/2010/page_34.pdf-3",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "858370",
+          "replay_answer": "857370",
+          "gold_answer": "858775"
+        },
+        {
+          "id": "AON/2010/page_28.pdf-1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "996000",
+          "replay_answer": "778000",
+          "gold_answer": "778000"
+        },
+        {
+          "id": "AON/2014/page_47.pdf-4",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "12183",
+          "replay_answer": "12468.6",
+          "gold_answer": "12182.9"
+        },
+        {
+          "id": "APD/2013/page_32.pdf-1",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "11.4%",
+          "replay_answer": "11.3%",
+          "gold_answer": "11.46%"
+        },
+        {
+          "id": "BLK/2012/page_160.pdf-3",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "64.8%",
+          "replay_answer": "100%",
+          "gold_answer": "64.8%"
+        },
+        {
+          "id": "BLK/2012/page_37.pdf-2",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "19.3%",
+          "replay_answer": "19.2%",
+          "gold_answer": "19.3%"
+        },
+        {
+          "id": "BLK/2013/page_125.pdf-2",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "9.9%",
+          "replay_answer": "10%",
+          "gold_answer": "9.88%"
+        },
+        {
+          "id": "BLK/2014/page_119.pdf-2",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "2672",
+          "replay_answer": "2500",
+          "gold_answer": "2672"
+        },
+        {
+          "id": "BLL/2007/page_35.pdf-1",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "37.8",
+          "replay_answer": "37787700",
+          "gold_answer": "37.8"
+        }
+      ]
+    },
+    "transfer_vs_replay": {
+      "n": 883,
+      "clusters": 299,
+      "reference_correct": 344,
+      "replay_correct": 476,
+      "reference_accuracy": 0.3895809739524349,
+      "replay_accuracy": 0.5390713476783692,
+      "delta_pp": 14.949037372593432,
+      "replay_wins": 180,
+      "replay_losses": 48,
+      "cluster_bootstrap_95pct_ci_pp": [
+        11.547085201793722,
+        18.53932584269663
+      ],
+      "examples_preview": [
+        {
+          "id": "AAL/2013/page_15.pdf-1",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "1.6129",
+          "replay_answer": "1.61",
+          "gold_answer": "1.62"
+        },
+        {
+          "id": "AAP/2012/page_12.pdf-2",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.00297",
+          "replay_answer": "2.7%",
+          "gold_answer": "2.7%"
+        },
+        {
+          "id": "AAP/2012/page_12.pdf-3",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "101.0",
+          "replay_answer": "198",
+          "gold_answer": "101 stores created per year"
+        },
+        {
+          "id": "AAPL/2014/page_38.pdf-1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "155239.0",
+          "replay_answer": "2014",
+          "gold_answer": "2014"
+        },
+        {
+          "id": "AAPL/2014/page_38.pdf-3",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "12027.0",
+          "replay_answer": "28987",
+          "gold_answer": "28987"
+        },
+        {
+          "id": "ABMD/2004/page_26.pdf-4",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.1683",
+          "replay_answer": "17%",
+          "gold_answer": "17%"
+        },
+        {
+          "id": "ABMD/2007/page_52.pdf-3",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.54273",
+          "replay_answer": "54.4%",
+          "gold_answer": "54.4%"
+        },
+        {
+          "id": "ABMD/2007/page_52.pdf-4",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "0.4553",
+          "replay_answer": "45.5%",
+          "gold_answer": "45.6%"
+        },
+        {
+          "id": "ABMD/2009/page_56.pdf-2",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "0.48771",
+          "replay_answer": "49.1%",
+          "gold_answer": "48.8%"
+        },
+        {
+          "id": "ABMD/2009/page_56.pdf-3",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "0.21638",
+          "replay_answer": "21.8%",
+          "gold_answer": "21.6%"
+        },
+        {
+          "id": "ADBE/2018/page_86.pdf-1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.01101",
+          "replay_answer": "13.4%",
+          "gold_answer": "13.4%"
+        },
+        {
+          "id": "ADI/2011/page_81.pdf-3",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.29363",
+          "replay_answer": "204%",
+          "gold_answer": "204%"
+        },
+        {
+          "id": "AES/2001/page_44.pdf-2",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "2.48359",
+          "replay_answer": "2.5",
+          "gold_answer": "2.5"
+        },
+        {
+          "id": "AES/2015/page_117.pdf-1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "-0.02857",
+          "replay_answer": "-30%",
+          "gold_answer": "-30%"
+        },
+        {
+          "id": "AES/2015/page_117.pdf-3",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "176.66667",
+          "replay_answer": "159.3",
+          "gold_answer": "159.3"
+        },
+        {
+          "id": "AES/2016/page_191.pdf-1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "-0.02525",
+          "replay_answer": "-5%",
+          "gold_answer": "-5%"
+        },
+        {
+          "id": "AES/2016/page_191.pdf-2",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "-0.00268",
+          "replay_answer": "-1%",
+          "gold_answer": "-1%"
+        },
+        {
+          "id": "AES/2017/page_157.pdf-1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.1512",
+          "replay_answer": "15%",
+          "gold_answer": "15%"
+        },
+        {
+          "id": "AES/2017/page_157.pdf-2",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "2980.32",
+          "replay_answer": "29.8",
+          "gold_answer": "2981.5"
+        },
+        {
+          "id": "AES/2017/page_157.pdf-4",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.2573",
+          "replay_answer": "26%",
+          "gold_answer": "26%"
+        }
+      ]
+    },
+    "direct_vs_replay": {
+      "n": 883,
+      "clusters": 299,
+      "reference_correct": 178,
+      "replay_correct": 476,
+      "reference_accuracy": 0.2015855039637599,
+      "replay_accuracy": 0.5390713476783692,
+      "delta_pp": 33.74858437146093,
+      "replay_wins": 330,
+      "replay_losses": 32,
+      "cluster_bootstrap_95pct_ci_pp": [
+        29.820627802690584,
+        37.64705882352941
+      ],
+      "examples_preview": [
+        {
+          "id": "AAL/2013/page_15.pdf-3",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.22433",
+          "replay_answer": "1.08",
+          "gold_answer": "1.08"
+        },
+        {
+          "id": "AAL/2013/page_15.pdf-4",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.51319",
+          "replay_answer": "13.1%",
+          "gold_answer": "13.1%"
+        },
+        {
+          "id": "AAL/2015/page_118.pdf-3",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.06221",
+          "replay_answer": "38152",
+          "gold_answer": "38152"
+        },
+        {
+          "id": "AAP/2011/page_28.pdf-1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "2.0118",
+          "replay_answer": "-2.74%",
+          "gold_answer": "-2.7%"
+        },
+        {
+          "id": "AAP/2011/page_28.pdf-2",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.9726",
+          "replay_answer": "-34.3%",
+          "gold_answer": "-34.3%"
+        },
+        {
+          "id": "AAP/2012/page_12.pdf-2",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.00288",
+          "replay_answer": "2.7%",
+          "gold_answer": "2.7%"
+        },
+        {
+          "id": "AAPL/2003/page_24.pdf-2",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.27517",
+          "replay_answer": "27.9",
+          "gold_answer": "27.9"
+        },
+        {
+          "id": "AAPL/2004/page_36.pdf-1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "656.0",
+          "replay_answer": "2259",
+          "gold_answer": "2259"
+        },
+        {
+          "id": "AAPL/2005/page_83.pdf-2",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "1.1",
+          "replay_answer": "-26",
+          "gold_answer": "-26"
+        },
+        {
+          "id": "AAPL/2014/page_38.pdf-1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "8478.0",
+          "replay_answer": "2014",
+          "gold_answer": "2014"
+        },
+        {
+          "id": "AAPL/2014/page_38.pdf-3",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "12027.0",
+          "replay_answer": "28987",
+          "gold_answer": "28987"
+        },
+        {
+          "id": "AAPL/2014/page_38.pdf-4",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "4027.0",
+          "replay_answer": "1145",
+          "gold_answer": "1145"
+        },
+        {
+          "id": "ABMD/2004/page_26.pdf-4",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.16765",
+          "replay_answer": "17%",
+          "gold_answer": "17%"
+        },
+        {
+          "id": "ABMD/2007/page_52.pdf-1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "50.7",
+          "replay_answer": "56.3",
+          "gold_answer": "56.3"
+        },
+        {
+          "id": "ABMD/2007/page_52.pdf-3",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.23342",
+          "replay_answer": "54.4%",
+          "gold_answer": "54.4%"
+        },
+        {
+          "id": "ABMD/2007/page_52.pdf-4",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "0.45527",
+          "replay_answer": "45.5%",
+          "gold_answer": "45.6%"
+        },
+        {
+          "id": "ADBE/2018/page_86.pdf-1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "23207.0",
+          "replay_answer": "13.4%",
+          "gold_answer": "13.4%"
+        },
+        {
+          "id": "ADI/2011/page_81.pdf-3",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.92531",
+          "replay_answer": "204%",
+          "gold_answer": "204%"
+        },
+        {
+          "id": "AES/2001/page_44.pdf-2",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "1.3751",
+          "replay_answer": "2.5",
+          "gold_answer": "2.5"
+        },
+        {
+          "id": "AES/2002/page_46.pdf-1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "6.2",
+          "replay_answer": "no",
+          "gold_answer": "no"
+        }
+      ]
+    }
+  },
+  "convfinqa_oracle": {
+    "transfer_vs_replay": {
+      "n": 1490,
+      "clusters": 421,
+      "reference_correct": 1214,
+      "replay_correct": 1201,
+      "reference_accuracy": 0.8147651006711409,
+      "replay_accuracy": 0.8060402684563759,
+      "delta_pp": -0.87248322147651,
+      "replay_wins": 36,
+      "replay_losses": 49,
+      "cluster_bootstrap_95pct_ci_pp": [
+        -2.0974289580514207,
+        0.33692722371967654
+      ],
+      "examples_preview": [
+        {
+          "id": "Double_AAP/2011/page_28.pdf_3",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "-34.3",
+          "replay_answer": "-0.343",
+          "gold_answer": "-34.3"
+        },
+        {
+          "id": "Double_ABMD/2009/page_88.pdf_0",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "16750000.0",
+          "replay_answer": "11166666.0",
+          "gold_answer": "16750002.0"
+        },
+        {
+          "id": "Double_ABMD/2009/page_88.pdf_1",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "168.0",
+          "replay_answer": "0.3",
+          "gold_answer": "168.0"
+        },
+        {
+          "id": "Double_ADBE/2018/page_86.pdf_4",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.01165",
+          "replay_answer": "0.00116",
+          "gold_answer": "0.0"
+        },
+        {
+          "id": "Double_AES/2002/page_46.pdf_2",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "no",
+          "replay_answer": "yes",
+          "gold_answer": "no"
+        },
+        {
+          "id": "Double_AES/2016/page_185.pdf_2",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "10.0",
+          "replay_answer": "0.05",
+          "gold_answer": "0.05"
+        },
+        {
+          "id": "Double_AMAT/2014/page_18.pdf_2",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "0.01528",
+          "replay_answer": "-0.0153",
+          "gold_answer": "0.01528"
+        },
+        {
+          "id": "Double_AMT/2005/page_105.pdf_1",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "4575515.0",
+          "replay_answer": "4.6",
+          "gold_answer": "4575515.0"
+        },
+        {
+          "id": "Double_AMT/2005/page_54.pdf_0",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "30584.0",
+          "replay_answer": "-30584.0",
+          "gold_answer": "-30584.0"
+        },
+        {
+          "id": "Double_AMT/2005/page_85.pdf_1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.54711",
+          "replay_answer": "0.04473",
+          "gold_answer": "0.04488"
+        },
+        {
+          "id": "Double_AMT/2010/page_34.pdf_5",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "22576773677.85",
+          "replay_answer": "22677337777.85",
+          "gold_answer": "22556579533.35"
+        },
+        {
+          "id": "Double_AMT/2012/page_125.pdf_3",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.18052",
+          "replay_answer": "180100.0",
+          "gold_answer": "180041.58004"
+        },
+        {
+          "id": "Double_APD/2013/page_36.pdf_0",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "6.88352",
+          "replay_answer": "6.8738",
+          "gold_answer": "6.88702"
+        },
+        {
+          "id": "Double_BLK/2014/page_119.pdf_0",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "1.06533",
+          "replay_answer": "1.06231",
+          "gold_answer": "1.07513"
+        },
+        {
+          "id": "Double_C/2008/page_102.pdf_3",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "108.4",
+          "replay_answer": "121.6",
+          "gold_answer": "108.4"
+        },
+        {
+          "id": "Double_C/2010/page_223.pdf_2",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "1.20357",
+          "replay_answer": "0.16667",
+          "gold_answer": "0.16418"
+        },
+        {
+          "id": "Double_C/2017/page_328.pdf_3",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "1.15111",
+          "replay_answer": "1.081",
+          "gold_answer": "1.15615"
+        },
+        {
+          "id": "Double_CDNS/2006/page_30.pdf_2",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "16.61",
+          "replay_answer": "11.15",
+          "gold_answer": "11.15"
+        },
+        {
+          "id": "Double_ETFC/2007/page_126.pdf_0",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.15007",
+          "replay_answer": "0.1313",
+          "gold_answer": "0.13153"
+        },
+        {
+          "id": "Double_ETFC/2013/page_26.pdf_0",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "0.64898",
+          "replay_answer": "1.0",
+          "gold_answer": "0.64961"
+        }
+      ]
+    },
+    "direct_vs_replay": {
+      "n": 1490,
+      "clusters": 421,
+      "reference_correct": 1200,
+      "replay_correct": 1201,
+      "reference_accuracy": 0.8053691275167785,
+      "replay_accuracy": 0.8060402684563759,
+      "delta_pp": 0.06711409395973154,
+      "replay_wins": 85,
+      "replay_losses": 84,
+      "cluster_bootstrap_95pct_ci_pp": [
+        -1.804812834224599,
+        1.9741320626276377
+      ],
+      "examples_preview": [
+        {
+          "id": "Double_AAP/2011/page_28.pdf_3",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "-34.3",
+          "replay_answer": "-0.343",
+          "gold_answer": "-34.3"
+        },
+        {
+          "id": "Double_ABMD/2009/page_88.pdf_1",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "168.0",
+          "replay_answer": "0.3",
+          "gold_answer": "168.0"
+        },
+        {
+          "id": "Double_ABMD/2009/page_88.pdf_2",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "560000000.0",
+          "replay_answer": "56.0",
+          "gold_answer": "56.0"
+        },
+        {
+          "id": "Double_ADBE/2018/page_86.pdf_4",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "25.00000",
+          "replay_answer": "0.00116",
+          "gold_answer": "0.0"
+        },
+        {
+          "id": "Double_AES/2002/page_46.pdf_2",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "no",
+          "replay_answer": "yes",
+          "gold_answer": "no"
+        },
+        {
+          "id": "Double_AES/2016/page_191.pdf_4",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "-4.0",
+          "replay_answer": "-21.0",
+          "gold_answer": "-4.0"
+        },
+        {
+          "id": "Double_AMAT/2013/page_18.pdf_1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "-0.07692",
+          "replay_answer": "0.07692",
+          "gold_answer": "0.08333"
+        },
+        {
+          "id": "Double_AMAT/2013/page_18.pdf_3",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "7.22222",
+          "replay_answer": "8.57143",
+          "gold_answer": "7.22222"
+        },
+        {
+          "id": "Double_AMAT/2014/page_18.pdf_1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.0875",
+          "replay_answer": "0.082",
+          "gold_answer": "0.07222"
+        },
+        {
+          "id": "Double_AMAT/2014/page_18.pdf_2",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "0.00528",
+          "replay_answer": "-0.0153",
+          "gold_answer": "0.01528"
+        },
+        {
+          "id": "Double_AMT/2005/page_105.pdf_1",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "4575515.0",
+          "replay_answer": "4.6",
+          "gold_answer": "4575515.0"
+        },
+        {
+          "id": "Double_AMT/2005/page_54.pdf_0",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "30584.0",
+          "replay_answer": "-30584.0",
+          "gold_answer": "-30584.0"
+        },
+        {
+          "id": "Double_AMT/2005/page_85.pdf_1",
+          "reference_correct": false,
+          "replay_correct": true,
+          "reference_answer": "0.08588",
+          "replay_answer": "0.04473",
+          "gold_answer": "0.04488"
+        },
+        {
+          "id": "Double_AMT/2012/page_125.pdf_0",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "173.2",
+          "replay_answer": "173200.0",
+          "gold_answer": "173.2"
+        },
+        {
+          "id": "Double_AMT/2012/page_125.pdf_1",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "173200000.0",
+          "replay_answer": "173200.0",
+          "gold_answer": "173200000.0"
+        },
+        {
+          "id": "Double_APD/2013/page_36.pdf_0",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "6.88037",
+          "replay_answer": "6.8738",
+          "gold_answer": "6.88702"
+        },
+        {
+          "id": "Double_BLK/2013/page_124.pdf_0",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "345.0",
+          "replay_answer": "0.588",
+          "gold_answer": "345.0"
+        },
+        {
+          "id": "Double_BLK/2013/page_124.pdf_1",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "1000.0",
+          "replay_answer": "1029.0",
+          "gold_answer": "1000.0"
+        },
+        {
+          "id": "Double_BLK/2013/page_124.pdf_2",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "750.0",
+          "replay_answer": "759.0",
+          "gold_answer": "750.0"
+        },
+        {
+          "id": "Double_BLK/2014/page_119.pdf_0",
+          "reference_correct": true,
+          "replay_correct": false,
+          "reference_answer": "1.07102",
+          "replay_answer": "1.06231",
+          "gold_answer": "1.07513"
+        }
+      ]
+    }
+  }
+}

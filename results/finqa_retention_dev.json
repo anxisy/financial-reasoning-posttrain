@@ -1,0 +1,225 @@
+{
+  "dataset": "FinQA Dev",
+  "n": 883,
+  "prompt_token_ids_sha256": "752ba9302ba1153bbdcae95d0d9e743b1f00576ab75761939e821dbd678a58af",
+  "models": {
+    "original_sft": {
+      "n": 883,
+      "accuracy": 0.5583238958097395,
+      "strict_accuracy": 0.5583238958097395,
+      "format_accuracy": 1.0,
+      "answer_found_rate": 1.0,
+      "max_token_hit_rate": 0.0,
+      "role_repetition_rate": 0.0,
+      "avg_response_tokens": 47.13250283125708
+    },
+    "transfer": {
+      "n": 883,
+      "accuracy": 0.3895809739524349,
+      "strict_accuracy": 0.3895809739524349,
+      "format_accuracy": 1.0,
+      "answer_found_rate": 1.0,
+      "max_token_hit_rate": 0.0,
+      "role_repetition_rate": 0.0,
+      "avg_response_tokens": 36.76557191392978
+    },
+    "direct": {
+      "n": 883,
+      "accuracy": 0.2015855039637599,
+      "strict_accuracy": 0.2015855039637599,
+      "format_accuracy": 0.9988674971687429,
+      "answer_found_rate": 1.0,
+      "max_token_hit_rate": 0.0011325028312570782,
+      "role_repetition_rate": 0.0,
+      "avg_response_tokens": 37.16308040770102
+    }
+  },
+  "by_operator": {
+    "original_sft": {
+      "add": {
+        "n": 112,
+        "accuracy": 0.5
+      },
+      "average": {
+        "n": 19,
+        "accuracy": 0.2631578947368421
+      },
+      "divide": {
+        "n": 610,
+        "accuracy": 0.5262295081967213
+      },
+      "exp": {
+        "n": 1,
+        "accuracy": 0.0
+      },
+      "greater": {
+        "n": 10,
+        "accuracy": 1.0
+      },
+      "max": {
+        "n": 8,
+        "accuracy": 0.75
+      },
+      "min": {
+        "n": 5,
+        "accuracy": 1.0
+      },
+      "multiply": {
+        "n": 76,
+        "accuracy": 0.2236842105263158
+      },
+      "subtract": {
+        "n": 379,
+        "accuracy": 0.5963060686015831
+      },
+      "sum": {
+        "n": 4,
+        "accuracy": 0.75
+      }
+    },
+    "transfer": {
+      "add": {
+        "n": 112,
+        "accuracy": 0.375
+      },
+      "average": {
+        "n": 19,
+        "accuracy": 0.05263157894736842
+      },
+      "divide": {
+        "n": 610,
+        "accuracy": 0.3180327868852459
+      },
+      "exp": {
+        "n": 1,
+        "accuracy": 0.0
+      },
+      "greater": {
+        "n": 10,
+        "accuracy": 1.0
+      },
+      "max": {
+        "n": 8,
+        "accuracy": 0.625
+      },
+      "min": {
+        "n": 5,
+        "accuracy": 0.8
+      },
+      "multiply": {
+        "n": 76,
+        "accuracy": 0.19736842105263158
+      },
+      "subtract": {
+        "n": 379,
+        "accuracy": 0.32981530343007914
+      },
+      "sum": {
+        "n": 4,
+        "accuracy": 0.0
+      }
+    },
+    "direct": {
+      "add": {
+        "n": 112,
+        "accuracy": 0.14285714285714285
+      },
+      "average": {
+        "n": 19,
+        "accuracy": 0.0
+      },
+      "divide": {
+        "n": 610,
+        "accuracy": 0.1737704918032787
+      },
+      "exp": {
+        "n": 1,
+        "accuracy": 0.0
+      },
+      "greater": {
+        "n": 10,
+        "accuracy": 0.0
+      },
+      "max": {
+        "n": 8,
+        "accuracy": 0.0
+      },
+      "min": {
+        "n": 5,
+        "accuracy": 0.2
+      },
+      "multiply": {
+        "n": 76,
+        "accuracy": 0.06578947368421052
+      },
+      "subtract": {
+        "n": 379,
+        "accuracy": 0.16358839050131926
+      },
+      "sum": {
+        "n": 4,
+        "accuracy": 0.0
+      }
+    }
+  },
+  "pairs": {
+    "original_sft_vs_transfer": {
+      "n_questions": 883,
+      "n_document_clusters": 299,
+      "a_correct": 493,
+      "b_correct": 344,
+      "a_accuracy": 0.5583238958097395,
+      "b_accuracy": 0.3895809739524349,
+      "delta_pp": -16.874292185730464,
+      "b_wins_a_losses": 41,
+      "a_wins_b_losses": 190,
+      "document_cluster_bootstrap_ci95_pp": [
+        -20.16036655211913,
+        -13.583138173302109
+      ],
+      "mcnemar_exact_p_exploratory": 4.075539373569215e-24,
+      "notes": "Document-cluster bootstrap if document IDs parseable, otherwise item clustering. McNemar assumes paired independent items; report as exploratory when documents repeat."
+    },
+    "direct_vs_transfer": {
+      "n_questions": 883,
+      "n_document_clusters": 299,
+      "a_correct": 178,
+      "b_correct": 344,
+      "a_accuracy": 0.2015855039637599,
+      "b_accuracy": 0.3895809739524349,
+      "delta_pp": 18.7995469988675,
+      "b_wins_a_losses": 184,
+      "a_wins_b_losses": 18,
+      "document_cluster_bootstrap_ci95_pp": [
+        15.719063545150501,
+        21.925754060324827
+      ],
+      "mcnemar_exact_p_exploratory": 7.730893688986849e-36,
+      "notes": "Document-cluster bootstrap if document IDs parseable, otherwise item clustering. McNemar assumes paired independent items; report as exploratory when documents repeat."
+    },
+    "original_sft_vs_direct": {
+      "n_questions": 883,
+      "n_document_clusters": 299,
+      "a_correct": 493,
+      "b_correct": 178,
+      "a_accuracy": 0.5583238958097395,
+      "b_accuracy": 0.2015855039637599,
+      "delta_pp": -35.67383918459796,
+      "b_wins_a_losses": 27,
+      "a_wins_b_losses": 342,
+      "document_cluster_bootstrap_ci95_pp": [
+        -39.62703962703963,
+        -31.645569620253166
+      ],
+      "mcnemar_exact_p_exploratory": 1.2758592127019611e-70,
+      "notes": "Document-cluster bootstrap if document IDs parseable, otherwise item clustering. McNemar assumes paired independent items; report as exploratory when documents repeat."
+    }
+  },
+  "interpretation_cautions": [
+    "ConvFinQA/FinQA Dev has been used during model selection; do not claim unseen independent test generalization.",
+    "Transfer above Direct does not by itself prove retention; compare Transfer against original FinQA SFT.",
+    "Confidence intervals including 0 do not establish a reliable difference.",
+    "FinQA vs ConvFinQA accuracies refer to different tasks and should not be directly compared.",
+    "This is a one-seed adapter comparison; multiple seeds needed for robust claims."
+  ]
+}

@@ -1,0 +1,61 @@
+# Training data and predictions (dataset licenses and privacy)
+**/data/
+**/datasets/
+**/raw/
+**/processed/
+*.jsonl
+*.csv
+*.parquet
+*.arrow
+*.db
+*.sqlite
+
+# Weights and trainer checkpoints
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.bin
+*.h5
+**/checkpoint-*/
+**/checkpoints/
+**/models/
+**/weights/
+
+# Local outputs / logs / caches
+**/outputs/
+**/logs/
+**/wandb/
+**/runs/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.log
+*.whl
+*.tar
+*.tar.gz
+*.zip
+
+# Env / secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+**/id_rsa
+**/id_ed25519
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+
+# Portable runner local paths; do not share machine-specific settings
+/configs/paths.local.json
+/configs/paths.*.local.json
+/financial_portable_runs_v1/

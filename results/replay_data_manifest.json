@@ -1,0 +1,33 @@
+{
+  "schema": "convfinqa_finqa_replay_v1",
+  "seed": 42,
+  "source_paths": {
+    "convfinqa": "/root/autodl-tmp/project/convfinqa_posttrain/data/processed_v2/sft/train.jsonl",
+    "finqa": "/root/autodl-tmp/project/finqa_posttrain/data/processed_v1_1_1/sft/finqa_sft_train.jsonl"
+  },
+  "source_sha256": {
+    "convfinqa": "1f3e108c0fc37c11cef685b7685fd37ba69b7130d7134fe962f93f5b4c824c72",
+    "finqa": "f29a1bd939d8c0c84716a87d1f060b1793dc6ebc589591dbe6e642c5be89bde0"
+  },
+  "train_file": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/data/replay_train.jsonl",
+  "train_sha256": "60c2a708cfcd36b990fc4e1abb895bab01baa62eed875a56c4400dc33496bc3b",
+  "total_rows": 11104,
+  "finqa_rows": 1110,
+  "convfinqa_rows": 9994,
+  "finqa_fraction": 0.09996397694524496,
+  "convfinqa_type_counts": {
+    "program_turn": 6474,
+    "number_turn": 3520
+  },
+  "batch_size": 1,
+  "gradient_accumulation_steps": 8,
+  "expected_optimizer_steps": 1388,
+  "notes": [
+    "No Dev or Test used",
+    "No sample repeated in mix",
+    "Sample budget matches experiment 01",
+    "About 10% of original ConvFinQA samples replaced by FinQA Train samples",
+    "Both datasets retain their own original prompts and targets",
+    "FinQA single-turn training rows are not oracle multi-turn history"
+  ]
+}

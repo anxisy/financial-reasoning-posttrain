@@ -1,0 +1,16 @@
+{
+  "base_model": "/PATH/TO/Qwen3-1.7B-Base",
+  "finqa_sft_train": "/PATH/TO/finqa_sft_train.jsonl",
+  "finqa_sft_dev": "/PATH/TO/finqa_sft_dev.jsonl",
+  "finqa_grpo_train": "/PATH/TO/finqa_grpo_train.jsonl",
+  "finqa_eval_dev": "/PATH/TO/finqa_eval_dev.jsonl",
+  "finqa_eval_test": "/PATH/TO/finqa_eval_test.jsonl",
+  "conv_sft_train": "/PATH/TO/convfinqa_sft_train.jsonl",
+  "conv_sft_dev": "/PATH/TO/convfinqa_sft_dev.jsonl",
+  "conv_eval_dev": "/PATH/TO/convfinqa_eval_dev.jsonl",
+  "original_sft_adapter": "/PATH/TO/FinQA-SFT/final_adapter",
+  "transfer_adapter": "/PATH/TO/ConvFinQA-Transfer/final_adapter",
+  "direct_adapter": "/PATH/TO/ConvFinQA-Direct/final_adapter",
+  "replay_adapter": "/PATH/TO/ConvFinQA-Replay/final_adapter",
+  "output_root": "/PATH/TO/NEW/UNUSED/output_directory"
+}

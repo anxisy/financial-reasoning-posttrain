@@ -1,0 +1,1103 @@
+{
+  "note": "Exported source bytes are unchanged. No model weights or datasets are included.",
+  "files": [
+    {
+      "source_relative_to_workspace": "open-r1/16_sft_1p7b/README.md",
+      "repo_path": "finqa/01_lora_sft/README.md",
+      "sha256": "580636d8555f549ea9f5f2eb25bac73b27da75d803c409bcb9f00f034519fff0",
+      "bytes": 2754
+    },
+    {
+      "source_relative_to_workspace": "open-r1/16_sft_1p7b/compare_metrics.py",
+      "repo_path": "finqa/01_lora_sft/compare_metrics.py",
+      "sha256": "8a483a8e7c280e18ef6dec5ccfd05efeecf02d980f9086ea2bf89436b1fa9184",
+      "bytes": 903
+    },
+    {
+      "source_relative_to_workspace": "open-r1/16_sft_1p7b/env_check.py",
+      "repo_path": "finqa/01_lora_sft/env_check.py",
+      "sha256": "fde28ef730b2291cd4095f440f7667bdbbe6512bd103e1a0c7b1a0b111c1b692",
+      "bytes": 752
+    },
+    {
+      "source_relative_to_workspace": "open-r1/16_sft_1p7b/reload_adapter.py",
+      "repo_path": "finqa/01_lora_sft/reload_adapter.py",
+      "sha256": "60c125e9a756c260be4a5ad0680615131e6439454eff2589dca291ec7131408f",
+      "bytes": 1223
+    },
+    {
+      "source_relative_to_workspace": "open-r1/16_sft_1p7b/run_full.sh",
+      "repo_path": "finqa/01_lora_sft/run_full.sh",
+      "sha256": "4174a6427dcadd6f35686b36019aa5c3a12ad0acfc8973ddc4ac5ebebcedab5a",
+      "bytes": 143
+    },
+    {
+      "source_relative_to_workspace": "open-r1/16_sft_1p7b/run_preflight.sh",
+      "repo_path": "finqa/01_lora_sft/run_preflight.sh",
+      "sha256": "8f51321456dc961ef0ac674aa9ea32cca17a58b8473357a890302b20a388c52b",
+      "bytes": 195
+    },
+    {
+      "source_relative_to_workspace": "open-r1/16_sft_1p7b/self_test.py",
+      "repo_path": "finqa/01_lora_sft/self_test.py",
+      "sha256": "a53d53db186ae35dd9341cea84287cfb6d6076250e2ea2cf67ac2333463fc1f9",
+      "bytes": 1428
+    },
+    {
+      "source_relative_to_workspace": "open-r1/16_sft_1p7b/train_sft_1p7b.py",
+      "repo_path": "finqa/01_lora_sft/train_sft_1p7b.py",
+      "sha256": "d703c9f6a903141d21dbddf909723684db82c1e3b53eae764c37d6d6d709868b",
+      "bytes": 14793
+    },
+    {
+      "source_relative_to_workspace": "open-r1/17_grpo_1p7b/README.md",
+      "repo_path": "finqa/02_vanilla_grpo/README.md",
+      "sha256": "6703dac4870047057b665cc9c350881a81fc347bdc1c228f14fca110851d324f",
+      "bytes": 8121
+    },
+    {
+      "source_relative_to_workspace": "open-r1/17_grpo_1p7b/check.py",
+      "repo_path": "finqa/02_vanilla_grpo/check.py",
+      "sha256": "39835af94e59420e077ca3ed26ff9663b5bf5b13cad4ac6a4b2d14c3a0660fa5",
+      "bytes": 694
+    },
+    {
+      "source_relative_to_workspace": "open-r1/17_grpo_1p7b/compare_metrics.py",
+      "repo_path": "finqa/02_vanilla_grpo/compare_metrics.py",
+      "sha256": "2da1d9893df3f02a8f034e54716b8cd414a63b71337c578650c551747a06bdd2",
+      "bytes": 2784
+    },
+    {
+      "source_relative_to_workspace": "open-r1/17_grpo_1p7b/diagnosis.py",
+      "repo_path": "finqa/02_vanilla_grpo/diagnosis.py",
+      "sha256": "9e708916eaa190ccbd8decf00bd5080a3fe9faa2f8ca9fbe0c721aff700894f5",
+      "bytes": 885
+    },
+    {
+      "source_relative_to_workspace": "open-r1/17_grpo_1p7b/env_check.py",
+      "repo_path": "finqa/02_vanilla_grpo/env_check.py",
+      "sha256": "c5d1b7be6e89c07653b8a334d2274157aed351e797cf78df3cc894b0e5f29966",
+      "bytes": 1801
+    },
+    {
+      "source_relative_to_workspace": "open-r1/17_grpo_1p7b/grpo_data.py",
+      "repo_path": "finqa/02_vanilla_grpo/grpo_data.py",
+      "sha256": "490c68321578fb9807875f0ac22752c262becf781faa7b36a49cd0ce607a574b",
+      "bytes": 3352
+    },
+    {
+      "source_relative_to_workspace": "open-r1/17_grpo_1p7b/reload_grpo_1p7b.py",
+      "repo_path": "finqa/02_vanilla_grpo/reload_grpo_1p7b.py",
+      "sha256": "430dc8ff3a8c2adab762e3b03d85905f864f77ff4a87820520cfa3e4f3e4d905",
+      "bytes": 3394
+    },
+    {
+      "source_relative_to_workspace": "open-r1/17_grpo_1p7b/reward_utils.py",
+      "repo_path": "finqa/02_vanilla_grpo/reward_utils.py",
+      "sha256": "a1b455c727e17c30795a8356f8e10806675cc5fe4bb555e425bb552d1a292e4a",
+      "bytes": 20180
+    },
+    {
+      "source_relative_to_workspace": "open-r1/17_grpo_1p7b/run_full.sh",
+      "repo_path": "finqa/02_vanilla_grpo/run_full.sh",
+      "sha256": "9d87284ee1b640c453379d3900753d7d8b04c7bc806d215ce3b8ff04141f0dd0",
+      "bytes": 144
+    },
+    {
+      "source_relative_to_workspace": "open-r1/17_grpo_1p7b/run_preflight.sh",
+      "repo_path": "finqa/02_vanilla_grpo/run_preflight.sh",
+      "sha256": "f64d539b8929b3869914f63aafb47f863a5c3670c8729125c4e7703125a8313f",
+      "bytes": 196
+    },
+    {
+      "source_relative_to_workspace": "open-r1/17_grpo_1p7b/self_test.py",
+      "repo_path": "finqa/02_vanilla_grpo/self_test.py",
+      "sha256": "8a383bf544742577b6f99ab5f54a47bcdde05a109ae416d4c0377cbd564e7860",
+      "bytes": 1676
+    },
+    {
+      "source_relative_to_workspace": "open-r1/17_grpo_1p7b/train_grpo_1p7b.py",
+      "repo_path": "finqa/02_vanilla_grpo/train_grpo_1p7b.py",
+      "sha256": "94048bce43287b2a78bef040ef99d94632a3a0eec4b61d43dc995b0878b64d37",
+      "bytes": 25368
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/README.md",
+      "repo_path": "finqa/03_dynamic_sampling/README.md",
+      "sha256": "12d42b402c55f20ca2a80ad319655571c62c2e286ba799579491d714ea7dfd79",
+      "bytes": 5647
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/analyze_stability.py",
+      "repo_path": "finqa/03_dynamic_sampling/analyze_stability.py",
+      "sha256": "6a94cbaea6ad0e4729032b05e71142642f0ea79a3ca8f0db1fc021799a478b76",
+      "bytes": 1773
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/compare_finqa_paired_1p7b.py",
+      "repo_path": "finqa/03_dynamic_sampling/compare_finqa_paired_1p7b.py",
+      "sha256": "cd1378e018059a5dfc7d91033ffced074e1c9a165c111aa61b66220c06c0ca5e",
+      "bytes": 7781
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/compare_metrics.py",
+      "repo_path": "finqa/03_dynamic_sampling/compare_metrics.py",
+      "sha256": "2da1d9893df3f02a8f034e54716b8cd414a63b71337c578650c551747a06bdd2",
+      "bytes": 2784
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/dynamic_sampling_trainer.py",
+      "repo_path": "finqa/03_dynamic_sampling/dynamic_sampling_trainer.py",
+      "sha256": "c74254779d40614187ab5aa485aadbffe52ba08c9898fbeba52d1e6f8c9ccefa",
+      "bytes": 6678
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/dynamic_summary.py",
+      "repo_path": "finqa/03_dynamic_sampling/dynamic_summary.py",
+      "sha256": "36d9c6599ae4f242a1683d694ccb86834074b168f3d64c240a3ee5bf992fec0d",
+      "bytes": 4453
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/env_check.py",
+      "repo_path": "finqa/03_dynamic_sampling/env_check.py",
+      "sha256": "e9f8bd7cd5b02c149002e42a03ffdfdafe3fa2d1a0525580b05e358755323247",
+      "bytes": 1968
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/grpo_data.py",
+      "repo_path": "finqa/03_dynamic_sampling/grpo_data.py",
+      "sha256": "490c68321578fb9807875f0ac22752c262becf781faa7b36a49cd0ce607a574b",
+      "bytes": 3352
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/prepare_dynamic_resume.py",
+      "repo_path": "finqa/03_dynamic_sampling/prepare_dynamic_resume.py",
+      "sha256": "d53874837363b0f72199d71fa4d44d6ff58af1f1c008b4c7eb9cf9ac722d42fa",
+      "bytes": 3904
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/reload_dynamic_1p7b.py",
+      "repo_path": "finqa/03_dynamic_sampling/reload_dynamic_1p7b.py",
+      "sha256": "0432effbea69a95316702c54fde3cac4f3dbb443dd640273b8857cbf1c602bc7",
+      "bytes": 3402
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/reward_utils.py",
+      "repo_path": "finqa/03_dynamic_sampling/reward_utils.py",
+      "sha256": "77ffce889a4aa6d233c2847bbaa078907a017e3378aa3502957d684937faa4ee",
+      "bytes": 17942
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/run_full.sh",
+      "repo_path": "finqa/03_dynamic_sampling/run_full.sh",
+      "sha256": "b8326449358f92c4d4315552723e2e79839045938001de64e57266a2d4746143",
+      "bytes": 147
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/run_preflight.sh",
+      "repo_path": "finqa/03_dynamic_sampling/run_preflight.sh",
+      "sha256": "fe56e94b5c18722f03602d8b614bedf980f0cd8dab5096c4d23ffc9ffd89424f",
+      "bytes": 199
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/self_test.py",
+      "repo_path": "finqa/03_dynamic_sampling/self_test.py",
+      "sha256": "9d87cca4670250d860c1d6eb1a6dcd7a728295bf237e355ec0c798a403769638",
+      "bytes": 3482
+    },
+    {
+      "source_relative_to_workspace": "open-r1/18_dynamic_1p7b/train_dynamic_1p7b.py",
+      "repo_path": "finqa/03_dynamic_sampling/train_dynamic_1p7b.py",
+      "sha256": "6374b83a749efe0461c2083b43cc122859c724965e91967080f01cb92c046f43",
+      "bytes": 20530
+    },
+    {
+      "source_relative_to_workspace": "open-r1/19_vllm_benchmark/smoke_test.py",
+      "repo_path": "finqa/04_inference_benchmark/smoke_test.py",
+      "sha256": "ea7028548fa57589c792905b14e2ccbe9b98d755f7e31389278f5aec455e5ea9",
+      "bytes": 1498
+    },
+    {
+      "source_relative_to_workspace": "open-r1/20_finqa_vllm_benchmark_v2/README.md",
+      "repo_path": "finqa/05_frozen_vllm_evaluator/README.md",
+      "sha256": "ea8f5381c2bc69bc26cbf22b5656a80ac63e5500259386a57a70b14ab18cece5",
+      "bytes": 8415
+    },
+    {
+      "source_relative_to_workspace": "open-r1/20_finqa_vllm_benchmark_v2/answer_normalizer.py",
+      "repo_path": "finqa/05_frozen_vllm_evaluator/answer_normalizer.py",
+      "sha256": "2e1bde876237411e5f72d18cafc903c4c2c5e2519034dcd0dd792f2e7afcb760",
+      "bytes": 4949
+    },
+    {
+      "source_relative_to_workspace": "open-r1/20_finqa_vllm_benchmark_v2/bench_transformers.py",
+      "repo_path": "finqa/05_frozen_vllm_evaluator/bench_transformers.py",
+      "sha256": "2886d4477001f6415dd08161c155bc900f1544c4a9a9bc9e05ac5ba8704484ef",
+      "bytes": 4323
+    },
+    {
+      "source_relative_to_workspace": "open-r1/20_finqa_vllm_benchmark_v2/bench_vllm.py",
+      "repo_path": "finqa/05_frozen_vllm_evaluator/bench_vllm.py",
+      "sha256": "60cddab85f20dd882b97be27544bd506a8dfccedcc9f703ec3386c5a17fd5c13",
+      "bytes": 5604
+    },
+    {
+      "source_relative_to_workspace": "open-r1/20_finqa_vllm_benchmark_v2/common.py",
+      "repo_path": "finqa/05_frozen_vllm_evaluator/common.py",
+      "sha256": "1d24c5b81e3aaeee2b4ab19ee3d604b5859e7a6d27ea0b0c4d6752d06199fd4b",
+      "bytes": 6018
+    },
+    {
+      "source_relative_to_workspace": "open-r1/20_finqa_vllm_benchmark_v2/compare_runs.py",
+      "repo_path": "finqa/05_frozen_vllm_evaluator/compare_runs.py",
+      "sha256": "d529f3b72ceed90e3f5e0bb1d033b60deb5f4adfdd350ae739203291e81f33f3",
+      "bytes": 4591
+    },
+    {
+      "source_relative_to_workspace": "open-r1/20_finqa_vllm_benchmark_v2/env_check.py",
+      "repo_path": "finqa/05_frozen_vllm_evaluator/env_check.py",
+      "sha256": "d0bc9ee677390898c1aa9eee06e8d4975399808fe1648cc77fc77d43ec4b51d1",
+      "bytes": 751
+    },
+    {
+      "source_relative_to_workspace": "open-r1/20_finqa_vllm_benchmark_v2/gpu_monitor.py",
+      "repo_path": "finqa/05_frozen_vllm_evaluator/gpu_monitor.py",
+      "sha256": "ac6a3e1b0c3cb17839483d06c69036630c784f348072e3eb2e78e96e60359de4",
+      "bytes": 1444
+    },
+    {
+      "source_relative_to_workspace": "open-r1/20_finqa_vllm_benchmark_v2/metrics.py",
+      "repo_path": "finqa/05_frozen_vllm_evaluator/metrics.py",
+      "sha256": "6d8e1381ce62a55e6764de063d10c79367150129f5865655218d2bc021c377cc",
+      "bytes": 2166
+    },
+    {
+      "source_relative_to_workspace": "open-r1/20_finqa_vllm_benchmark_v2/self_test.py",
+      "repo_path": "finqa/05_frozen_vllm_evaluator/self_test.py",
+      "sha256": "5807798c7762eb4f04ebafb6d5a0b75d7c6417b733841d5576e062f6f2c09c0b",
+      "bytes": 2097
+    },
+    {
+      "source_relative_to_workspace": "open-r1/20_finqa_vllm_benchmark_v2/verify_frozen_eval.py",
+      "repo_path": "finqa/05_frozen_vllm_evaluator/verify_frozen_eval.py",
+      "sha256": "357d132200a75eb1a32966565e56d687def31e3a48abb946752cf8a4dc33e92a",
+      "bytes": 2302
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/README.md",
+      "repo_path": "finqa/data_prep/02_data_process/README.md",
+      "sha256": "8d3c2793e0ede4a65de9ceb7785df69f7a26b5a89eeba5c9ad1c9a51105ba716",
+      "bytes": 3964
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/answer_normalizer.py",
+      "repo_path": "finqa/data_prep/02_data_process/answer_normalizer.py",
+      "sha256": "3913eda428162acc7bd4fcf8c0a26d9b222d5174175b9cedba6d919246e6be3f",
+      "bytes": 5931
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/clean_context.py",
+      "repo_path": "finqa/data_prep/02_data_process/clean_context.py",
+      "sha256": "2a1c99871b571b0ed782872931c6dbdc69c12237ba956bda65149c6795a440fb",
+      "bytes": 1470
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/config.py",
+      "repo_path": "finqa/data_prep/02_data_process/config.py",
+      "sha256": "cb12b966dcd07eaf565b7e2a812cef534a50697b019feca506799a1e397dbfba",
+      "bytes": 1310
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/evaluator.py",
+      "repo_path": "finqa/data_prep/02_data_process/evaluator.py",
+      "sha256": "60bf5d114d505f2f944ae94e2332555781c878cc4a06adf401740acdf6757fc8",
+      "bytes": 3625
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/preprocess.py",
+      "repo_path": "finqa/data_prep/02_data_process/preprocess.py",
+      "sha256": "f2738b20b90f687891952bcabaf8554d8f05ee421efbf54e178a8e45d2e5f654",
+      "bytes": 8741
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/prompt_builder.py",
+      "repo_path": "finqa/data_prep/02_data_process/prompt_builder.py",
+      "sha256": "6b094e52f24814c1762a8ff6b3e767c70c47e8c5146460e654b1abde7bbd0e60",
+      "bytes": 4546
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/reasoning_builder.py",
+      "repo_path": "finqa/data_prep/02_data_process/reasoning_builder.py",
+      "sha256": "5ad93aa876f68e94c4225fcb60737da8364ec376bae54039d4fcc8b37e8d8cfb",
+      "bytes": 1765
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/self_test.py",
+      "repo_path": "finqa/data_prep/02_data_process/self_test.py",
+      "sha256": "bf51aa116511cef06526ea0a983b98e28c8b41dcda4795dc86c77ff2fd567eb4",
+      "bytes": 1030
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/z.md",
+      "repo_path": "finqa/data_prep/02_data_process/z.md",
+      "sha256": "b6ce8b4acf83530b1423357cc41900bc09b71bb78e7591be711f6b537e25cbbb",
+      "bytes": 229
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/z1.md",
+      "repo_path": "finqa/data_prep/02_data_process/z1.md",
+      "sha256": "23f3485eaaf438852ed8b1b02eb174fa1e3daed0e5d5b89b322f91fe5e7ac378",
+      "bytes": 2466
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/z2.md",
+      "repo_path": "finqa/data_prep/02_data_process/z2.md",
+      "sha256": "f845bf29c182320a087754fdf8d98c3bf1b5724b4fd47a23ff27d709155184aa",
+      "bytes": 4924
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/z3.md",
+      "repo_path": "finqa/data_prep/02_data_process/z3.md",
+      "sha256": "8cc6a96bb85e47c81ade76a4e7500007729be2ff47bfd533c74204a6e66b7f75",
+      "bytes": 4801
+    },
+    {
+      "source_relative_to_workspace": "open-r1/02_data_process/zz.md",
+      "repo_path": "finqa/data_prep/02_data_process/zz.md",
+      "sha256": "4468931814f0f67a841944b2611e89d254dd7cc336a7c6b10d0afe5181e66c5d",
+      "bytes": 2873
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/README.md",
+      "repo_path": "finqa/data_prep/03_data_process_v1/README.md",
+      "sha256": "d82f856269d772d6dff200cb01b136498c2e428e5bfc84e19efc2eae11b60528",
+      "bytes": 844
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/answer_normalizer.py",
+      "repo_path": "finqa/data_prep/03_data_process_v1/answer_normalizer.py",
+      "sha256": "f4278b23c65bd941f850ec54ed43a22b8d172016055f15784da3412ca1446e72",
+      "bytes": 4370
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/clean_context.py",
+      "repo_path": "finqa/data_prep/03_data_process_v1/clean_context.py",
+      "sha256": "2a1c99871b571b0ed782872931c6dbdc69c12237ba956bda65149c6795a440fb",
+      "bytes": 1470
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/config.py",
+      "repo_path": "finqa/data_prep/03_data_process_v1/config.py",
+      "sha256": "7e731b07a41d1f329e5bcdcd9ac17b7e8add3c5d6514952225bd758084692275",
+      "bytes": 1314
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/evaluator.py",
+      "repo_path": "finqa/data_prep/03_data_process_v1/evaluator.py",
+      "sha256": "e6e34d4f2f957f8d176a92a049cbdab7c1f83384c49889028441b2f227233de2",
+      "bytes": 1426
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/operator_utils.py",
+      "repo_path": "finqa/data_prep/03_data_process_v1/operator_utils.py",
+      "sha256": "a021e256172044d50af9fc8d2436c1a3218f503f80a660010751128d978549d4",
+      "bytes": 1344
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/preprocess.py",
+      "repo_path": "finqa/data_prep/03_data_process_v1/preprocess.py",
+      "sha256": "6b9d57e31386dbb8826317104884ac03262e37be0d5df4ced020b586655853e6",
+      "bytes": 14738
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/prompt_builder.py",
+      "repo_path": "finqa/data_prep/03_data_process_v1/prompt_builder.py",
+      "sha256": "1fdcf684c9e112c10bdd74f6d80e0426e142e1fb7d22617e8455080c3dcdba97",
+      "bytes": 4386
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/quality_audit.py",
+      "repo_path": "finqa/data_prep/03_data_process_v1/quality_audit.py",
+      "sha256": "c6251fe23c2a99328062dd268d57904707d1ab05235deac504d5e9f81a23e519",
+      "bytes": 4359
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/reasoning_builder.py",
+      "repo_path": "finqa/data_prep/03_data_process_v1/reasoning_builder.py",
+      "sha256": "7896793f15011a36980096b52d4dcd30bb046a4d68e4b8b7b6a704d89e2c1fdf",
+      "bytes": 1168
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/self_test.py",
+      "repo_path": "finqa/data_prep/03_data_process_v1/self_test.py",
+      "sha256": "072fd237b872feb4a72360cd3066ce673cf4ecfaa7a96a656a4c70e71a331e49",
+      "bytes": 1131
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/self_test_semantic_v1_1_1.py",
+      "repo_path": "finqa/data_prep/03_data_process_v1/self_test_semantic_v1_1_1.py",
+      "sha256": "8514dce95f48c1ab1ca7799754efd789d21e8edbf2949ef5b7ea3c7fccff6d89",
+      "bytes": 2716
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/z1.md",
+      "repo_path": "finqa/data_prep/03_data_process_v1/z1.md",
+      "sha256": "6ff9cdedb940b3a20cbc38ffb361b1dc04ce3a7e67322c0ea38c504238cbbc6d",
+      "bytes": 5842
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/z2.md",
+      "repo_path": "finqa/data_prep/03_data_process_v1/z2.md",
+      "sha256": "db3cd94923a269dd9938a8ade22319ad359fbbaf8a4022a3fc05c97315322b9d",
+      "bytes": 27138
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/z3.md",
+      "repo_path": "finqa/data_prep/03_data_process_v1/z3.md",
+      "sha256": "88979a98569e1a0ee8a80d5439d265030d28359cf878849fafb0a6335140d85c",
+      "bytes": 4987
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/z4.md",
+      "repo_path": "finqa/data_prep/03_data_process_v1/z4.md",
+      "sha256": "255ad49830dd11faa83f9e1a13ab1ce5195409837eecaf446ecd3aebce5dc87b",
+      "bytes": 4865
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/zzz1.md",
+      "repo_path": "finqa/data_prep/03_data_process_v1/zzz1.md",
+      "sha256": "0e9f6710f4fad59ba4dd4904da6699a79a54a49a7918a4c298eef6655cb3e7c6",
+      "bytes": 5578
+    },
+    {
+      "source_relative_to_workspace": "open-r1/03_data_process_v1/zzz2.md",
+      "repo_path": "finqa/data_prep/03_data_process_v1/zzz2.md",
+      "sha256": "8c8e004aa0597c86debf4d4adb25a4104627e7b2513b22187fefe689350ded0a",
+      "bytes": 4965
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/README.md",
+      "repo_path": "finqa/analysis/04_base_eval/README.md",
+      "sha256": "e0bc2a5e5788ee52946b4b7dbb1911b384e3d89244938c1a7080d50a3361d6fc",
+      "bytes": 745
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/answer_normalizer.py",
+      "repo_path": "finqa/analysis/04_base_eval/answer_normalizer.py",
+      "sha256": "a625285a886869203121e82d7498d7a859a1b6ef95e6f4ce66ea527897ecfb0f",
+      "bytes": 8957
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/baseline_eval.py",
+      "repo_path": "finqa/analysis/04_base_eval/baseline_eval.py",
+      "sha256": "f866b633d8b1b0af613f88eebde0cb61ed7b37a3b45e08976a96c63678e3c418",
+      "bytes": 13645
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/compare_prompt_runs.py",
+      "repo_path": "finqa/analysis/04_base_eval/compare_prompt_runs.py",
+      "sha256": "03852d0f931173594d7e7646ac6b00bc021111e1c17519a438bccde6e7cd8a60",
+      "bytes": 1867
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/metrics.py",
+      "repo_path": "finqa/analysis/04_base_eval/metrics.py",
+      "sha256": "d145a08a6c4dbc184e2576bc8b64392750a65db18322f19d5b5d7d181e8243d1",
+      "bytes": 3219
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/self_test.py",
+      "repo_path": "finqa/analysis/04_base_eval/self_test.py",
+      "sha256": "5c0983a76a122ce8f636473221681c17fde9bc23b60f9fd430d506aaa13b0636",
+      "bytes": 3415
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/self_test_parser_patch.py",
+      "repo_path": "finqa/analysis/04_base_eval/self_test_parser_patch.py",
+      "sha256": "f49c960ed99aad3048e3e4e10f75089a5b1a2892b29fa6a4bf298ddb00603bdd",
+      "bytes": 1430
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/last_1/README.md",
+      "repo_path": "finqa/analysis/04_base_eval/last_1/README.md",
+      "sha256": "b3daa001d33ee752cc8984d4a1ff4385d68209464905db1e5244a058eb01bf4e",
+      "bytes": 4079
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/last_1/answer_normalizer.py",
+      "repo_path": "finqa/analysis/04_base_eval/last_1/answer_normalizer.py",
+      "sha256": "9b09390cf989c62f178bf8363bd8605278e95a50ae011dda5df804ef99146c94",
+      "bytes": 4210
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/last_1/baseline_eval.py",
+      "repo_path": "finqa/analysis/04_base_eval/last_1/baseline_eval.py",
+      "sha256": "a972214cc8910f3682cd73903d69211569bf7940b2b2118d837e840136a78f3b",
+      "bytes": 13363
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/last_1/metrics.py",
+      "repo_path": "finqa/analysis/04_base_eval/last_1/metrics.py",
+      "sha256": "8ff336f258a215224955619a3aa182f42f7dadaa5e08c6cf7296a8d9001777dd",
+      "bytes": 3151
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/last_1/self_test.py",
+      "repo_path": "finqa/analysis/04_base_eval/last_1/self_test.py",
+      "sha256": "516f73c7b06d9d9d6ec5005b0035836f31fac005915941aa717f1752806fd0a9",
+      "bytes": 1921
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/last_2/README.md",
+      "repo_path": "finqa/analysis/04_base_eval/last_2/README.md",
+      "sha256": "4cc93984f3c4d12411715d099782c98a1467c4874a888c66b3dfd9690e75e950",
+      "bytes": 2728
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/last_2/answer_normalizer.py",
+      "repo_path": "finqa/analysis/04_base_eval/last_2/answer_normalizer.py",
+      "sha256": "0845812ce2c1d849830ff02c69e9f19b56285ec9c787572621c30f3548446eab",
+      "bytes": 7721
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/last_2/baseline_eval.py",
+      "repo_path": "finqa/analysis/04_base_eval/last_2/baseline_eval.py",
+      "sha256": "f866b633d8b1b0af613f88eebde0cb61ed7b37a3b45e08976a96c63678e3c418",
+      "bytes": 13645
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/last_2/compare_prompt_runs.py",
+      "repo_path": "finqa/analysis/04_base_eval/last_2/compare_prompt_runs.py",
+      "sha256": "03852d0f931173594d7e7646ac6b00bc021111e1c17519a438bccde6e7cd8a60",
+      "bytes": 1867
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/last_2/metrics.py",
+      "repo_path": "finqa/analysis/04_base_eval/last_2/metrics.py",
+      "sha256": "d145a08a6c4dbc184e2576bc8b64392750a65db18322f19d5b5d7d181e8243d1",
+      "bytes": 3219
+    },
+    {
+      "source_relative_to_workspace": "open-r1/04_base_eval/last_2/self_test.py",
+      "repo_path": "finqa/analysis/04_base_eval/last_2/self_test.py",
+      "sha256": "5c0983a76a122ce8f636473221681c17fde9bc23b60f9fd430d506aaa13b0636",
+      "bytes": 3415
+    },
+    {
+      "source_relative_to_workspace": "open-r1/07_sft_eval/README.md",
+      "repo_path": "finqa/analysis/07_sft_eval/README.md",
+      "sha256": "cfbaf10d2a216ee09e3610952cfd7fe3721ce17ec3f210f49eea69b967440def",
+      "bytes": 2585
+    },
+    {
+      "source_relative_to_workspace": "open-r1/07_sft_eval/answer_normalizer.py",
+      "repo_path": "finqa/analysis/07_sft_eval/answer_normalizer.py",
+      "sha256": "2e1bde876237411e5f72d18cafc903c4c2c5e2519034dcd0dd792f2e7afcb760",
+      "bytes": 4949
+    },
+    {
+      "source_relative_to_workspace": "open-r1/07_sft_eval/compare_base_vs_sft.py",
+      "repo_path": "finqa/analysis/07_sft_eval/compare_base_vs_sft.py",
+      "sha256": "b9cc1d40f003eafb7de76e5ba92166774bbb822e3b2226bee574800331718f4c",
+      "bytes": 1658
+    },
+    {
+      "source_relative_to_workspace": "open-r1/07_sft_eval/evaluate_finqa_peft.py",
+      "repo_path": "finqa/analysis/07_sft_eval/evaluate_finqa_peft.py",
+      "sha256": "cf839f99d320687b6c77e9f2243e68ca06f3c1f693eeb248d1e2bd15692fa8bc",
+      "bytes": 7527
+    },
+    {
+      "source_relative_to_workspace": "open-r1/07_sft_eval/metrics.py",
+      "repo_path": "finqa/analysis/07_sft_eval/metrics.py",
+      "sha256": "6d8e1381ce62a55e6764de063d10c79367150129f5865655218d2bc021c377cc",
+      "bytes": 2166
+    },
+    {
+      "source_relative_to_workspace": "open-r1/07_sft_eval/self_test.py",
+      "repo_path": "finqa/analysis/07_sft_eval/self_test.py",
+      "sha256": "88ff0364e0f56d3bd329fa1e2a63a628eb588203131bbd3cae3e69e39f22925a",
+      "bytes": 848
+    },
+    {
+      "source_relative_to_workspace": "open-r1/08_sft_error_analysis/README.md",
+      "repo_path": "finqa/analysis/08_sft_error_analysis/README.md",
+      "sha256": "ce12f9b84623f4dbaf772050871e0049e17758489efe57e03bb09cd4f06b38b5",
+      "bytes": 1834
+    },
+    {
+      "source_relative_to_workspace": "open-r1/08_sft_error_analysis/error_analysis.py",
+      "repo_path": "finqa/analysis/08_sft_error_analysis/error_analysis.py",
+      "sha256": "02f1e72f9322ac5590eca7ef9c9dc4dfae0243d8fa74197377cc10cd67c096ed",
+      "bytes": 9369
+    },
+    {
+      "source_relative_to_workspace": "open-r1/08_sft_error_analysis/inspect_errors.py",
+      "repo_path": "finqa/analysis/08_sft_error_analysis/inspect_errors.py",
+      "sha256": "360a8b384e49c9bef367660bc3a7c1e412ddac46a0f65809010a9e41d3ba8b78",
+      "bytes": 1031
+    },
+    {
+      "source_relative_to_workspace": "open-r1/08_sft_error_analysis/self_test.py",
+      "repo_path": "finqa/analysis/08_sft_error_analysis/self_test.py",
+      "sha256": "525d8701aed44cf054a29cf78cecad57b2b38b88ec5a8ca97625dda829a669be",
+      "bytes": 1163
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/answer_normalizer.py",
+      "repo_path": "convfinqa/00_common/answer_normalizer.py",
+      "sha256": "2e1bde876237411e5f72d18cafc903c4c2c5e2519034dcd0dd792f2e7afcb760",
+      "bytes": 4949
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/check_data.py",
+      "repo_path": "convfinqa/00_common/check_data.py",
+      "sha256": "c306a9163778da01cd0fe0c60e5533bd56db307a8ab90cace7dfc045b39dfbdb",
+      "bytes": 1401
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/check_env.py",
+      "repo_path": "convfinqa/00_common/check_env.py",
+      "sha256": "6e9c23c0ba910122076ba02d8de72e8a46868881f2e92321f0846c8a77f04477",
+      "bytes": 1213
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/compare_sft.py",
+      "repo_path": "convfinqa/00_common/compare_sft.py",
+      "sha256": "d1957baf803752a1a0028de2914f9fbe2597ca73dd02ba6eeaf21b2c9db69511",
+      "bytes": 2897
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/convfinqa_paired_analysis_v1.py",
+      "repo_path": "convfinqa/00_common/convfinqa_paired_analysis_v1.py",
+      "sha256": "e6968bd135f9bf14f1a448fd80920ce10537c46b86513724a790992499eee943",
+      "bytes": 13863
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/eval_self_history_v1.py",
+      "repo_path": "convfinqa/00_common/eval_self_history_v1.py",
+      "sha256": "bd2a819721d87cdd125b27a0968be3e5167c9a68f9bb56cd7a7f2b5eb4dfb4b6",
+      "bytes": 13035
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/eval_sft_vllm.py",
+      "repo_path": "convfinqa/00_common/eval_sft_vllm.py",
+      "sha256": "2b9f83db92d2210b7bc9aba11d1fdb7e30ed05467e1814cc4661dccae0bb1873",
+      "bytes": 5381
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/frozen_baseline.py",
+      "repo_path": "convfinqa/00_common/frozen_baseline.py",
+      "sha256": "6636affefa750db49a451626d54858635a93c3ce91a98fc97ac784514c86fb54",
+      "bytes": 14675
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/frozen_paired.py",
+      "repo_path": "convfinqa/00_common/frozen_paired.py",
+      "sha256": "4fe8f387f5754b673b36eed124fb3f2e1990f631fcf27984ef92eaea14ae6c1b",
+      "bytes": 4408
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/self_test.py",
+      "repo_path": "convfinqa/00_common/self_test.py",
+      "sha256": "e14f1ea306426dc5ae24ef0f34fe559334ee90813b388c6b34a3ef751ab8bdb2",
+      "bytes": 1430
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/train_sft.py",
+      "repo_path": "convfinqa/00_common/train_sft.py",
+      "sha256": "4d8bfcaec29d1925cb01976483f4e6fbd921f1feedef697baf732635be23397f",
+      "bytes": 15264
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/finqa_retention/compare.py",
+      "repo_path": "convfinqa/00_common/finqa_retention/compare.py",
+      "sha256": "2e5838640b49ccb759b280da685f46a216fea7ce639e5c5e7b1451a6bb97e330",
+      "bytes": 8154
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/finqa_retention/preflight.py",
+      "repo_path": "convfinqa/00_common/finqa_retention/preflight.py",
+      "sha256": "7d18fb0bb332d16df3b291ef4cb48d88c9df195288e6b41d7e33037f57cf5e73",
+      "bytes": 2328
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/finqa_retention/run_all.sh",
+      "repo_path": "convfinqa/00_common/finqa_retention/run_all.sh",
+      "sha256": "aab61cbac18a19d37c33f4b9bd8037760234209717b7c0e4630e2b91910636f6",
+      "bytes": 469
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/finqa_retention/run_eval.sh",
+      "repo_path": "convfinqa/00_common/finqa_retention/run_eval.sh",
+      "sha256": "c9a61395f6053b8ef31d1027ed9f76609b96f80c31e2458a18b3b26ff73f13e1",
+      "bytes": 1542
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/finqa_retention/run_original_sft.sh",
+      "repo_path": "convfinqa/00_common/finqa_retention/run_original_sft.sh",
+      "sha256": "06b23b81878cc1c1e232547b1e19129e3aadaef8e779947136396303aa69ef70",
+      "bytes": 224
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/00_common/finqa_retention/self_test.py",
+      "repo_path": "convfinqa/00_common/finqa_retention/self_test.py",
+      "sha256": "6ec464a3b17b167dd0ee2de663441f2b735d33487f4a4d30e7a15e02ab3ae105",
+      "bytes": 1629
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/01_finqa_sft_adapter/README.md",
+      "repo_path": "convfinqa/01_transfer/README.md",
+      "sha256": "11be6e81d99b2306f13d1f95692fbecc9776a837489eb4b5229d3c667ff43f43",
+      "bytes": 644
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/01_finqa_sft_adapter/01_smoke/run.sh",
+      "repo_path": "convfinqa/01_transfer/01_smoke/run.sh",
+      "sha256": "4ffa4d337f13ad847c113eaf5bcb9f16d5418d181fe730388b0da689238b14d1",
+      "bytes": 413
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/01_finqa_sft_adapter/02_full/run.sh",
+      "repo_path": "convfinqa/01_transfer/02_full/run.sh",
+      "sha256": "65f753700fde0fabce9bae1571aa6e7bd01cbcb305ebc321a43b785455225635",
+      "bytes": 395
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/01_finqa_sft_adapter/03_eval/run.sh",
+      "repo_path": "convfinqa/01_transfer/03_eval/run.sh",
+      "sha256": "51f1ff0247e1954fda5fee7e7db8f93469ed156cf0f99c54cd82877f15748a3b",
+      "bytes": 477
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/01_finqa_sft_adapter/04_self_history/run.sh",
+      "repo_path": "convfinqa/01_transfer/04_self_history/run.sh",
+      "sha256": "4059fa360768fda6ad442c4de11e72c14af53ba65a04989e31cce0732098ee6d",
+      "bytes": 134
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/01_finqa_sft_adapter/05_finqa_retention/run.sh",
+      "repo_path": "convfinqa/01_transfer/05_finqa_retention/run.sh",
+      "sha256": "37121c7464301e5e692e441224e8445ec19c296e684720fdf6a21ec748d19e4d",
+      "bytes": 244
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/02_qwen3_base/README.md",
+      "repo_path": "convfinqa/02_direct/README.md",
+      "sha256": "1779e2b636dc56bc4bbf623240ae1229e5db686ad873801caa269e1595ca077f",
+      "bytes": 603
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/02_qwen3_base/01_smoke/run.sh",
+      "repo_path": "convfinqa/02_direct/01_smoke/run.sh",
+      "sha256": "07e0a8739aa600da2757b8d94b51816bd7f4c2f43c77efa4abb3924e0c64f181",
+      "bytes": 404
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/02_qwen3_base/02_full/run.sh",
+      "repo_path": "convfinqa/02_direct/02_full/run.sh",
+      "sha256": "f299775da56cf95727cdeac244b7d7a74e71745aaf9c00167d8ca999717b78e2",
+      "bytes": 386
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/02_qwen3_base/03_eval/run.sh",
+      "repo_path": "convfinqa/02_direct/03_eval/run.sh",
+      "sha256": "11190ad59be6bcb264d9b67266d0a9c8aba4b69ffa4a0e2626be7807e56959b5",
+      "bytes": 461
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/02_qwen3_base/04_self_history/run.sh",
+      "repo_path": "convfinqa/02_direct/04_self_history/run.sh",
+      "sha256": "ca5bd2129fa730e4e7789f91395ec7e35cfd99b86cc0666fd1ea702bfb212b42",
+      "bytes": 132
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/02_qwen3_base/05_finqa_retention/run.sh",
+      "repo_path": "convfinqa/02_direct/05_finqa_retention/run.sh",
+      "sha256": "bcf2218ede8a06a2db69b5f1df4c5bfd96f9e5d95c0a5a179c767cc9f6def5dc",
+      "bytes": 235
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/03_finqa_sft_replay/README.md",
+      "repo_path": "convfinqa/03_replay/README.md",
+      "sha256": "2a7ed5f0f1cd47a9efd0f9ba6086a710a1bef29287ed3dd0c18c4ab13666d03a",
+      "bytes": 7009
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/03_finqa_sft_replay/self_test.py",
+      "repo_path": "convfinqa/03_replay/self_test.py",
+      "sha256": "67b0b03a39e5c9b5c8f7beff4e9719861c80b853e2ac49380cde0db9bed11f54",
+      "bytes": 2189
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/03_finqa_sft_replay/train_replay.py",
+      "repo_path": "convfinqa/03_replay/train_replay.py",
+      "sha256": "13dfaa674f8deedfef8576eaa00a829f1bc45cb86a545ad285182a198c758c8c",
+      "bytes": 17199
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/03_finqa_sft_replay/01_data/build_replay.py",
+      "repo_path": "convfinqa/03_replay/01_data/build_replay.py",
+      "sha256": "46b3542300732c2388b64ce0eb94d0d95c245ae8755f6f9b2c8e13d87cc2af04",
+      "bytes": 6581
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/03_finqa_sft_replay/01_data/verify_replay.py",
+      "repo_path": "convfinqa/03_replay/01_data/verify_replay.py",
+      "sha256": "0dcb5ee2c6893155abcf10d543e13bb622e0109e48bc477a802fcf043b2fea61",
+      "bytes": 2609
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/03_finqa_sft_replay/02_smoke/run.sh",
+      "repo_path": "convfinqa/03_replay/02_smoke/run.sh",
+      "sha256": "4034dd23f4a7f0878d466f33d09bc91d8277fc7b89549c3cd5907589e5f0be5b",
+      "bytes": 463
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/03_finqa_sft_replay/03_full/run.sh",
+      "repo_path": "convfinqa/03_replay/03_full/run.sh",
+      "sha256": "982af7e397b2150211809983a7fa97be2c87bf5be0eda5cc531d9b362bb85bdf",
+      "bytes": 456
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/03_finqa_sft_replay/04_convfinqa_oracle/run.sh",
+      "repo_path": "convfinqa/03_replay/04_convfinqa_oracle/run.sh",
+      "sha256": "198e0bb1a4943c3c7cd4cf4d074c588b7121787c62516e938e7786b0bce570f5",
+      "bytes": 1072
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/03_finqa_sft_replay/05_finqa_retention/run.sh",
+      "repo_path": "convfinqa/03_replay/05_finqa_retention/run.sh",
+      "sha256": "787874eeb8e6bfafcf3b9fc3c07d9cd6e2b0668bdc57be383240e53a118974a8",
+      "bytes": 1265
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/03_finqa_sft_replay/06_self_history/run.sh",
+      "repo_path": "convfinqa/03_replay/06_self_history/run.sh",
+      "sha256": "1cafacdcf60e448708deff3f93ba9683a170f02775525fd87276908919de15a7",
+      "bytes": 241
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/03_finqa_sft_replay/06_self_history/run_replay.py",
+      "repo_path": "convfinqa/03_replay/06_self_history/run_replay.py",
+      "sha256": "1621870d995762f423df85b6d38b00ac62935c3a7faa7c72f4800d9e2695e1c9",
+      "bytes": 1308
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/03_finqa_sft_replay/07_analysis/compare_replay.py",
+      "repo_path": "convfinqa/03_replay/07_analysis/compare_replay.py",
+      "sha256": "7611e6754299ac3b9820007d4c4489defc6978ccef72d3da7f96d3867edc1ddd",
+      "bytes": 6345
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/04_final_evaluation/00_preflight.py",
+      "repo_path": "convfinqa/04_final_evaluation/00_preflight.py",
+      "sha256": "fb8b72f4cc71834eebf93a867a770a924f9961a4d2fb521efb74580b8d970caa",
+      "bytes": 4465
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/04_final_evaluation/01_run_finqa_test.sh",
+      "repo_path": "convfinqa/04_final_evaluation/01_run_finqa_test.sh",
+      "sha256": "fe77f1be39ca5c11fc010b4b55e13684af45da5f4639ec9eeaa0dc45d3f15d4d",
+      "bytes": 2804
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/04_final_evaluation/02_compare_finqa_test.py",
+      "repo_path": "convfinqa/04_final_evaluation/02_compare_finqa_test.py",
+      "sha256": "12b3f840052ee096d5ea69996ed66af5d230f8989aea970018d8ece8a6bc3a10",
+      "bytes": 2840
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/04_final_evaluation/03_compare_self_history.py",
+      "repo_path": "convfinqa/04_final_evaluation/03_compare_self_history.py",
+      "sha256": "65bb6ea67ea437c01359fe3e8546721b4eb00603cb554dff4d5f35ce677e3492",
+      "bytes": 4662
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/04_final_evaluation/04_freeze_results.py",
+      "repo_path": "convfinqa/04_final_evaluation/04_freeze_results.py",
+      "sha256": "b079c54d11cb40ad17ef5fc739f1c10ec0c562be4e8ab541ae0852e9d7612f3e",
+      "bytes": 10494
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/04_final_evaluation/05_verify_frozen.py",
+      "repo_path": "convfinqa/04_final_evaluation/05_verify_frozen.py",
+      "sha256": "1da1faed5f5674f572b128ba4403276cb0ca2663e9dd53e07bf8367d86e9cc92",
+      "bytes": 1667
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/04_final_evaluation/PATCH_README.md",
+      "repo_path": "convfinqa/04_final_evaluation/PATCH_README.md",
+      "sha256": "ddcf1aeeb5aa89318e7a3c5b7be1b896ef117b35d86192b3b794b272dd31137d",
+      "bytes": 1169
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/04_final_evaluation/README.md",
+      "repo_path": "convfinqa/04_final_evaluation/README.md",
+      "sha256": "6a04b8e1fb057e7fdf8d0b78ecd0e8098e88a0a61996798f970578ed1c1ec4d4",
+      "bytes": 5064
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/04_final_evaluation/common.py",
+      "repo_path": "convfinqa/04_final_evaluation/common.py",
+      "sha256": "c384d2ebc4a93643bc8be073a84b8b9bd3fc240557ea815917f1a71654f64482",
+      "bytes": 8510
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/04_final_evaluation/recover_finqa_test.py",
+      "repo_path": "convfinqa/04_final_evaluation/recover_finqa_test.py",
+      "sha256": "d9469ecc7ca16030af66c55c480f2fa6c5f28553cba026699e2b5de0904e2ee8",
+      "bytes": 1644
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/04_final_evaluation/run_all.sh",
+      "repo_path": "convfinqa/04_final_evaluation/run_all.sh",
+      "sha256": "a0f37cb2b22ae257bec5b948e95ed96cfb13f65df7b27fa79c919c15e3c764bb",
+      "bytes": 498
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/04_final_evaluation/self_test.py",
+      "repo_path": "convfinqa/04_final_evaluation/self_test.py",
+      "sha256": "366dfda726f3f4695c4068faa720ca12097180a10c6de2d8b6303f76b608c391",
+      "bytes": 1569
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/04_final_evaluation/verify_one_test.py",
+      "repo_path": "convfinqa/04_final_evaluation/verify_one_test.py",
+      "sha256": "df1257fe105b10637153fe5b87c6394eb946778500deb09d5dc4c3c79ffb062e",
+      "bytes": 1740
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/scripts/audit_convfinqa.py",
+      "repo_path": "convfinqa/data_prep/audit_convfinqa.py",
+      "sha256": "00f02366e3d8042833e3e9016c11dfa24e1a43353f08e1f015ff7fa51401e705",
+      "bytes": 9152
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/scripts/audit_finqa_convfinqa_overlap.py",
+      "repo_path": "convfinqa/data_prep/audit_finqa_convfinqa_overlap.py",
+      "sha256": "4acb2c676f25863fb00fdb8eb9cf844bf3b94a02b8972454bf79c6e0faa6216e",
+      "bytes": 11855
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/scripts/diagnose_convfinqa_baselines_v1.py",
+      "repo_path": "convfinqa/data_prep/diagnose_convfinqa_baselines_v1.py",
+      "sha256": "a9d6ee79c730f84fdb4ec6ffcaaed7e2c3a43595ebc0b7c04387176ec21205a9",
+      "bytes": 5700
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/scripts/prepare_convfinqa.py",
+      "repo_path": "convfinqa/data_prep/prepare_convfinqa.py",
+      "sha256": "2c41bc29631ae3292de4b662852419328ee0a3d09dcaa192cfb8f07f10db3387",
+      "bytes": 16054
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/scripts/prepare_convfinqa_v2.py",
+      "repo_path": "convfinqa/data_prep/prepare_convfinqa_v2.py",
+      "sha256": "803a573acf24c8336c34d11e57062daa666c72e56eb93ee8c466086ed5831abb",
+      "bytes": 16561
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/scripts/self_test.py",
+      "repo_path": "convfinqa/data_prep/self_test.py",
+      "sha256": "8dd992533605d04d8e3ea3fbc0b5400d7fde08d8908e495e2f06b290609b5c8b",
+      "bytes": 2220
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/scripts/self_test_v2.py",
+      "repo_path": "convfinqa/data_prep/self_test_v2.py",
+      "sha256": "7244e92944b237ece583bb14670e3ef57e761b1a827a427a62f57a3904af303c",
+      "bytes": 2386
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/scripts/verify_v2.py",
+      "repo_path": "convfinqa/data_prep/verify_v2.py",
+      "sha256": "9b055ba9494c71c29dc56bc4dff9ead68d36ee34965b1804b471fba3b7f5b39b",
+      "bytes": 2754
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/setup_links.sh",
+      "repo_path": "convfinqa/setup_links.sh",
+      "sha256": "c75b98505829cfedefbd3e385a78181fb6c1db5b4628c620e190b1e0dbb734e7",
+      "bytes": 707
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/README.md",
+      "repo_path": "convfinqa/ORIGINAL_README.md",
+      "sha256": "8f9adc36630cfb4ffb6ac09008b414fa3a1225fb1a59646ea881867a43120cb7",
+      "bytes": 5044
+    },
+    {
+      "source_relative_to_workspace": "ConvFinQA/README_self_history.md",
+      "repo_path": "convfinqa/ORIGINAL_SELF_HISTORY_README.md",
+      "sha256": "e5ca6638603d79984a5d0199457f69089d498c0698ed3e514c8ad18700e8e14c",
+      "bytes": 2931
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/frozen_release_v1/RESULTS.md",
+      "repo_path": "results/FROZEN_RESULTS.md",
+      "sha256": "ce4b6348a0fec6dbe26eeb3b82c04881a4e90ee2f5c2204074b8cb1ceb015d9d",
+      "bytes": 1448
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/frozen_release_v1/MANIFEST.json",
+      "repo_path": "results/frozen_source_manifest.json",
+      "sha256": "19774332473498fa9a2f874d389eeb43e12231a574b6a1e99a6bcc0e1fcb4351",
+      "bytes": 119878
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/analysis/finqa_test_paired.json",
+      "repo_path": "results/finqa_test_paired.json",
+      "sha256": "ea5cf9cd48f64b7d6d1d516072e9827c108dcf0ccf3d775e6f66cc66d3b10bdf",
+      "bytes": 3849
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/experiments/convfinqa_sft_v2/04_final_evaluation_v1/analysis/self_history_paired.json",
+      "repo_path": "results/convfinqa_self_history_paired.json",
+      "sha256": "03fb70289bbbfe53aef1a52ebb9071166b2df8ded08190de2e78d0dc940f8ad3",
+      "bytes": 5258
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/analysis/replay_comparison.json",
+      "repo_path": "results/replay_comparison_dev.json",
+      "sha256": "b86db98d7d473e45c36e1a279e405cc7e80ffaee17f4793d8d249569d44778c4",
+      "bytes": 27352
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/experiments/convfinqa_sft_v2/paired_transfer_vs_direct_v1/paired_summary.json",
+      "repo_path": "results/transfer_vs_direct_dev.json",
+      "sha256": "f92fa47c192f58e66247af926bf563120ac266c6f44bd5e63af700474c2871ca",
+      "bytes": 9469
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/experiments/convfinqa_sft_v2/finqa_retention_v1/analysis/retention_summary.json",
+      "repo_path": "results/finqa_retention_dev.json",
+      "sha256": "d7546512e5faee86c6bcc15be1ff599f150f2e5fcb064ef03aadcf4b74c9553b",
+      "bytes": 5975
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/data/mix_manifest.json",
+      "repo_path": "results/replay_data_manifest.json",
+      "sha256": "fac101b696d82e1e3edbb7f3ba1ad0137d15bd19493e5e2800bf10d9fb218c81",
+      "bytes": 1325
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/experiments/convfinqa_sft_v2/01_finqa_sft_adapter/full/training_report.json",
+      "repo_path": "results/transfer_training_report.json",
+      "sha256": "5654fee74a83bae61ff64c07f4ba26dcfa0e95807dc250c9065bbc9be48d367e",
+      "bytes": 1959
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/experiments/convfinqa_sft_v2/02_qwen3_base/full/training_report.json",
+      "repo_path": "results/direct_training_report.json",
+      "sha256": "e4d8343207762620eeae6ab61eecfb6748f1bb01ae234073a3b36c252ee533d0",
+      "bytes": 1856
+    },
+    {
+      "source_relative_to_workspace": "project/convfinqa_posttrain/experiments/convfinqa_sft_v2/03_finqa_sft_replay/full/training_report.json",
+      "repo_path": "results/replay_training_report.json",
+      "sha256": "6e9191f510a7c29ec2bce4914bc35f0291de06a968e2e99350d83590cd59f5bb",
+      "bytes": 2008
+    }
+  ]
+}

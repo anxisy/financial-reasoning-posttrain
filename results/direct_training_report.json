@@ -1,0 +1,58 @@
+{
+  "variant": "direct",
+  "smoke": false,
+  "model": "/root/autodl-tmp/models/Qwen3-1.7B-Base",
+  "finqa_adapter": null,
+  "output": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/02_qwen3_base/full",
+  "train": "/root/autodl-tmp/project/convfinqa_posttrain/data/processed_v2/sft/train.jsonl",
+  "dev": "/root/autodl-tmp/project/convfinqa_posttrain/data/processed_v2/sft/dev.jsonl",
+  "train_sha256": "1f3e108c0fc37c11cef685b7685fd37ba69b7130d7134fe962f93f5b4c824c72",
+  "dev_sha256": "0e4bc060e8b36dd60ff7c62e8e3a422481f499773723187ec4465d243ea8b240",
+  "n_train_this_run": 11104,
+  "n_dev_this_run": 1490,
+  "max_seq_length": 4096,
+  "no_truncation": true,
+  "assistant_only_loss": true,
+  "prompt_ends": "Assistant:",
+  "target_begins_newline": true,
+  "lr": 5e-05,
+  "epochs": 1.0,
+  "grad_accum": 8,
+  "batch_size": 1,
+  "smoke_steps": null,
+  "seed": 42,
+  "train_lengths": {
+    "min": 293,
+    "median": 1144,
+    "p95": 1741,
+    "max": 3533
+  },
+  "dev_lengths": {
+    "min": 433,
+    "median": 1089,
+    "p95": 1901,
+    "max": 2349
+  },
+  "trainable_parameters": 8716288,
+  "total_parameters": 1729291264,
+  "versions": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:18:37) [Clang 22.1.3 ]",
+    "torch": "2.6.0+cu124",
+    "transformers": "4.52.3",
+    "peft": "0.21.0"
+  },
+  "elapsed_seconds": 3395.654290569946,
+  "global_step": 1388,
+  "train_metrics": {
+    "train_runtime": 3395.0274,
+    "train_samples_per_second": 3.271,
+    "train_steps_per_second": 0.409,
+    "total_flos": 1.1147330683768013e+17,
+    "train_loss": 0.14302288897614657,
+    "epoch": 1.0
+  },
+  "eval_metrics": null,
+  "peak_cuda_allocated_gib": 9.787647247314453,
+  "peak_cuda_reserved_gib": 22.556640625,
+  "final_adapter": "/root/autodl-tmp/project/convfinqa_posttrain/experiments/convfinqa_sft_v2/02_qwen3_base/full/final_adapter"
+}

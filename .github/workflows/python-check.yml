@@ -1,0 +1,16 @@
+name: Python syntax & release audit
+on:
+  push:
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Syntax only (no GPU/dependencies)
+        run: python -m compileall -q finqa convfinqa tools
+      - name: No accidental model weights, data or secrets
+        run: python tools/release_audit.py --root .
